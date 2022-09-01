@@ -1,60 +1,12 @@
-Outbreak Data Analysis Platform:
+---
+title: Outbreak Data Analysis Platform Manual
+---
 
-The Manual
+<!--
+pandoc ODAP_manual.md --filter pandoc-crossref --reference-doc sup-files/odap-style.docx  -o ODAP_manual.docx
+-->
 
-## WORK IN PROGRESS!
-
-# Contents {#contents .TOC-Heading}
-
-[WORK IN PROGRESS! [1](#work-in-progress)](#work-in-progress)
-
-[Chapter 2 What is the Outbreak Data Analysis Platform (ODAP\*)? [3](#what-is-the-outbreak-data-analysis-platform-odap)](#what-is-the-outbreak-data-analysis-platform-odap)
-
-[The Platform [3](#the-platform)](#the-platform)
-
-[What is the purpose? [3](#what-is-the-purpose)](#what-is-the-purpose)
-
-[What are the different environments/areas? [3](#what-are-the-different-environmentsareas)](#what-are-the-different-environmentsareas)
-
-[Chapter 3 How is ODAP governed and managed? [5](#how-is-odap-governed-and-managed)](#how-is-odap-governed-and-managed)
-
-[The Partnership [5](#the-partnership)](#the-partnership)
-
-[The ODAP Delivery Team [5](#the-odap-delivery-team)](#the-odap-delivery-team)
-
-[SPECIFIC ROLES [6](#specific-roles)](#specific-roles)
-
-[Chapter 4 What is within scope of the ODAP? [7](#what-is-within-scope-of-the-odap)](#what-is-within-scope-of-the-odap)
-
-[Chapter 5 What are the datasets are available for research analyses? What process(es) must I follow? What approvals must I obtain? [8](#what-are-the-datasets-are-available-for-research-analyses-what-processes-must-i-follow-what-approvals-must-i-obtain)](#what-are-the-datasets-are-available-for-research-analyses-what-processes-must-i-follow-what-approvals-must-i-obtain)
-
-[Chapter 6 What is the ISARIC SPINE? [9](#what-is-the-isaric-spine)](#what-is-the-isaric-spine)
-
-[Chapter 7 How do I add my dataset (within scope) into ODAP? [11](#how-do-i-add-my-dataset-within-scope-into-odap)](#how-do-i-add-my-dataset-within-scope-into-odap)
-
-[Chapter 8 How do I access ODAP for data analysis? [12](#how-do-i-access-odap-for-data-analysis)](#how-do-i-access-odap-for-data-analysis)
-
-[Data flows/Assumptions [12](#_Toc107302482)](#_Toc107302482)
-
-[Single Data Controller Model [12](#_Toc107302483)](#_Toc107302483)
-
-[Example text for COG-UK viral sequencing data within the UKHSA Data Controller agreement [13](#example-text-for-cog-uk-viral-sequencing-data-within-the-ukhsa-data-controller-agreement)](#example-text-for-cog-uk-viral-sequencing-data-within-the-ukhsa-data-controller-agreement)
-
-[Chapter 9 BACKGROUND [14](#_Toc107302485)](#_Toc107302485)
-
-[Chapter 10 Approvals [14](#_Toc107302486)](#_Toc107302486)
-
-[Chapter 11 DATA CREATION PROCESS [15](#_Toc107302487)](#_Toc107302487)
-
-[Chapter 12 Publication [16](#_Toc107302488)](#_Toc107302488)
-
-[Chapter 13 How will I know when data I require for my analysis is available? And where it can be found? [17](#how-will-i-know-when-data-i-require-for-my-analysis-is-available-and-where-it-can-be-found)](#how-will-i-know-when-data-i-require-for-my-analysis-is-available-and-where-it-can-be-found)
-
-[Chapter 14 How can I transfer my data files...? (not outputs but for further analyses) [18](#how-can-i-transfer-my-data-files-not-outputs-but-for-further-analyses)](#how-can-i-transfer-my-data-files-not-outputs-but-for-further-analyses)
-
-[Chapter 15 How can I get outputs from ODAP? [19](#how-can-i-get-outputs-from-odap)](#how-can-i-get-outputs-from-odap)
-
-[Chapter 16 How is ODAP communicated? Where can I refer people to about ODAP? [20](#how-is-odap-communicated-where-can-i-refer-people-to-about-odap)](#how-is-odap-communicated-where-can-i-refer-people-to-about-odap)
+**Rule for all communications: We absolutely must include both sides of the platform in all communications/diagrams. If we don\'t people get confused about what ODAP is.**
 
 # What is the Outbreak Data Analysis Platform (ODAP)?
 
@@ -62,114 +14,31 @@ The ODAP is the overarching term for a range of computers supporting research wi
 
 It is divided into two sections:
 
-1.  The "UNDER EMBARGO" section -- data are wholly controlled by contributors
+1.  The "UNDER EMBARGO" section -- in which data are wholly controlled by contributors
 
-2.  The "NO EMBARGO" section -- data are accessible to appropriately-qualified researchers studying questions within scope
+2.  The "NO EMBARGO" section -- in which data are accessible to appropriately-qualified researchers studying questions within the scope of the platform.
 
-The foundation for the ODAP is the ISARIC Clinical Characterisation Protocol (CCP), an ethically-approved research study in the UK.
+The foundation for the ODAP is the International Severe Acute Respiratory Infection Consortium (ISARIC) Clinical Characterisation Protocol (CCP).
 
-## The Platform
+## Scope of the ODAP
 
-The Outbreak Data Analysis Platform (ODAP) is a data platform for (primarily/currently) Covid 19 research data, which include a combination of linked, curated data from UK sovereign data assets including the complete data resources of the ISARIC4C/CO-CIN, GenOMICC, PHOSP and UK-CIC studies, together with viral sequence data from COG-UK, and linkage to NHS clinical records (e.g. NHS England/NHS Digital, and Public Health Scotland) and structured clinical audit data. It also consists of a flexible high performance compute space/environment for data analyses.
-
-## What is the purpose?
-
-The purpose of the outbreak data analysis platform is to provide an accessible, usable data resource to enable research relevant to current (COVID-19) and future outbreaks. It aims to accelerate scientific understanding of new outbreaks for the benefit of patients and the protection of the public, through collaboration.
-
-It will create a UK-wide capability by curating and linking outbreak relevant data from clinical records, research studies and audit data. It brings together key initiatives and leadership across the UK including ISARIC, COG-UK, MRC CLIMB and GenOMICC.
-
-The platform combines a national Trusted Research Environment (TRE) infrastructure collocated with \>£100M of world-class computational and data science capacity including the UK National Supercomputer, with a UK-wide governance framework.
-
-Source: <http://odap.ac.uk/>
-
-## What are the different environments/areas?
-
-There are two areas on the platform: PHS Safe Haven and Flexible Compute Space (FCS). Both of these are Trusted Research Environments (TREs).
-
--   **Safe Haven** -- clinical data linking with various datasets
-
--   **FCS** -- ULTRA/ULTRA2 analyses data bringing together analyses/results from various different studies
-
-Within these 2 areas, there is a further distinction of Embargo/Non-embargoed area. Embargo area is data not yet published or available for use, non-embargoed is data that can be accessed by bona fide researchers with no DSA required.
-
-Source: WO
-
--   In the safe haven environment there are three areas:
-
-    -   [Restricted area:]{.underline} This contains sensitive data, e.g., data under a time embargo, an active trial and/or identifiable patient data. We will not be granting researchers access to this data.
-
-    -   [Embargoed data:]{.underline} This contains pseudonymised patient level data curated and formatted to be used for research. Access permitted with a data sharing agreement.
-
-    -   [Published data:]{.underline} This is the outputs from research and will contain summary/aggregate non-identifiable data only. This will be available in an open access format and available for research purposes without a data sharing agreement.
-
--   There will be a secure API in place from the Flexible Compute Space to External TREs and UK Public Health Agencies. This is to enable data linkage across multiple data sets using unique identifiers to facilitate secure transfer if specified data fields e.g., viral sequencing.
-
-Source: EM
-
-Moni, Question: Is the API a suitable mechanism for transferring data from another TRE to the ODAP TRE? (Related to a question raised by Annemarie out of meeting)\
-Rob, Andrew, Kenny: No, the preferred way to move data between another TRE and ODAP are the already established methods for that TRE.\
-\
-    Kenny, clarification: The future purpose of the API is more in line with providing a mechanism for quick pandemic updates to national health services.
-
-Architecture doc -- not for public consumption? Check with Rob.
-
-## 
-
-# How is ODAP governed and managed?
-
-TAKE FROM HDR UK DOCS
-
-## The Partnership
-
-Partnership: to strengthen the UK-wide NHS/academic partnership between the CLIMB COVID viral sequence analysis system, the Outbreak Data Analysis Platform, ISARIC-4C, COG-UK, the four UK Public Health Agencies, ICNARC, ONS and HDR UK. ​
-
-The ODAP Partnership aims to create a new nationwide partnership to facilitate vital research on the impact of SARS-CoV-2 genetic and phenotypic variation on disease severity and vaccine efficacy by creating additional data linkages, automating data flows and analyses, and democratising access to research datasets with full agreement from the contributing studies.
-
-Partnership: to strengthen the UK-wide NHS/academic partnership between the CLIMB COVID viral sequence analysis system, the Outbreak Data Analysis Platform, ISARIC-4C, COG-UK, the four UK Public Health Agencies, ICNARC, ONS and HDR UK.
-
-The ODAP Partnership will enable new scientific analyses that are currently not possible at population scale:
-
-The role of SARS-CoV-2 variation (\>1 million viral genomes) in COVID-19 severity (ISARIC 4C / ICNARC) and outcomes (PHOSP).
-
-Systematic analysis of the impact of vaccines and treatments (antivirals, etc), and identification of escape/resistance mutations.
-
-Further linkage of UK research (e.g., immunology studies) and trial data (e.g., REMAP-CAP).
-
-Develop automated processes to conduct analysis in near real-time to provide rapid multiparameter determination of new variants.
-
-Continuing wider linkage of diverse datasets from individual studies that generate information on pathogen genomics, host genomics, surveillance, and patient outcomes are vital to build predictive models and systems to improve patient treatments and outcomes.
-
-The Steering Group
-
-ODAP steering group to provide advice, support and challenge to ODAP delivery team and will have voting rights on decisions not made by consensus.
-
-## The ODAP Delivery Team
-
-ODAP Delivery team to report progress to Data and Connectivity Delivery Group
-
-## SPECIFIC ROLES
-
-University of Edinburgh (as the lead institution for ODAP) is accountable to Health Data Research UK for the delivery of ODAP
-
-HDRUK is accountable to UKRI for delivery of the Data and Connectivity National Core Study
-
-Source: HDR UK slides (various)
-
-# What is within scope of the ODAP?
-
-The purpose of the ODAP is to facilitate biomedical research to advance understanding of severe infectious disease\* and other exposures of public health interest.\*\* Research within the ODAP is strictly limited to this purpose.
+**The purpose of the ODAP is to facilitate biomedical research to advance understanding of severe infectious disease\* and other exposures of public health interest.\*\* Research within the ODAP is strictly limited to this purpose.**
 
 \* Severe infectious disease - this term describes all severe infectious agents, including new, re-emerging or therapy-resistant forms of existing infectious agents.
 
 \*\* Other exposures of public health interest: this term describes new or unexplained poisoning, or exposure to harmful energy sources such as electromagnetic radiation.
 
-# What are the datasets are available for research analyses? What process(es) must I follow? What approvals must I obtain?
+# ISARIC Clinical Characterisation Protocol (CCP)
 
-A live [ODAP datasets mapping.xlsx](https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/DataInfrastructureAndGovernance/ODAP/_documents/ODAP%20datasets%20mapping.xlsx?d=w1dde5dbd6a094799b1595de102fa3818&csf=1&web=1&e=coUYiB) is available for reference. \[Further details about processes and approvals to be added\]
+The scope of the ODAP mirrors the objective of the CCP, an ethically-approved research study in the UK (Joint Chief Investigators: Calum Semple(Liverpool, Oxford) and Kenneth Baillie (Edinburgh, Oxford)). A broad range of scientists with relevant expertise have come together to form a UK-wide group: the ISARIC Comprehensive Clinical Characterisation Collaboration. Membership of this collaboration is by invitation and is extended to researchers performing high-quality biomedical research to advance understanding of severe infectious disease and other exposures of public health interest.
 
-# What is the ISARIC SPINE?
+## The ISARIC Spine
 
-The ISARIC4C consortium want to incorporate participants from the PHOSP, [GenOMICC](https://genomicc.org/) and [COG-UK](https://www.cogconsortium.uk/) studies into the ISARIC4C study, creating a superset of participants in a single "spine". Doing so would allow them to match to NHS data under the ISARIC4C data agreements.
+Some studies, addressing aims that are within the scope of the CCP, have chosen to contribute data into the ODAP for linkage to CCP and other datasets. Because these studies are addressing questions that are directly within the scope of the CCP, where appropriate, participants in these studies are eligible to be enrolled under the CCP. 
+
+### Examples
+
+The ISARIC4C consortium will incorporate participants from the PHOSP, [GenOMICC](https://genomicc.org/) and [COG-UK](https://www.cogconsortium.uk/) studies into the ISARIC4C study, creating a superset of participants in a single "spine". Doing so would allow them to match to NHS data under existing ISARIC4C data agreements.
 
 To do this, we need to have an ID and an NHS number, or CHI number, as a minimum standard. Some participants in the other studies may already be in ISARIC4C. These need to be identified and tagged as being the same individual. This will be done by comparison of NHS or CHI numbers. The spine will contain all the joins between projects and participants. Those participants that are not already in the ISARIC4C system will have an ISARIC4C ID allocated to them.
 
@@ -180,78 +49,78 @@ The data from the spine will be used for several purposes:
 -   it will allow study participants to be identified against a cohort of NHS or CHI numbers for individual research studies, and as requested by Trusted Research Environments (TREs).
 
 Currently the data for participants in these studies are held in a series of REDCap databases. These are the source of truth for the data and update on a regular basis. We will therefore need a process to update the spine from these sources.
-
+<!--
 Source: AL, updates from JH, MC
 
->     Kenny, clarification: Everyone in the study will be added to the spine, those without infectious diseases are still relevant as controls.
+>     Kenny, clarification: Everyone in the study will be added to the spine, those without infectious diseases are still relevant as controls.
 >
 > Does the API transfer need to be a separate section? How will be it relevant to this manual?
 >
 > ODAP query API;\
 > Moni, question: Is the ODAP API a dependency for the Spine?\
 > Rob: No, they're related but separate concerns.
+-->
 
-# How do I add my dataset (within scope) into ODAP?
 
-Check the scope
+# Computer architecture
 
-Within scope, arrange a discussion by emailing: <ODAP@ed.ac.uk>
+The ODAP consists of two main compute areas. 
 
-Speak with the ODAP team
+## Flexible Compute Space
 
-Agree what data and where it needs to be hosted: clinical consented data SNSH TRE and/or analysis data ODAP TRE
+The Flexible Compute Space (FCS) is a Trusted Research Environment with large scale compute capacity and access to a range of software tools for data analysis and machine learning. Data within the FCS can be either under embargo, or not under embargo. 
 
-Does the dataset need to be linked with other datasets? Scottish health data; English health data
+Access to the FCS is provided to researchers through *private project zones*
 
-Can the dataset be added to the ISARIC Spine?
+## PHS National Safe Haven
 
-ODAP team will advise on most appropriate agreement: joint data controller; data processor
+Data within the National Safe Haven can be either under embargo, or not under embargo. 
 
-Agreements executed/signed off
+Embargo area is data not yet published or available for use, non-embargoed is data that can be accessed by bona fide researchers with no DSA required.
 
-Data to be transferred into ODAP and added to spine and/or
 
-Refer to the the ICODA due diligence: [https://icoda-research.org/hdr-uk-as-data-controller-for-icoda, for incoming: 1](https://icoda-research.org/hdr-uk-as-data-controller-for-icoda,%20for%20incoming:%201). Datasets 2. Legal basis for use 3. Ethical review 4. Public and patient review
+## API
 
-# How do I access ODAP for data analysis?
+There will be a secure API in place from the Flexible Compute Space to External TREs and UK Public Health Agencies. This is to accelerate research by enabling data linkage across multiple data sets using unique identifiers to facilitate secure transfer of specified data fields e.g., viral sequencing data. The future purpose of the API is more in line with providing a mechanism for quick pandemic updates to national health services.
 
-We absolutely must include both sides of the platform in all communications/diagrams. If we don\'t people get confused about what ODAP is.
 
-So can you include another side for the embargo area? Most data will enter via it. 
+## Data tranfers
 
-Access to any data in embargo section is filtered by secretariat (to remove out of scope) and then approved by the data contributor. That\'s the entire process. For ISARIC4C that\'s Kenny and Calum as joint CIs. For the other studies it is different people.
+The preferred way to move data between another TRE and ODAP are the already established methods for that TRE.
 
-The process in the embargo area is simple: 
+# Governance
 
-1.  Request for collaborative analysis approved by data contributor. 
+## Background
 
-2.  Access provided.
+ODAP creates a UK-wide capability by curating and linking outbreak relevant data from clinical records, research studies and audit data. It brings together key initiatives and leadership across the UK including ISARIC, COG-UK, MRC CLIMB and GenOMICC.
 
-Under consortium arrangements (ISARIC4C; PHOSP; COG-UK; GenOMINCC)
+The platform combines a national Trusted Research Environment (TRE) infrastructure collocated with \>£100M of world-class computational and data science capacity including the UK National Supercomputer, with a UK-wide governance framework.
 
-Write it out: [ISARIC4C Data Access Process.pdf](https://uoe.sharepoint.com/:b:/r/sites/ISARIC4C/DataInfrastructureAndGovernance/IDAMAC/ISARIC4C%20Access/ISARIC4C%20Data%20Access%20Process.pdf?csf=1&web=1&e=32JQ6o)
 
-Non consortium arrangements: ODAP process -- in development (see draft below)
+## The Partnership
 
-[]{#_Toc107302482 .anchor}**Data flows/Assumptions (to be read in conjunction with flowchart):**
 
--   In Trusted Research Environment (TRE) there are three areas:
+The ODAP Partnership is a UK-wide body which decides on strategic matters to facilitate vital research, supporting additional data linkages, and democratising access to research datasets with full agreement from the contributing studies.
 
-    -   [Restricted area:]{.underline} This contains sensitive data, e.g., data under a time embargo, an active trial and/or identifiable patient data. We will not be granting researchers access to this data.
+The Partnership aims to strengthen the UK-wide NHS/academic partnership between the CLIMB COVID viral sequence analysis system, the Outbreak Data Analysis Platform, ISARIC-4C, COG-UK, the four UK Public Health Agencies, ICNARC, ONS and HDR UK.
 
-    -   [Embargoed data:]{.underline} This contains pseudonymised patient level data curated and formatted to be used for research.
+## The Steering Group
 
-    -   [Published data:]{.underline} This is the outputs from research and will contain summary/aggregate non-identifiable data only. This will be available in an open access format.
+ODAP steering group to provide advice, support and challenge to ODAP delivery team and will have voting rights on decisions not made by consensus.
 
--   In the Flexible Compute Space (FCS) there are two areas:
+## The ODAP Delivery Team
 
-    -   [Embargoed data:]{.underline} This contains pseudonymised patient level data curated and formatted to be used for research.
+ODAP Delivery team to report progress to Data and Connectivity Delivery Group
 
-    -   [Published data:]{.underline} This is the outputs from research and will contain summary/aggregate non-identifiable data only. This will be available in an open access format.
+## Specific Roles
 
--   There will be a secure API in place from the Flexible Compute Space to External TREs and UK Public Health Agencies. This is to enable data linkage across multiple data sets using unique identifiers to facilitate secure transfer if specified data fields e.g., viral sequencing.
+University of Edinburgh (as the lead institution for ODAP) is accountable to Health Data Research UK for the delivery of ODAP. 
 
-[]{#_Toc107302483 .anchor}**Single Data Controller Model [-- for onboarding and approval access only. -- Embargo Area. ]{.underline}**
+HDRUK is accountable to UKRI for delivery of the Data and Connectivity National Core Study
+
+<!--Source: HDR UK slides (various)-->
+
+## Data management
 
 1.  The Lead Institute will become a Data Controller to facilitate the onboarding of key data sets to the ODAP and to facilitate external access to ODAP only.
 
@@ -261,9 +130,6 @@ Non consortium arrangements: ODAP process -- in development (see draft below)
 
         -   The Lead Institution will manage process to enable access to data however Data Contributor must give permission.
 
-    ```{=html}
-    <!-- -->
-    ```
     -   This Data Contributor Agreement will require a due diligence process to ensure any data can be accessed by researchers for the agreed purposes. These agreed purposes will clearly articulated and decided with public/patient input.
 
 3.  This access facilitated through the Gateway using the 5 safes data access form.
@@ -290,43 +156,60 @@ Non consortium arrangements: ODAP process -- in development (see draft below)
 
 8.  The Data Contributor will remain a Data Controller of their data sets. Lead Institution becomes independent controller for facilitating access and onboarding to ODAP only.
 
-Source: EM
 
-## Example text for COG-UK viral sequencing data within the UKHSA Data Controller agreement
 
-Schedule 5 Research Environment Process, Approvals and Publications
 
-Any reference to OPAP, ODAP Internal Triage Secretariat, ODAP Data Management and Monitoring Team, OPAP Data Access Committee in this Schedule 5 shall be deemed to be a reference to Edinburgh/ Data Recipient.
+# Information for data contributors
 
-1.  []{#_Toc107302485 .anchor}BACKGROUND
+## How do I add my dataset (within scope) into ODAP?
 
-Genomic data has been collected from SARS-CoV-2 positive samples to support the pandemic response and is freely available as an anonymised dataset. Detailed research analysis can be performed on this information if it is linked to other datasets such as vaccination status, hospital & clinic severity information, prescription data and human genome profiles. We propose to release SARS-CoV-2 genomic data from English residents (or people tested in England) to the University of Edinburgh EPCC Trusted Research Environment (TRE) where linkages to other datasets can be performed via the ISARIC4C identifier.
+Check the scope
 
-2.  []{#_Toc107302486 .anchor}Approvals
+Within scope, arrange a discussion by emailing: <ODAP@ed.ac.uk>
 
-**The Outbreak Data Analysis Platform (ODAP) NATIONAL SAFE HAVEN VS FCE:**
+Speak with the ODAP team
 
--   The EPCC hosts the following TREs:
+Agree what data and where it needs to be hosted: clinical consented data SNSH TRE and/or analysis data ODAP TRE
 
-    -   The National Safe Haven managed by PHS that holds the sensitive clinical data including from NHSD
+Does the dataset need to be linked with other datasets? Scottish health data; English health data
 
-    -   FCE that will hold genomic data from UKHSA/COG
+Can the dataset be added to the ISARIC Spine?
 
--   Plan for accessing genomic data will be depend on where analysis will be performed:
+ODAP team will advise on most appropriate agreement: joint data controller; data processor
 
-    -   A: Analysis using clinical / patient level data without individual patient consent:
+Agreements executed/signed off
 
-        -   Perform analysis in National Safe Haven
+Data to be transferred into ODAP and added to spine and/or
 
-        -   The joint data controllers (The ODAP Internal triage secretariat & UKHSA) manage access / approvals
+Refer to the the ICODA due diligence: [https://icoda-research.org/hdr-uk-as-data-controller-for-icoda, for incoming: 1](https://icoda-research.org/hdr-uk-as-data-controller-for-icoda,%20for%20incoming:%201). Datasets 2. Legal basis for use 3. Ethical review 4. Public and patient review
 
-    -   B: Analysis using genomic information in the FCE either unlinked, or linked to research datasets with individual patient consent (e.g. GenOMICC: https://genomicc.org):
+# Access for data analysts
 
-        -   Analysis performed in the FCE
+## What are the datasets are available for research analyses? What process(es) must I follow? What approvals must I obtain?
 
-        -   The joint data controllers (The ODAP Internal Triage Secretariat & UKHSA) manage access / approvals
+A live [ODAP datasets mapping.xlsx](https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/DataInfrastructureAndGovernance/ODAP/_documents/ODAP%20datasets%20mapping.xlsx?d=w1dde5dbd6a094799b1595de102fa3818&csf=1&web=1&e=coUYiB) is available for reference. \[Further details about processes and approvals to be added\]
 
-**APPLICATION:**
+
+<!--
+So can you include another side for the embargo area? Most data will enter via it. 
+Access to any data in embargo section is filtered by secretariat (to remove out of scope) and then approved by the data contributor. That\'s the entire process. 
+-->
+<!--
+For ISARIC4C that\'s Kenny and Calum as joint CIs. For the other studies it is different people.
+Under consortium arrangements (ISARIC4C; PHOSP; COG-UK; GenOMINCC)
+The process in the embargo area is simple: 
+
+1.  Request for collaborative analysis approved by data contributor. 
+
+2.  Access provided.
+
+
+Write it out: [ISARIC4C Data Access Process.pdf](https://uoe.sharepoint.com/:b:/r/sites/ISARIC4C/DataInfrastructureAndGovernance/IDAMAC/ISARIC4C%20Access/ISARIC4C%20Data%20Access%20Process.pdf?csf=1&web=1&e=32JQ6o)
+-->
+
+<!--Source: EM-->
+
+# Process for Application for data access for non-embargoed data
 
 1.  Details of the dataset will be published on the ODAP website; HDR UK Innovation Gateway and/or the data controller's website. HDR-UK will ensure that appropriately trained researchers (and not just COG-UK or ISARIC4C) can easily access data.
 
@@ -348,9 +231,9 @@ Genomic data has been collected from SARS-CoV-2 positive samples to support the 
 
 7.  The ODAP Internal Triage Secretariat or the full OPAP Data Access Committee, when deemed necessary for complex requests, shall approve or decline requests on behalf of ODAP. The OPAP Data Access Committee should always have sight of data access requests even if only for information.
 
-    -   The data controller (i.e. UKHSA) will be sent details of all ODAP approved requests. Where UKHSA is joint controller, requests will be sent to a central UKHSA coordinator generic in-box; [[Covid19genomics@phe.gov.uk]{.underline}](mailto:Covid19genomics@phe.gov.uk).
+    -   The data controller (i.e. UKHSA) will be sent details of all ODAP approved requests. Where UKHSA is joint controller, requests will be sent to a central UKHSA coordinator generic in-box; [Covid19genomics@phe.gov.uk](mailto:Covid19genomics@phe.gov.uk).
 
-    -   Where UKHSA is a joint controller, UKHSA coordinator arranges the UKHSA response on whether approval is granted for specific projects to access genomic data. 
+    -   Where UKHSA is a joint controller, UKHSA coordinator arranges the UKHSA response on whether approval is granted for specific projects to access genomic data. 
 
         -   The response will be made within 7-days
 
@@ -378,88 +261,14 @@ Genomic data has been collected from SARS-CoV-2 positive samples to support the 
 
 11. For figures and outputs created using genomic data, the data controller (i.e. UKHSA) will also need to review and authorise removal of data.
 
-```{=html}
-<!-- -->
-```
-3.  []{#_Toc107302487 .anchor}DATA CREATION PROCESS
+3.  DATA CREATION PROCESS
 
 **LINKAGE IDENTIFIER USED IN TRE (NATIONAL SAFE HAVEN AND FCE)**
 
--   ISARIC4C-ID will be used as the unique identifier. ALL COG participants will be enrolled into ISARIC4C.  This means that the ISARIC4C-ID can be used and we can link to NHSD health records
+-   ISARIC4C-ID will be used as the unique identifier. ALL COG participants will be enrolled into ISARIC4C.  This means that the ISARIC4C-ID can be used and we can link to NHSD health records
 
 -   Data compartmentalised within EPCC prevents data being linked to other datasets held by EPCC without approval. EPCC environment prevents copying or removal of data from the relevant TRE.
 
-**Data Refresh rate:**
-
--   Weekly refresh of the full dataset.
-
-**GENERATION OF GENOMIC DATASET**
-
--   CLIMB-COVID (Cloud Infrastructure for Microbial Bioinformatics) holds the genomic sequence of all the SARS-CoV-2 samples that have been sequenced in the UK, along with basic metadata, under a pseudonymised COVID-19 Genomics UK Consortium identifier (COG-ID).
-
--   For cases registered in England or who were tested in England, UKHSA hold the information linking the COG-ID to the public health records.
-
--   Edinburgh , in its FCE, holds multiple disparate datasets identified via an anonymised linkage key 'ISARIC4C' identifier.
-
--   Public Health Scotland (PHS)/eDRIS hold the information linking the ISARIC4C-ID to an NHS number.
-
-**Data processing:**
-
--   UKHSA will process a defined dataset from CLIMB-COVID to replace the COG-ID identifier with 'ISARIC4C-ID'.
-
--   To generate the ISARIC4C-ID, UKHSA will share the NHS numbers of the cohort of individuals with PHS/eDRIS. They will generate the ISARIC4C-ID and store the linkage information mapping the identifier to the NHS number.
-
--   Information on the linkage between NHS number and ISARIC4C-ID will be returned to UKHSA.
-
--   UKHSA will re identify the CLIMB-COVID dataset
-
-    -   The COG-ID will be removed and replaced with a person-level identifier -- the ISARIC4C-ID
-
-    -   UKHSA will add a specimen-level identifier in case individuals have had multiple samples sequenced
-
-    -   The de-identified dataset will be shared with the Edinburgh's FCE and PHS's National Safe Haven via secure sFTP data transfer.
-
--   Within the National Safe Haven, the SARS-CoV-2 genomic data can be linked with other disparate clinical and epidemiological datasets, to support research studies. Linkage to other datasets is based on the ISARIC4C-ID.
-
--   Access to the genomic dataset in the FCE will be dependent on an approval process that includes UKHSA authorisation.
-
-4.  []{#_Toc107302488 .anchor}Publication
-
--   Publications and citations must follow the principles outlined in the COG publication policy.
-
--   Publications should appropriately acknowledge contributions made by UKHSA & COG-UK.
-
--   The Joint Data Controllers shall agree a Publication Policy in terms consistent with the publication policy for the ISARIC4C Study forming part of the Protocol
-
-Project specific arrangements (include/exclude: check if data access team have started this)
-
-To add named individuals to to project folder 1920-0273, they first need to be added to the PBPP application via an [amendment](https://www.informationgovernance.scot.nhs.uk/pbpphsc/wp-content/uploads/sites/2/2021/07/PBPP-Amendment-Request-form-v2.4-2.docx) which eDRIScan approve and notify PBPP of the additional researchers. For their access they must have completed one of the approved PBPP IG training, which is usually the MRC course. Please send copies of the MRC quiz and screenshot of completion of the modules with the amendment. To set up their safe haven accounts, please provide the below:
-
--   Mobile numbers
-
--   Read and return fully signed [eDRIS User Agreement](https://www.isdscotland.org/Products-and-Services/eDRIS/_docs/eDRIS-User-Agreement-v16.pdf?22)
-
-To copy scripts from one project space to another, this is something I can do and there is no requirement to fill out any forms. Let me know if they are ready so I can copy them across so they are there for when you get access to 1920-0273.
-
-# How will I know when data I require for my analysis is available? And where it can be found?
-
-Need to add ideas around broad communications:
-
-HDR UK Innovation Gateway
-
-ODAP wiki
-
-ODAP website/alerts
-
-Email alerts
-
-Ideas around data extracts communications?
-
-ISARIC4C data file imports: via Lucy Norris (how communicate -- see above)
-
-VOC data
-
-NIMS data
 
 # How can I transfer my data files...? (not outputs but for further analyses)
 
@@ -475,12 +284,10 @@ Refer to:
 
 # How is ODAP communicated? Where can I refer people to about ODAP?
 
-See also chapter 13 (may be merge the two chapters?)
-
 Discoverability:
 
 HDR UK Innovation Gateway
 
--   CO-CONNECT:  
+-   CO-CONNECT:  
 
     -   CO-CONNECT is HDR UK programme: limited number of cohorts from ISARIC4C
