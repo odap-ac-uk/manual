@@ -1,5 +1,5 @@
 ---
-title: Outbreak Data Analysis Platform Manual
+title: ODAP Manual
 ---
 
 <!--
@@ -97,16 +97,13 @@ ODAP creates a UK-wide capability by curating and linking outbreak relevant data
 The platform combines a national Trusted Research Environment (TRE) infrastructure collocated with \>£100M of world-class computational and data science capacity including the UK National Supercomputer, with a UK-wide governance framework.
 
 
-## The Partnership
-
+## The ODAP Partnership Steering Group
 
 The ODAP Partnership is a UK-wide body which decides on strategic matters to facilitate vital research, supporting additional data linkages, and democratising access to research datasets with full agreement from the contributing studies.
 
 The Partnership aims to strengthen the UK-wide NHS/academic partnership between the CLIMB COVID viral sequence analysis system, the Outbreak Data Analysis Platform, ISARIC-4C, COG-UK, the four UK Public Health Agencies, ICNARC, ONS and HDR UK.
 
-## The Steering Group
-
-ODAP steering group to provide advice, support and challenge to ODAP delivery team and will have voting rights on decisions not made by consensus.
+The ODAP Partnership steering group exists to provide advice, support and challenge to ODAP delivery team and will have voting rights on decisions not made by consensus.
 
 ## The ODAP Delivery Team
 
@@ -188,6 +185,8 @@ Refer to the the ICODA due diligence: [https://icoda-research.org/hdr-uk-as-data
 ## What are the datasets are available for research analyses? What process(es) must I follow? What approvals must I obtain?
 
 A live [ODAP datasets mapping.xlsx](https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/DataInfrastructureAndGovernance/ODAP/_documents/ODAP%20datasets%20mapping.xlsx?d=w1dde5dbd6a094799b1595de102fa3818&csf=1&web=1&e=coUYiB) is available for reference. \[Further details about processes and approvals to be added\]
+
+A parallel document exists for [eDRIS](https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/DataInfrastructureAndGovernance/Research%20Projects/ISARIC%20eDRIS%20Projects.xlsx?d=w8624bebadf7f491abc6add8587a039d8&csf=1&web=1&e=npUB8k)
 
 
 <!--
