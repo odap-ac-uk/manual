@@ -10,7 +10,7 @@ pandoc ODAP_manual.md --filter pandoc-crossref --reference-doc sup-files/odap-st
 
 # What is the Outbreak Data Analysis Platform (ODAP)?
 
-The ODAP is the overarching term for a range of computers supporting research within a specific scope. These include the ODAP TRE (formerly: flexible compute space; ultra; ultra2), and various project spaces in the National Safe Haven.
+The ODAP is the overarching term for a range of computers supporting research within a specific scope. These include the ODAP TRE (formerly called: flexible compute space; ultra; ultra2), and various project spaces in the National Safe Haven.
 
 It is divided into two sections:
 
