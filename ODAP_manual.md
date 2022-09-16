@@ -3,8 +3,7 @@ title: ODAP Manual
 ---
 
 <!--
-pandoc ODAP_manual.md --filter pandoc-crossref --reference-doc ../_branding/ODAP_Document_Template_v0.1.docx -o auto-generated/ODAP_manual.docx 
-pandoc ODAP_manual.md --filter pandoc-crossref --reference-doc ../_branding/ODAP_Document_Template_v0.1.docx -o auto-generated/ODAP_manual.pdf
+pandoc ODAP_manual.md --toc --filter pandoc-crossref --reference-doc ../_branding/odap-style.docx -o auto-generated/ODAP_manual.docx 
 -->
 
 **Rule for all communications: We absolutely must include both sides of the platform in all communications/diagrams. If we don\'t people get confused about what ODAP is.**
