@@ -1,11 +1,10 @@
 ---
-title: ODAP Data Access Governance Committee
+title: ODAP Data Access Governance Committee v0.81
 ---
 
 <!--
-pandoc DataAccessGovernanceCommittee_ToR.md --toc --filter pandoc-crossref --reference-doc ../_branding/odap-style.docx -o auto-generated/DataAccessGovernanceCommittee_ToR.docx 
+pandoc DAGC_ToR.md --toc --filter pandoc-crossref --reference-doc ../_branding/odap-draft-style.docx -o auto-generated/DAGC_ToR.docx 
 -->
-
 
 # Terms of Reference
 
@@ -25,17 +24,17 @@ To approve the ODAP information governance processes proposed by the Lead Instit
 
 The membership structure of ODAP DAGC is defined by the ODAP Steering Group. The starting membership structure includes all data contributors to the Outbreak Data Analysis Platform, representatives from the four national Public Health Agencies, lay representatives and other non-lay members. Each organisation should nominate a lead representative to join the DAGC. Prospective data contributors may be invited to attend meetings as an observer until their datasets are approved for on boarding into ODAP. The dataset on boarding policy and process are to be defined and agreed by the ODAP steering committee. Nominations and names of DAGC members can be found in the Annex below.
 
-1.  **Eligibility:** Members must agree to abide by the Conflict-of-interest Policy and the governance framework for the Platform.
+1.  **Eligibility:** Members must agree to abide by the terms of reference and conflict of interest polify set out in this document.
 
-2.  **Term:** The DAGC members can hold their position for 3 years and can be re-elected for a maximum of 3 terms.
+2.  **Term:** DAGC members can hold their position for 3 years and can be re-elected for a maximum of 3 terms.
 
 3.  **Resignation:** Members are free to resign their position with immediate effect. Where possible, 3 months' notice should be given.
 
-4.  **Revocation:** Membership to the DAGC can be revoked by the ODAP Steering Group for professional misconduct and/or a breach of the Conflicts of Interest Policy or any other part of the Platform governance framework. DAGC members are asked to be active in their participation on the Committee. Members who participate in less than 20% of DAGC activities within a 6-month period may be asked to reconsider their involvement in the DAGC.
+4.  **Revocation:** Membership to the DAGC can be revoked by the ODAP Steering Group for professional misconduct and/or a breach of the platform governance framework. DAGC members are asked to be active in their participation on the Committee. Members who participate in less than 20% of DAGC activities within a 6-month period may be asked to reconsider their involvement in the DAGC.
 
 ## Responsibilities of the ODAP DAGC Chair
 
-1.  The Chair has responsibility for ensuring that any conflicts of interest are recognised and appropriately managed as above.
+1.  The Chair has responsibility for ensuring that any conflicts of interest are recognised and appropriately managed.
 
 2.  The Chair will ensure that ODAP DAGC members are not put under pressure to approve or reject proposed information governance processes, assessment criteria or any queried applications based on any vested interests or conflicts of interest, and that applications are considered solely against the stated scope criteria of the ODAP DAGC.
 
@@ -55,7 +54,7 @@ The membership structure of ODAP DAGC is defined by the ODAP Steering Group. The
 
 ## Quorum
 
-1.  To be quorate, regular ODAP DAGC meetings should include at least 3 members from the data contributor group, and one member from each other membership group (public health agencies, other scientific members and lay members) as well as senior representatives of the Lead Institute (i.e. the University of Edinburgh).
+1.  To be quorate, regular ODAP DAGC meetings should include at least 3 members from the data contributor group, and one member from each other membership group (public health agencies, other scientific members and lay members) as well as a senior representative of the Lead Institute (i.e. the University of Edinburgh).
 
 ## Conflicts of interest
 
@@ -63,9 +62,9 @@ The membership structure of ODAP DAGC is defined by the ODAP Steering Group. The
 
 2.  Declaring conflicts: DAGC members shall declare any interests in advance of joining the DAGC using a Conflicts of Interests form. This will be reviewed annually. The Chair of the DAGC will seek verbal confirmation at the start of any meeting that the Declaration of Interests of each member is current and up to date, and in respect to the items of business on the agenda. It is the duty of each member of the DAGC to declare interests not only at the start of meetings but as and when they arise.
 
-3.  Managing conflicts: In assessing declared interests, the DAGC Chair shall balance the nature, type and magnitude of the individual's interest and therefore the degree to which the interest may be reasonably expected to influence his or her judgment against the adequacy of measures/options available to protect the independence and integrity of the decision-making process with the Platform.
+3.  Managing conflicts of interest: In assessing declared interests, the DAGC Chair shall balance the nature, type and magnitude of the individual's interest and therefore the degree to which the interest may be reasonably expected to influence his or her judgment against the adequacy of measures/options available to protect the independence and integrity of the decision-making process with the Platform.
 
-4.  Should any conflict arise, these shall be managed using the possible courses of action listed below:
+4.  Should any conflict of interest arise, these shall be managed using the possible courses of action listed below:
 
     -   Recommend that the concerned individual fully participate in the meeting or activity and any decision-making;
     -   Recommend that the concerned individual participate in the deliberations, but be recused from making any decisions, on the relevant matter under consideration;
@@ -76,7 +75,7 @@ The membership structure of ODAP DAGC is defined by the ODAP Steering Group. The
 
 ## ODAP DAGC review process and voting
 
-1.  When meeting to approve information governance policies and processes, the DAGC shall use best endeavours to take decisions by consensus (meaning all those present in the meeting agree). If consensus on any decision cannot be reached, and unless the DAGC decides otherwise, its decisions shall be taken by a simple majority. Where there is no majority, the Chair shall have the casting vote. Each individual member has one vote
+1.  When meeting to approve information governance policies and processes, the DAGC shall use best endeavours to take decisions by consensus (meaning all those present in the meeting agree). If consensus on any decision cannot be reached, and unless the DAGC decides otherwise, its decisions shall be taken by a simple majority. Where there is no majority, the Chair shall have the casting vote. Each individual member has one vote.
 
 2.  When asked to support the Lead Institute on deciding whether a request for access is within the scope of ODAP, or reviewing the scientific quality and suitability of a proposal for the platform, the DAGC will refer to the scope and review processes defined in ODAP documentation shared with the Committee. Members can vote to approve or reject a request for access as in or out of scope. Votes to approve or reject must be accompanied by a rationale. All votes and rationale will be visible to all members.
 

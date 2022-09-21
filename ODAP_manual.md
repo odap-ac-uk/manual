@@ -6,6 +6,8 @@ title: ODAP Manual
 pandoc ODAP_manual.md --toc --filter pandoc-crossref --reference-doc ../_branding/odap-style.docx -o auto-generated/ODAP_manual.docx 
 -->
 
+**This document is a shared description for the internal team of the core operational components of the ODAP. It records key decisions made in meetings as a reference for the future**
+
 **Rule for all communications: We absolutely must include both sides of the platform in all communications/diagrams. If we don\'t people get confused about what ODAP is.**
 
 # What is the Outbreak Data Analysis Platform (ODAP)?
@@ -28,6 +30,8 @@ The foundation for the ODAP is the International Severe Acute Respiratory Infect
 
 \*\* Other exposures of public health interest: this term describes new or unexplained poisoning, or exposure to harmful energy sources such as electromagnetic radiation.
 
+
+
 # ISARIC Clinical Characterisation Protocol (CCP)
 
 The scope of the ODAP mirrors the objective of the CCP, an ethically-approved research study in the UK (Joint Chief Investigators: Calum Semple(Liverpool, Oxford) and Kenneth Baillie (Edinburgh, Oxford)). A broad range of scientists with relevant expertise have come together to form a UK-wide group: the ISARIC Comprehensive Clinical Characterisation Collaboration. Membership of this collaboration is by invitation and is extended to researchers performing high-quality biomedical research to advance understanding of severe infectious disease and other exposures of public health interest.
@@ -49,7 +53,9 @@ The data from the spine will be used for several purposes:
 -   it will allow study participants to be identified against a cohort of NHS or CHI numbers for individual research studies, and as requested by Trusted Research Environments (TREs).
 
 Currently the data for participants in these studies are held in a series of REDCap databases. These are the source of truth for the data and update on a regular basis. We will therefore need a process to update the spine from these sources.
+
 <!--
+
 Source: AL, updates from JH, MC
 
 >     Kenny, clarification: Everyone in the study will be added to the spine, those without infectious diseases are still relevant as controls.
@@ -59,6 +65,7 @@ Source: AL, updates from JH, MC
 > ODAP query API;\
 > Moni, question: Is the ODAP API a dependency for the Spine?\
 > Rob: No, they're related but separate concerns.
+
 -->
 
 

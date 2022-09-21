@@ -1,8 +1,8 @@
 ---
-title: Data Access Review Process
+title: Data Access Review Process v0.81
 ---
 <!--
-pandoc DataAccessReviewProcess_Policy.md --toc --filter pandoc-crossref --reference-doc ../_branding/odap-style.docx -o auto-generated/DataAccessReviewProcess_Policy.docx 
+pandoc DataAccessReviewProcess.md --toc --filter pandoc-crossref --reference-doc ../_branding/odap-draft-style.docx -o auto-generated/DataAccessReviewProcess.docx 
 -->
 
 # Introduction
@@ -57,7 +57,7 @@ To apply for access, researchers will complete the [HDR UK "five safes" data acc
 
 ## Simplified review process
 
-![Flow diagram for review process](images/simple_access.pdf)
+![Flow diagram for review process](images/data_access/simple_access.pdf)
 
 In order to meet the 'safe people' and 'safe projects' requirements, approval will take the following steps:
 
@@ -93,7 +93,7 @@ The ODAP data access team will undertake a light-touch check of researcher crede
 
 -   The researcher is a bona fide researcher (see below)
 
--   The researcher has the professional qualifications and experience to work with health data.
+-   The researcher has the professional qualifications and experience to work with health data ().
 
 -   The researcher has a certificate demonstraing completion of the ONS training course in clinical data handling.
 
