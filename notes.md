@@ -12,6 +12,7 @@ Some users will make changes to the word versions of these files. These changes 
 pandoc --wrap=none ../_documents/Governance/DataAccess/DAGC_ToR.docx -o temp_DACG_ToR.md
 pandoc --wrap=none ../_documents/Governance/DataAccess/DataAccessReviewProcess.docx -o temp_DataAcccessReviewProcess.md
 pandoc --wrap=none ../_documents/Governance/DataAccess/PRP_TOR.docx -o temp_PRP_ToR.md
+pandoc --wrap=none ../_documents/Governance/PartnershipSteeringGp/PSG_ToR.docx -o temp_PSG_ToR.md
 
 ```
 

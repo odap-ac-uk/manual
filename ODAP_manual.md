@@ -6,9 +6,9 @@ title: ODAP Manual
 pandoc ODAP_manual.md --toc --filter pandoc-crossref --reference-doc ../_branding/odap-style.docx -o auto-generated/ODAP_manual.docx 
 -->
 
-**This document is a shared description for the internal team of the core operational components of the ODAP. It records key decisions made in meetings as a reference for the future**
+**This document is a shared description for the internal team of the core purpose, scope, operational components, and governance structure of the ODAP. It provides an introduction and a reference.**
 
-**Rule for all communications: We absolutely must include both sides of the platform in all communications/diagrams. If we don\'t people get confused about what ODAP is.**
+**Rules for all communications: We absolutely must include both sides of the platform in all communications/diagrams.**
 
 # What is the Outbreak Data Analysis Platform (ODAP)?
 
@@ -30,6 +30,17 @@ The foundation for the ODAP is the International Severe Acute Respiratory Infect
 
 \*\* Other exposures of public health interest: this term describes new or unexplained poisoning, or exposure to harmful energy sources such as electromagnetic radiation.
 
+Examples of in-scope research:
+- Understanding the evolution and biology of SARS-CoV-2.
+- Understanding the epidemiology and transmission of SARS-CoV-2.
+- Understanding COVID-19 disease risk, severity and outcomes.
+- Monitoring and understanding the impact of non-pharmacological interventions against SARS-CoV-2 transmissions and COVID-19 disease.
+- Monitoring, understanding, and assessing the impact of treatments, vaccines and prior infections in COVID-19 disease.
+- Analysing or modelling SARS-CoV-2 and COVID-19 data for future pandemic preparedness.
+
+Examples of out of scope activities
+- Their research questions primarily focusses on a non-infectious disease area with incidental involvement of infectious disease 
+(Focussed on a pathogen with no potential public health concern)
 
 
 # ISARIC Clinical Characterisation Protocol (CCP)
@@ -40,9 +51,21 @@ The scope of the ODAP mirrors the objective of the CCP, an ethically-approved re
 
 Some studies, addressing aims that are within the scope of the CCP, have chosen to contribute data into the ODAP for linkage to CCP and other datasets. Because these studies are addressing questions that are directly within the scope of the CCP, where appropriate, participants in these studies are eligible to be enrolled under the CCP. 
 
+Under our existing protocol and approvals for the ISARIC CCP, we have recruited over 300,000 Covid patients without explicit consent, into an observational study, with clear and specific aims. We are now linking this data to other studies, including consented studies such as GenOMICC and RECOVERY, and non-consented studies such as COG-UK viral sequencing.
+
+Applying the established governance and data handling procedures for the ISARIC CCP to the additional linked data from these studies will enable cross-cutting research, all within the specific aims of the CCP. To achieve this, we have agreed to recruit all patients in the following studies into the ISARIC CCP, if they are known to meet the inclusion criteria for the CCP:
+
+- GenOMICC
+- RECOVERY
+- PHOSP
+- COG-UK
+- HEAL-COVID
+
+In each case, we will only recruit patients who meet the inclusion criteria for CCP. In our view, there is no ethical or information governance difference between recruiting a patient remotely from a hospital, or recruiting them remotely from within our trusted research environment. This has been agreed with the ISARIC CCP study sponsor and is explicitly stated in CAG and PBPP applications.
+
 ### Examples
 
-The ISARIC4C consortium will incorporate participants from the PHOSP, [GenOMICC](https://genomicc.org/) and [COG-UK](https://www.cogconsortium.uk/) studies into the ISARIC4C study, creating a superset of participants in a single "spine". Doing so would allow them to match to NHS data under existing ISARIC4C data agreements.
+The ISARIC4C consortium will incorporate participants from other studies into ISARIC4C study, creating a superset of participants in a single "spine". Doing so would allow them to match to NHS data under existing ISARIC4C data agreements.
 
 To do this, we need to have an ID and an NHS number, or CHI number, as a minimum standard. Some participants in the other studies may already be in ISARIC4C. These need to be identified and tagged as being the same individual. This will be done by comparison of NHS or CHI numbers. The spine will contain all the joins between projects and participants. Those participants that are not already in the ISARIC4C system will have an ISARIC4C ID allocated to them.
 
@@ -96,6 +119,14 @@ There will be a secure API in place from the Flexible Compute Space to External 
 The preferred way to move data between another TRE and ODAP are the already established methods for that TRE.
 
 # Governance
+
+## Summary
+
+- ODAP Partnership steering group to provide strategic direction, support, and challenge to ODAP delivery team, data contributors, and other agencies, to ensure deliverables are on track and University of Edinburgh accountable.
+- The University of Edinburgh is the lead institution for ODAP and is responsible to each individual funder for delivering on agreed milestones (including HDR UK, the Data and Connectivity National Core Studies, and UKRI)
+- ODAP Delivery Group (University of Edinburgh team) is responsible for operational delivery, and secreterial support to ODAP Steering group, ODAP Data Access Governance Committee, and ODAP Project Review Panel.
+- ODAP Data Access Governance Committee to approve the ODAP information governance processes for non-embargo data proposed by the Lead Institute
+- ODAP Project Review Panel to ensure compliance with the 5 safes, for non-embargo data particularly safe projects - providing scientific review for applications for data use and approve/refer/reject data access requests for the Outbreak Data Analysis Platform.
 
 ## Background
 
@@ -161,7 +192,7 @@ HDRUK is accountable to UKRI for delivery of the Data and Connectivity National 
 8.  The Data Contributor will remain a Data Controller of their data sets. Lead Institution becomes independent controller for facilitating access and onboarding to ODAP only.
 
 
-
+<!-- below section is probably out of scope for the manual and should be moved/integrated elsewhere [JKB] -->
 
 # Information for data contributors
 
