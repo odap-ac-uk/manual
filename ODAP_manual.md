@@ -22,6 +22,19 @@ It is divided into two sections:
 
 The foundation for the ODAP is the International Severe Acute Respiratory Infection Consortium (ISARIC) Clinical Characterisation Protocol (CCP).
 
+## Core principles of the ODAP
+
+ODAP is long term, UK wide, 4 nations outbreak response infrastructure providing the unique and scalable capabilities of the academic sector to tackle public health challenges. 
+
+Ultimately, once the embargo is lifted by a data contributor, data provision will be *FAIR* (Findable, Accessible, Interoperable, Reusable) and access will adhere to the *five safes* principles:
+
+- Safe data: data is treated to protect any confidentiality concerns.
+- Safe projects: research projects are approved by data owners for the public good.
+- Safe people: researchers are trained and authorised to use data safely.
+- Safe settings: a SecureLab environment prevents unauthorised use.
+- Safe outputs: screened and approved outputs that are non-disclosive.
+
+
 ## Scope of the ODAP
 
 **The purpose of the ODAP is to facilitate biomedical research to advance understanding of severe infectious disease\* and other exposures of public health interest.\*\* Research within the ODAP is strictly limited to this purpose.**
@@ -41,7 +54,6 @@ Examples of in-scope research:
 Examples of out of scope activities
 - Their research questions primarily focusses on a non-infectious disease area with incidental involvement of infectious disease 
 (Focussed on a pathogen with no potential public health concern)
-
 
 # ISARIC Clinical Characterisation Protocol (CCP)
 
