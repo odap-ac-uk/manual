@@ -1,0 +1,24 @@
+# Five safes
+
+Safe data: data is treated to protect any confidentiality concerns.
+
+Safe projects: research projects are approved by data owners for the public good.
+
+Safe people: researchers are trained and authorised to use data safely.
+
+Safe settings: a SecureLab environment prevents unauthorised use.
+
+Safe outputs: screened and approved outputs that are non-disclosive.
+
+# FAIR
+
+Findable 
+Accessible 
+Interoperable
+Reusable
+
+# Messages
+
+- long term, UK wide project. 4 nations
+- Governance includes UK PHAs, academia
+- Emphasising need for ODAP to be open/FAIR
