@@ -6,9 +6,7 @@ title: ODAP Manual
 pandoc ODAP_manual.md --toc --filter pandoc-crossref --reference-doc ../_branding/odap-style.docx -o auto-generated/ODAP_manual.docx 
 -->
 
-**This document is a shared description for the internal team of the core purpose, scope, operational components, and governance structure of the ODAP. It provides an introduction and a reference.**
-
-**Rules for all communications: We absolutely must include both sides of the platform in all communications/diagrams.**
+**This PROJECT INITIATION DOCUMENT is a shared description for the internal team of the core purpose, scope, operational components, and governance structure of the ODAP. It provides an introduction and a reference.**
 
 # What is the Outbreak Data Analysis Platform (ODAP)?
 
@@ -17,8 +15,7 @@ The ODAP is the overarching term for a range of computers supporting research wi
 It is divided into two sections:
 
 1.  The "UNDER EMBARGO" section -- in which data are wholly controlled by contributors
-
-2.  The "NO EMBARGO" section -- in which data are accessible to appropriately-qualified researchers studying questions within the scope of the platform.
+2.  The "NO EMBARGO" section -- in which data are accessible to appropriately-qualified researchers studying questions within the scope of the platform
 
 The foundation for the ODAP is the International Severe Acute Respiratory Infection Consortium (ISARIC) Clinical Characterisation Protocol (CCP).
 
