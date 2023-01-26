@@ -1,21 +1,30 @@
 ---
-title: ODAP Manual
+title: ODAP Project Initiation Document
 ---
 
 <!--
 pandoc ODAP_manual.md --toc --filter pandoc-crossref --reference-doc ../_branding/odap-style.docx -o auto-generated/ODAP_manual.docx 
 -->
 
-**This PROJECT INITIATION DOCUMENT is a shared description for the internal team of the core purpose, scope, operational components, and governance structure of the ODAP. It provides an introduction and a reference.**
+**This is a shared description for the internal team of the core purpose, scope, operational components, and governance structure of the ODAP. It provides an introduction, plan and a reference.**
 
 # What is the Outbreak Data Analysis Platform (ODAP)?
 
 The ODAP is the overarching term for a range of computers supporting research within a specific scope. These include the ODAP TRE (formerly called: flexible compute space; ultra; ultra2), and various project spaces in the National Safe Haven.
 
-It is divided into two sections:
+It has two components
 
-1.  The "UNDER EMBARGO" section -- in which data are wholly controlled by contributors
-2.  The "NO EMBARGO" section -- in which data are accessible to appropriately-qualified researchers studying questions within the scope of the platform
+1.  The ODAP Core - the extant, complicated network of overlapping, linked data from research studies and national datasets, created through a range of independent research activities. These datasets are linked through the ISARIC Clinical Characterisation Protocol. 
+    - Purpose: to prepare for and support urgent public health research.
+    - Funding: The core ODAP is funded by the Baillie Gifford Pandemic Science Hub. 
+    - Access: data are openly accessible to appropriately-qualified researchers studying questions within the scope of the platform by individual agreement with the data providers. Much of the data is under embargo and publication of results requires consent from the data providers. Put simply, access is open but not easy.
+
+2.  ODAP Open - Making data access easy for approved researchers. A robust, fully-staffed data access governance system to lower the barrier to entry by allowing FAIR data access within the 5 safes framework.
+    - Funding: not in place. Funding from HDR UK infrastructure team is anticipated. 
+    - Leadership: open call for a senior appointment when funding is available.
+    - Access: data are openly accessible to appropriately-qualified researchers studying questions within the scope of the platform following a single, streamlined application
+
+
 
 The foundation for the ODAP is the International Severe Acute Respiratory Infection Consortium (ISARIC) Clinical Characterisation Protocol (CCP).
 
