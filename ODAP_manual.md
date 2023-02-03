@@ -3,7 +3,7 @@ title: ODAP Overview
 ---
 
 <!--
-pandoc ODAP_manual.md --toc --filter pandoc-crossref --reference-doc ../_branding/odap-style.docx -o auto-generated/ODAP_manual.docx 
+pandoc ODAP_manual.md --toc --filter pandoc-crossref --reference-doc ../_branding/odap-style.docx -F mermaid-filter -o auto-generated/ODAP_manual.docx  -o auto-generated/ODAP_manual.pdf
 -->
 
 # ODAP Overview
@@ -161,9 +161,9 @@ Each data contributor will explicitly consent to the lifting of any embargo on t
 
 The ODAP dataset catalogue is a flexible central record of the datasets held within the platform, approval requirements for access, embargo status, and contents. Each row of the catalogue provides information about an `atomic dataset`.
 
-> An `atomic dataset` should be the smallest unit of data that a user would apply for access to. It will have a version number, source file path(s), and named data controllers and data processors. Any legal agreement that applies to part of an `atomic dataset` will apply to all of the data within it. Any user who has access to part of an `atomic dataset` has access to all of the data within it. Where possible an `atomic dataset` will be in tidy format.
+An `atomic dataset` should be the smallest unit of data that a user would apply for access to. It will have a version number, source file path(s), and named data controllers and data processors. Any legal agreement that applies to part of an `atomic dataset` will apply to all of the data within it. Any user who has access to part of an `atomic dataset` has access to all of the data within it. Where possible an `atomic dataset` will be in tidy format.
 
-> A `compound dataset` is a group of `atomic datasets` that commonly go together. They are grouped together for convenience because researchers often need access to all of them at once.
+A `compound dataset` is a group of `atomic datasets` that commonly go together. They are grouped together for convenience because researchers often need access to all of them at once.
 
 A live [ODAP datasets mapping.xlsx](https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/DataInfrastructureAndGovernance/ODAP/_documents/ODAP%20datasets%20mapping.xlsx?d=w1dde5dbd6a094799b1595de102fa3818&csf=1&web=1&e=coUYiB) is available for reference. \[Further details about processes and approvals to be added\]
 
