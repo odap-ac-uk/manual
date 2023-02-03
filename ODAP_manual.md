@@ -106,6 +106,27 @@ Some data remains within the PHS National Safe Haven but will transfer to the FC
 
 Data are linked into the ISARIC Spine using the patient's NHS number by PHS before transfer to the FCS. 
 
+```mermaid
+
+graph LR
+
+PHS --> PHS
+
+subgraph ODAP
+  subgraph Flexible Compute Space
+      FCS
+    C-->|Three| G
+    C-->|Four| G
+    C-->|Five| G[A gift card]
+  end
+  subgraph Safe Haven
+      PHS
+    C -->|Six| F[fa:fa-car Car]
+  end
+end
+
+```
+
 ## API
 
 There will be a secure API in place from the Flexible Compute Space to External TREs and UK Public Health Agencies. This is to accelerate research by enabling data linkage across multiple data sets using unique identifiers to facilitate secure transfer of specified data fields e.g., viral sequencing data. The future purpose of the API is more in line with providing a mechanism for quick pandemic updates to national health services.
@@ -121,7 +142,6 @@ A live [ODAP datasets mapping.xlsx](https://uoe.sharepoint.com/:x:/r/sites/ISARI
 A parallel document exists for [eDRIS](https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/DataInfrastructureAndGovernance/Research%20Projects/ISARIC%20eDRIS%20Projects.xlsx?d=w8624bebadf7f491abc6add8587a039d8&csf=1&web=1&e=npUB8k)
 
 Applications and approved users are found here: https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/DataInfrastructureAndGovernance/IDAMAC/IDAMAC_Requests_Pipeline.xlsx?d=w7431f37efd1e4f53acfb2753fc03104f&csf=1&web=1&e=S0Bit5
-
 
 Dataset lists and embargo status is recorded here: XXX
 

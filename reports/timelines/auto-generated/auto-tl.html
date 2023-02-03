@@ -1,0 +1,213 @@
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<script src="src/d3.v2.min.js" type="application/javascript"></script>
+<script src="src/timeknots-jkb.js" type="application/javascript"></script>
+</head>
+
+<body>
+	<h3 style="color:black">ISARIC4C</h3>
+<div id="isaric4c"></div>
+</body>
+
+<script type="text/javascript">
+var isaric4c = [
+    {
+        "name": "start",
+        "date": "2020-03-15"
+    },
+    {
+        "name": "Co-Infection with influenza virus is associated with worse outcomes in hospitalised Covid patients",
+        "date": "2022-04-01",
+        "labeltext": "<a href=\"https://doi.org/10.1016/S0140-6736(22)00383-X\">Lancet (london england)</a>"
+    },
+    {
+        "name": "Risk prediction: the 4C Mortality Score",
+        "date": "2020-09-01",
+        "labeltext": "<a href=\"https://doi.org/10.1136/bmj.m3339\">Bmj</a>"
+    },
+    {
+        "name": "Characterisation of hospitalised cases of COVID-19",
+        "date": "2020-05-01",
+        "labeltext": "<a href=\"https://doi.org/10.1136/bmj.m1985\">Bmj (clinical research ed.)</a>"
+    },
+    {
+        "name": "Genetic mechanisms of severe Covid-19",
+        "date": "2021-03-01",
+        "labeltext": "<a href=\"https://doi.org/10.1038/s41586-020-03065-y\">Nature</a>"
+    },
+    {
+        "name": "Clinical characterisation of Covid-19 in children",
+        "date": "2020-08-01",
+        "labeltext": "<a href=\"https://doi.org/10.1136/bmj.m3249\">Bmj</a>"
+    },
+    {
+        "name": "Characterisation of in-hospital complications associated with COVID-19",
+        "date": "2021-07-01",
+        "labeltext": "<a href=\"https://doi.org/10.1016/S0140-6736(21)00799-6\">The lancet</a>"
+    },
+    {
+        "name": "Circulating histones play a central role in COVID-19-associated coagulopathy and mortality",
+        "date": "2021-09-01",
+        "labeltext": "<a href=\"https://doi.org/10.3324/haematol.2021.278492\">Haematologica</a>"
+    },
+    {
+        "name": "Tissue proteomic analysis identifies mechanisms and stages of immunopathology in fatal COVID-19",
+        "date": "2021-10-01",
+        "labeltext": "<a href=\"https://doi.org/10.1165/rcmb.2021-0358OC\">American journal of respiratory cell and molecular biology</a>"
+    },
+    {
+        "name": "Hospital acquired COVID-19 in England during the first wave of the pandemic",
+        "date": "2022-06-01",
+        "labeltext": "<a href=\"https://doi.org/10.1186/s12879-022-07490-4\">Bmc infectious diseases</a>"
+    },
+    {
+        "name": "Treating COVID-19 patients with dexamethasone and remdesivir prevents neurological complications",
+        "date": "2023-01-01",
+        "labeltext": "<a href=\"https://doi.org/10.1002/ana.26536\">Annals of neurology</a>"
+    },
+    {
+        "name": "UK Paediatric COVID-19 cases in the first and second pandemic wave",
+        "date": "2023-01-01",
+        "labeltext": "<a href=\"https://doi.org/10.1038/s41390-022-02052-5\">Pediatric research</a>"
+    },
+    {
+        "name": "Vitamin D insufficiency in COVID-19 and influenza A",
+        "date": "2021-10-01",
+        "labeltext": "<a href=\"https://doi.org/10.1136/bmjopen-2021-055435\">Bmj open</a>"
+    },
+    {
+        "name": "Using a double binding antigen assay to detect and measure SARS-CoV-2 antibodies",
+        "date": "2022-04-01",
+        "labeltext": "<a href=\"https://doi.org/10.1016/j.jviromet.2022.114475\">Journal of virological methods</a>"
+    },
+    {
+        "name": "Detecting SARS-CoV-2 by non-invasive means",
+        "date": "2022-08-01",
+        "labeltext": "<a href=\"https://doi.org/10.1016/j.jinf.2022.05.033\">The journal of infection</a>"
+    },
+    {
+        "name": "Understanding the Omicron variant and how it responds to vaccination",
+        "date": "2022-07-01",
+        "labeltext": "<a href=\"https://doi.org/10.1016/j.cell.2022.06.005\">Cell</a>"
+    },
+    {
+        "name": "Distinct clinical symptom patterns in patients hospitalised with COVID-19",
+        "date": "2022-04-01",
+        "labeltext": "<a href=\"https://doi.org/10.1038/s41598-022-08032-3\">Scientific reports</a>"
+    },
+    {
+        "name": "Non-steroidal anti-inflammatory drug use and outcomes of COVID-19",
+        "date": "2021-05-01",
+        "labeltext": "<a href=\"https://doi.org/10.1016/S2665-9913(21)00104-1\">The lancet rheumatology</a>"
+    },
+    {
+        "name": "Role of blood cytokines IL-6 and GM-CSF in severe COVID-19",
+        "date": "2021-03-01",
+        "labeltext": "<a href=\"https://doi.org/10.1126/sciimmunol.abg9873\">Science immunology</a>"
+    },
+    {
+        "name": "T cells target many different parts of the virus",
+        "date": "2020-11-01",
+        "labeltext": "<a href=\"https://doi.org/10.1038/s41590-020-0782-6\">Nature immunology</a>"
+    },
+    {
+        "name": "Viral spike variants evading antibody-mediated immunity",
+        "date": "2021-03-01",
+        "labeltext": "<a href=\"https://doi.org/10.1016/j.cell.2021.01.037\">Cell</a>"
+    },
+    {
+        "name": "SARS-CoV-2 surface and air contamination in a healthcare setting",
+        "date": "2021-10-01",
+        "labeltext": "<a href=\"https://doi.org/10.1093/cid/ciaa905\">Clinical infectious diseases : an official publication of the infectious diseases society of america</a>"
+    },
+    {
+        "name": "Impact of ethnicity",
+        "date": "2020-05-01"
+    },
+    {
+        "name": "ICECAP autopsy study",
+        "date": "2021-01-01",
+        "labeltext": "<a href=\"https://doi.org/10.1164/rccm.202008-3265OC\">American journal of respiratory and critical care medicine</a>"
+    },
+    {
+        "name": "Developing methods of sequencing the virus",
+        "date": "2020-10-01",
+        "labeltext": "<a href=\"https://doi.org/10.3390/v12101164\">Viruses</a>"
+    },
+    {
+        "name": "Pulmonary Microthrombosis and Vasculitis in Life-Threatening Respiratory Virus Diseases",
+        "date": "2021-02-01",
+        "labeltext": "<a href=\"https://doi.org/10.1093/ofid/ofaa640\">Open forum infectious diseases</a>"
+    },
+    {
+        "name": "Using imaging in COVID-19 -- UK National COVID-19 Chest Imaging Database",
+        "date": "2020-08-01",
+        "labeltext": "<a href=\"https://doi.org/10.1183/13993003.01809-2020\">The european respiratory journal</a>"
+    },
+    {
+        "name": "Outcomes of hospitalised COVID-19 patients with interstitial lung disease",
+        "date": "2020-12-01",
+        "labeltext": "<a href=\"https://doi.org/10.1164/rccm.202007-2794OC\">American journal of respiratory and critical care medicine</a>"
+    },
+    {
+        "name": "Outcomes of COVID-19 hospitalisation among patients with HIV",
+        "date": "2021-10-01",
+        "labeltext": "<a href=\"https://doi.org/10.1093/cid/ciaa1605\">Clinical infectious diseases : an official publication of the infectious diseases society of america</a>"
+    },
+    {
+        "name": "Co-Infections, Secondary Infections, and Antimicrobial Usage",
+        "date": "2021-06-01",
+        "labeltext": "<a href=\"https://doi.org/10.1016/S2666-5247(21)00090-2\">The lancet microbe</a>"
+    },
+    {
+        "name": "Testing the tests",
+        "date": "2020-01-01",
+        "labeltext": "<a href=\"https://doi.org/10.12688/wellcomeopenres.15927.1\">Wellcome open research</a>"
+    },
+    {
+        "name": "COVID-19 and Cancer",
+        "date": "2020-05-01",
+        "labeltext": "<a href=\"https://doi.org/10.1136/esmoopen-2020-000825\">Esmo open</a>"
+    },
+    {
+        "name": "Detection of antibodies to determine population exposure",
+        "date": "2020-10-01",
+        "labeltext": "<a href=\"https://doi.org/10.2807/1560-7917.ES.2020.25.42.2000685\">Euro surveillance : bulletin europeen sur les maladies transmissibles = european communicable disease bulletin</a>"
+    },
+    {
+        "name": "Symptom clusters",
+        "date": "2020-09-01",
+        "labeltext": "<a href=\"https://doi.org/10.1101/2020.08.14.20168088\">Medrxiv</a>"
+    },
+    {
+        "name": "New immune biomarkers for COVID-19",
+        "date": "2022-09-01",
+        "labeltext": "<a href=\"https://doi.org/10.1111/imm.13585\">Immunology</a>"
+    },
+    {
+        "name": "Vulnerability of Down's syndrome (DS) patients to severe COVID-19",
+        "date": "2021-03-01",
+        "labeltext": "<a href=\"https://doi.org/10.1016/j.eclinm.2021.100769\">Eclinicalmedicine</a>"
+    }
+];
+
+TimeKnots.draw("#isaric4c",
+	isaric4c,
+		{
+		dateFormat: "%B %Y",
+		labelFormat: "%Y/%m/%d %H:%M:%S",
+		color: "#2971B0",
+		background: "black",
+		showLabels: true,
+		labelFormat: "%Y", 
+		addNow: true,
+		width: 1000,
+		height: 100,
+		radius: 10,
+		lineWidth: 4,
+		horizontalLayout: true,
+		}
+	);
+
+</script>
