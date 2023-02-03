@@ -74,7 +74,7 @@ Applying the established governance and data handling procedures for the ISARIC 
 
 In each case, we will only recruit patients who meet the inclusion criteria for CCP. In our view, there is no ethical or information governance difference between recruiting a patient remotely from a hospital, or recruiting them remotely from within our trusted research environment. This has been agreed with the ISARIC CCP study sponsor and is explicitly stated in CAG and PBPP applications.
 
-### Examples
+#### Examples
 
 The ISARIC4C consortium will incorporate participants from other studies into ISARIC4C study, creating a superset of participants in a single "spine". Doing so would allow them to match to NHS data under existing ISARIC4C data agreements.
 
@@ -88,17 +88,31 @@ The data from the spine will be used for several purposes:
 
 Currently the data for participants in these studies are held in a series of REDCap databases. These are the source of truth for the data and update on a regular basis. We will therefore need a process to update the spine from these sources.
 
+
+## Data access
+
+Some data providers choose to delegate approval of data access to the ODAP team. The diagram in @fig:access describes the five safes application form and light-touch review process. These processes are overseen by the Data Access Governance Committee (DAGC).
+
+![Data access flows](images/data_access/Data_access_flow_v0.8.pdf){#fig:access}
+
+The data access review processes are described in detail in the following documents:
+
+- [Data Access Review Process](ODAP_open/DataAccessReviewProcess.md)
+- [DAGC Terms of Reference](ODAP_open/DAGC_ToR.md)
+- [PRP Terms of Reference](ODAP_open/PRP_ToR.md)
+- [PSG Termos of Reference](ODAP_open/PSG_ToR.md)
+
 ## Computer architecture
 
 The ODAP consists of two main compute areas. 
 
-## Flexible Compute Space
+### Flexible Compute Space
 
 The Flexible Compute Space (FCS) is a Trusted Research Environment with large scale compute capacity and access to a range of software tools for data analysis and machine learning. Data within the FCS can be either under embargo, or not under embargo. 
 
 Access to the FCS is provided to researchers through *private project zones*
 
-## PHS National Safe Haven
+### PHS National Safe Haven
 
 Some data remains within the PHS National Safe Haven but will transfer to the FCS on completion of the Systems Security Policy.
 
@@ -143,7 +157,13 @@ There will be a secure API in place from the Flexible Compute Space to External 
 
 Each data contributor will explicitly consent to the lifting of any embargo on their data. A permanent record of these instructions will be held in a shared file. <!--FILE PATH TO MASTER RECORD OF EMBARGO STATUS IN SECURE LOCAION XXX -->
 
-## Dataset map
+## Dataset catalogue
+
+The ODAP dataset catalogue is a flexible central record of the datasets held within the platform, approval requirements for access, embargo status, and contents. Each row of the catalogue provides information about an `atomic dataset`.
+
+> An `atomic dataset` should be the smallest unit of data that a user would apply for access to. It will have a version number, source file path(s), and named data controllers and data processors. Any legal agreement that applies to part of an `atomic dataset` will apply to all of the data within it. Any user who has access to part of an `atomic dataset` has access to all of the data within it. Where possible an `atomic dataset` will be in tidy format.
+
+> A `compound dataset` is a group of `atomic datasets` that commonly go together. They are grouped together for convenience because researchers often need access to all of them at once.
 
 A live [ODAP datasets mapping.xlsx](https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/DataInfrastructureAndGovernance/ODAP/_documents/ODAP%20datasets%20mapping.xlsx?d=w1dde5dbd6a094799b1595de102fa3818&csf=1&web=1&e=coUYiB) is available for reference. \[Further details about processes and approvals to be added\]
 
