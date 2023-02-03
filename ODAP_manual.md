@@ -120,6 +120,10 @@ A live [ODAP datasets mapping.xlsx](https://uoe.sharepoint.com/:x:/r/sites/ISARI
 
 A parallel document exists for [eDRIS](https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/DataInfrastructureAndGovernance/Research%20Projects/ISARIC%20eDRIS%20Projects.xlsx?d=w8624bebadf7f491abc6add8587a039d8&csf=1&web=1&e=npUB8k)
 
+Applications and approved users are found here: https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/DataInfrastructureAndGovernance/IDAMAC/IDAMAC_Requests_Pipeline.xlsx?d=w7431f37efd1e4f53acfb2753fc03104f&csf=1&web=1&e=S0Bit5
+
+
+Dataset lists and embargo status is recorded here: XXX
 
 # OPAP Open
 
