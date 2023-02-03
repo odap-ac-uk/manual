@@ -110,22 +110,30 @@ Data are linked into the ISARIC Spine using the patient's NHS number by PHS befo
 
 graph LR
 
-PHS --> PHS
+New(New Dataset) --> ISARIC3
 
 subgraph ODAP
   subgraph Flexible Compute Space
-      FCS
-    C-->|Three| G
-    C-->|Four| G
-    C-->|Five| G[A gift card]
+    ISARIC4C[ISARIC Spine] --- NHS[NHS England]  
+    ISARIC4C --- GenOMICC  
+    ISARIC4C --- PHOSP     
+    ISARIC4C --- COG-UK  
+    ISARIC4C --- SICSAG  
+    Derived[Derived<br>variables]
   end
+  ISARIC3 ==> to_fcs[(IDs allocated<br>Transfer to FCS)]
+  to_fcs ==> ISARIC4C
   subgraph Safe Haven
-      PHS
-    C -->|Six| F[fa:fa-car Car]
+    NHS_IDS[\Master link<br>to NHS numbers/] -->|PHS team only| ISARIC3((ISARIC Spine<br>ID allocation))
+    RECOVERY --> ISARIC2[ISARIC-CCP<br>extract]
   end
 end
 
+Derived --->|API|PHA([Public<br>Health<br>Agencies])
+Derived --->|API|TRE([External<br>TREs])
+
 ```
+
 
 ## API
 
