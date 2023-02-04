@@ -1,0 +1,11 @@
+Examples of in-scope research:
+- Understanding the evolution and biology of SARS-CoV-2.
+- Understanding the epidemiology and transmission of SARS-CoV-2.
+- Understanding COVID-19 disease risk, severity and outcomes.
+- Monitoring and understanding the impact of non-pharmacological interventions against SARS-CoV-2 transmissions and COVID-19 disease.
+- Monitoring, understanding, and assessing the impact of treatments, vaccines and prior infections in COVID-19 disease.
+- Analysing or modelling SARS-CoV-2 and COVID-19 data for future pandemic preparedness.
+
+Examples of out of scope activities
+- Their research questions primarily focusses on a non-infectious disease area with incidental involvement of infectious disease 
+(Focussed on a pathogen with no potential public health concern)

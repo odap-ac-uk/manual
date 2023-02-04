@@ -2,11 +2,6 @@
 title: ODAP Partnership Steering Group v0.1
 ---
 
-<!--
-pandoc PSG_ToR.md --toc --filter pandoc-crossref --reference-doc ../_branding/odap-draft-style.docx -o auto-generated/PSG_ToR.docx 
--->
-
-
 # Terms of Reference
 
 ## Outbreak Data Analysis Platform (ODAP) Scope

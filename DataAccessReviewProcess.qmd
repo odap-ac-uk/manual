@@ -1,9 +1,6 @@
 ---
 title: Data Access Review Process v0.81
 ---
-<!--
-pandoc DataAccessReviewProcess.md --toc --filter pandoc-crossref --reference-doc ../_branding/odap-draft-style.docx -o auto-generated/DataAccessReviewProcess.docx 
--->
 
 # Introduction
 
@@ -100,9 +97,7 @@ The ODAP data access team will undertake a light-touch check of researcher crede
 If any of the requested fields have not been completed, or if further details are required, the data access team will contact the applicant for additional information. Once full details have been provided, the data access team will make an accreditation decision to the best of their judgement, but may also seek a second opinion from within the wider ODAP data team in the Lead Institute for complex cases.
 
 <!--
-Review of Research Proposals
 No detail on the criteria projects will be reviewed under.
-No detail or examples of in-scope or out of scope research or
 No detail on how it will be determined a proposal has valid research purpose with defined public benefit.
 Mentions an independent external review however it is not clear to me who this is
 Mentions that UoE applications go to DAGC but does not detail the process.
@@ -141,6 +136,14 @@ A bona fide research organisation is one that has the capability to lead or part
 ## Safe projects
 
 Proposals need to be reviewed to ensure the use of the data is appropriate, within the scope of the ODAP, and that the project has a valid research purpose with a defined public benefit.
+
+### Scope
+
+{{< include _includes/_scope.qmd >}}
+
+### Examples
+
+{{< include _includes/_scope_examples.qmd >}}
 
 ## Process
 

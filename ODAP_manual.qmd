@@ -2,10 +2,6 @@
 title: ODAP Overview
 ---
 
-<!--
-pandoc ODAP_manual.md --toc --filter pandoc-crossref --reference-doc ../_branding/odap-style.docx -F mermaid-filter -o auto-generated/ODAP_manual.docx  -o auto-generated/ODAP_manual.pdf
--->
-
 # ODAP Overview
 
 > *This is a shared description for the internal team of the core purpose, scope, operational components, and governance structure of the ODAP. It provides an introduction, plan and a reference.*
@@ -25,7 +21,7 @@ It has two components:
     - Access: data are openly accessible to appropriately-qualified researchers studying questions within the scope of the platform by individual agreement with the data providers. Much of the data is under embargo and publication of results requires consent from the data providers. Put simply, access is open but not easy.
     - Funding: The core ODAP is funded by the Baillie Gifford Pandemic Science Hub. 
 
-2.  ODAP Open - *Making data access easy for approved researchers.* ODAP Open describes a robust, fully-staffed data access governance system to lower the barrier to entry by allowing FAIR data access within the 5 safes framework.
+2.  ODAP Open - *Making data access easy for approved researchers.* ODAP Open will be a robust, fully-staffed data access governance system to lower the barrier to entry by taking over data controllership from data contributors, so that a single approval is required for data access.
     - Funding: not in place. Funding from HDR UK infrastructure team is anticipated. 
     - Leadership: open call for a senior appointment when funding is available.
     - Access: data are openly accessible to appropriately-qualified researchers studying questions within the scope of the platform following a single, streamlined application
@@ -36,23 +32,9 @@ The foundation for the ODAP is the International Severe Acute Respiratory Infect
 
 ## Scope of the ODAP
 
-**The purpose of the ODAP is to facilitate biomedical research to advance understanding of severe infectious disease\* and other exposures of public health interest.\*\* Research within the ODAP is strictly limited to this purpose.**
+{{< include _includes/_scope.qmd >}}
 
-\* Severe infectious disease - this term describes all severe infectious agents, including new, re-emerging or therapy-resistant forms of existing infectious agents.
-
-\*\* Other exposures of public health interest: this term describes new or unexplained poisoning, or exposure to harmful energy sources such as electromagnetic radiation.
-
-Examples of in-scope research:
-- Understanding the evolution and biology of SARS-CoV-2.
-- Understanding the epidemiology and transmission of SARS-CoV-2.
-- Understanding COVID-19 disease risk, severity and outcomes.
-- Monitoring and understanding the impact of non-pharmacological interventions against SARS-CoV-2 transmissions and COVID-19 disease.
-- Monitoring, understanding, and assessing the impact of treatments, vaccines and prior infections in COVID-19 disease.
-- Analysing or modelling SARS-CoV-2 and COVID-19 data for future pandemic preparedness.
-
-Examples of out of scope activities
-- Their research questions primarily focusses on a non-infectious disease area with incidental involvement of infectious disease 
-(Focussed on a pathogen with no potential public health concern)
+{{< include _includes/_scope_examples.qmd >}}
 
 ## ISARIC Clinical Characterisation Protocol (CCP)
 
@@ -91,9 +73,9 @@ Currently the data for participants in these studies are held in a series of RED
 
 ## Data access
 
-Some data providers choose to delegate approval of data access to the ODAP team. The diagram in @fig:access describes the five safes application form and light-touch review process. These processes are overseen by the Data Access Governance Committee (DAGC).
+Some data providers choose to delegate approval of data access to the ODAP team. The diagram in @fig-access describes the five safes application form and light-touch review process. These processes are overseen by the Data Access Governance Committee (DAGC).
 
-![Data access flows](images/data_access/Data_access_flow_v0.8.pdf){#fig:access}
+![Data access flows](images/data_access/Data_access_flow_v0.8.pdf){#fig-access}
 
 The data access review processes are described in detail in the following documents:
 
@@ -118,9 +100,13 @@ Some data remains within the PHS National Safe Haven but will transfer to the FC
 
 ## Data ingress
 
-Data are linked into the ISARIC Spine using the patient's NHS number by PHS before transfer to the FCS. 
+Data are linked into the ISARIC Spine using the patient's NHS numbers by PHS before transfer to the FCS as shown in @fig-flow. 
 
-```mermaid
+
+```{mermaid}
+%%| fig-width: 9
+%%| label: fig-flow
+%%| fig-cap: "Simplified flowchart showing data linkage procedures."
 
 graph LR
 
@@ -131,7 +117,7 @@ subgraph ODAP
     ISARIC4C[ISARIC Spine] --- NHS[NHS England]  
     ISARIC4C --- GenOMICC  
     ISARIC4C --- PHOSP     
-    ISARIC4C --- COG-UK  
+    ISARIC4C --- COG-UKs  
     ISARIC4C --- SICSAG  
     Derived[Derived<br>variables]
   end
@@ -145,7 +131,6 @@ end
 
 Derived --->|API|PHA([Public<br>Health<br>Agencies])
 Derived --->|API|TRE([External<br>TREs])
-
 ```
 
 

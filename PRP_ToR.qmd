@@ -2,10 +2,6 @@
 title: ODAP Project Review Panel (PRP) v0.51
 ---
 
-<!--
-pandoc PRP_TOR.md --toc --filter pandoc-crossref --reference-doc ../_branding/odap-draft-style.docx -o auto-generated/PRP_TOR.docx 
--->
-
 # Terms of Reference
 
 ## Role and responsibility

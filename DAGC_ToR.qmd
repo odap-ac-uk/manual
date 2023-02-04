@@ -2,10 +2,6 @@
 title: ODAP Data Access Governance Committee v0.81
 ---
 
-<!--
-pandoc DAGC_ToR.md --toc --filter pandoc-crossref --reference-doc ../_branding/odap-draft-style.docx -o auto-generated/DAGC_ToR.docx 
--->
-
 # Terms of Reference
 
 ## Role of the ODAP DAGC

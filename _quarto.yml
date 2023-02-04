@@ -1,0 +1,9 @@
+project:
+  output-dir: auto-generated
+format: 
+  pdf:
+    toc: true
+    template: templates/odap.tex
+  docx:
+    toc: true
+    reference-doc: templates/odap-style.docx
