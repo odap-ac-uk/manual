@@ -4,3 +4,6 @@
 
 \*\* Other exposures of public health interest: this term describes new or unexplained poisoning, or exposure to harmful energy sources such as electromagnetic radiation.
 
+The scope of ODAP is designed to carefully match the scope of the ISARIC-CCP.
+
+
