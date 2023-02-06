@@ -1,5 +1,6 @@
 project:
   output-dir: auto-generated
+pdf-engine: pdflatex
 format: 
   pdf:
     toc: true

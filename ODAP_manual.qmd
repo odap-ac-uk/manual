@@ -40,7 +40,7 @@ The foundation for the ODAP is the International Severe Acute Respiratory Infect
 
 The scope of the ODAP mirrors the objective of the CCP, an ethically-approved research study in the UK (Joint Chief Investigators: Calum Semple(Liverpool, Oxford) and Kenneth Baillie (Edinburgh, Oxford)). A broad range of scientists with relevant expertise have come together to form a UK-wide group: the ISARIC Comprehensive Clinical Characterisation Collaboration. Membership of this collaboration is by invitation and is extended to researchers performing high-quality biomedical research to advance understanding of severe infectious disease and other exposures of public health interest.
 
-### The ISARIC Spine
+### ISARIC Spine
 
 Some studies, addressing aims that are within the scope of the CCP, have chosen to contribute data into the ODAP for linkage to CCP and other datasets. Because these studies are addressing questions that are directly within the scope of the CCP, where appropriate, participants in these studies are eligible to be enrolled under the CCP. 
 
@@ -70,12 +70,24 @@ The data from the spine will be used for several purposes:
 
 Currently the data for participants in these studies are held in a series of REDCap databases. These are the source of truth for the data and update on a regular basis. We will therefore need a process to update the spine from these sources.
 
-
 ## Data access
+
+## Data under embargo
+
+The default status for new data entering the ODAP is to be `under embargo`. This means that either: 
+
+1. the data contributor controls who has access to the data, and what analyses and reports or publications can arise from it. 
+2. the data contributor chooses to link data within the ISARIC4C study (using the [Spine](#isaric-spine)), wherupon all members of the ISARIC4C consortium have access to the data and can run exploratory analyses under the [consortium rules](#ISARIC4C-Consortium-data-access-rules). This enables the data contributor and others in the consortium to make use of existing contracts and approvals for linkage to other datasets. 
+
+### ISARIC4C Consortium data access rules
+
+{{< include _includes/isaric4c_rules.qmd >}}
+
+## Non-embargo data
 
 Some data providers choose to delegate approval of data access to the ODAP team. The diagram in @fig-access describes the five safes application form and light-touch review process. These processes are overseen by the Data Access Governance Committee (DAGC).
 
-![Data access flows](images/data_access/Data_access_flow_v0.8.pdf){#fig-access}
+![Data access flows](images/data_access/Data_access_flow.pdf){#fig-access}
 
 The data access review processes are described in detail in the following documents:
 

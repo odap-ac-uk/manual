@@ -1,0 +1,8 @@
+
+1. Consortium members are recorded on the consortium membership list <!-- Wilna - please add link to master source! -->
+2. Membership is extended to researchers with skills and techniques necessary to answer important research questions within the scope of the ISARIC Clinical Characterisation Protocol, interpreted by the Consortium Leadership in consultation with the broader consortium. 
+3. Consortium members have access to all data within the ISARIC4C consortium space within the ODAP.  
+4. All members agree to:
+	+ inform data contributors of all substantive analyses *in advance* of undertaking them (this does not apply to preliminary analyses)
+	+ obtain express agreement from all data contributors before writing a manuscript
+
