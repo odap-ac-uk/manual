@@ -158,9 +158,21 @@ Each data contributor will explicitly consent to the lifting of any embargo on t
 
 The ODAP dataset catalogue is a flexible central record of the datasets held within the platform, approval requirements for access, embargo status, and contents. Each row of the catalogue provides information about an `atomic dataset`.
 
-An `atomic dataset` should be the smallest unit of data that a user would apply for access to. It will have a version number, source file path(s), and named data controllers and data processors. Any legal agreement that applies to part of an `atomic dataset` will apply to all of the data within it. Any user who has access to part of an `atomic dataset` has access to all of the data within it. Where possible an `atomic dataset` will be in tidy format.
+An `atomic dataset` should be the smallest unit of data that a user would apply for access to. All data elements in an `atomic dataset` will have, by definition,
+- the same version number
+- the same data controllers
+- the same data processors
+- the same embargo status
+- the same legal agreements
+- the same users with data access
+
+Any legal agreement that applies to part of an `atomic dataset` will apply to all of the data within it. Any user who has access to part of an `atomic dataset` has access to all of the data within it. Where possible an `atomic dataset` will be in [tidy](https://tidyr.tidyverse.org/articles/tidy-data.html) format.
 
 A `compound dataset` is a group of `atomic datasets` that commonly go together. They are grouped together for convenience because researchers often need access to all of them at once.
+
+When an `atomic dataset` is split, two new `atomic datasets` are created, and the name of the superceded `atomic dataset` is recorded as a `compound dataset` in both new `atomic datasets`.
+
+<!--
 
 A live [ODAP datasets mapping.xlsx](https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/DataInfrastructureAndGovernance/ODAP/_documents/ODAP%20datasets%20mapping.xlsx?d=w1dde5dbd6a094799b1595de102fa3818&csf=1&web=1&e=coUYiB) is available for reference. \[Further details about processes and approvals to be added\]
 
@@ -169,6 +181,8 @@ A parallel document exists for [eDRIS](https://uoe.sharepoint.com/:x:/r/sites/IS
 Applications and approved users are found here: https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/DataInfrastructureAndGovernance/IDAMAC/IDAMAC_Requests_Pipeline.xlsx?d=w7431f37efd1e4f53acfb2753fc03104f&csf=1&web=1&e=S0Bit5
 
 Dataset lists and embargo status is recorded here: XXX
+
+-->
 
 # OPAP Open
 
