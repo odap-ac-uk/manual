@@ -15,3 +15,8 @@ quarto render PRP_ToR.qmd.qmd
 quarto render ODAP_manual.qmd.qmd
 quarto render DataAccessReviewProcess.qmd.qmd
 quarto render DAGC_ToR.qmd.qmd
+
+
+# Website
+
+All files in this directory appear online, apart from those beginning with an underscore "_"
