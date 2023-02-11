@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="117.58594"
+   version="1.1"
+   width="750"
+   id="svg84"
+   sodipodi:docname="staffing.svg">
+  <metadata
+     id="metadata88">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview86" />
+  <defs
+     id="defs20">
+    <marker
+       id="id3"
+       markerHeight="10"
+       markerWidth="10"
+       orient="auto"
+       refX="0"
+       refY="3">
+      <path
+         d="M 6,0 V 7 L 0,3 6,0"
+         fill="#cd3f85"
+         id="path2" />
+    </marker>
+    <marker
+       id="id4"
+       markerHeight="10"
+       markerWidth="10"
+       orient="auto"
+       refX="6"
+       refY="3">
+      <path
+         d="M 0,0 V 7 L 6,3 0,0"
+         fill="#cd3f85"
+         id="path5" />
+    </marker>
+    <marker
+       id="id5"
+       markerHeight="10"
+       markerWidth="10"
+       orient="auto"
+       refX="0"
+       refY="3">
+      <path
+         d="M 6,0 V 7 L 0,3 6,0"
+         fill="#b3e2c5"
+         id="path8" />
+    </marker>
+    <marker
+       id="id6"
+       markerHeight="10"
+       markerWidth="10"
+       orient="auto"
+       refX="6"
+       refY="3">
+      <path
+         d="M 0,0 V 7 L 6,3 0,0"
+         fill="#b3e2c5"
+         id="path11" />
+    </marker>
+    <marker
+       id="id7"
+       markerHeight="10"
+       markerWidth="10"
+       orient="auto"
+       refX="0"
+       refY="3">
+      <path
+         d="M 6,0 V 7 L 0,3 6,0"
+         fill="#bcd1e2"
+         id="path14" />
+    </marker>
+    <marker
+       id="id8"
+       markerHeight="10"
+       markerWidth="10"
+       orient="auto"
+       refX="6"
+       refY="3">
+      <path
+         d="M 0,0 V 7 L 6,3 0,0"
+         fill="#bcd1e2"
+         id="path17" />
+    </marker>
+  </defs>
+  <rect
+     fill="#cd3f85"
+     fill-opacity="0.15"
+     height="103"
+     width="314"
+     x="63"
+     y="0"
+     id="rect22" />
+  <line
+     stroke="#cd3f85"
+     stroke-dasharray="5, 5"
+     stroke-width="0.5"
+     x1="63"
+     x2="63"
+     y1="0"
+     y2="40"
+     id="line24" />
+  <line
+     stroke="#cd3f85"
+     stroke-dasharray="5, 5"
+     stroke-width="0.5"
+     x1="377"
+     x2="377"
+     y1="0"
+     y2="40"
+     id="line26" />
+  <line
+     marker-end="url(#id4)"
+     marker-start="url(#id3)"
+     stroke="#cd3f85"
+     stroke-width="0.75"
+     x1="63"
+     x2="377"
+     y1="10"
+     y2="10"
+     id="line28" />
+  <text
+     fill="#cd3f85"
+     font-family="Helevetica"
+     font-size="8px"
+     stroke="none"
+     text-anchor="middle"
+     x="220"
+     y="8.5"
+     id="text30">UKRI funding</text>
+  <rect
+     fill="#b3e2c5"
+     fill-opacity="0.15"
+     height="103"
+     width="338"
+     x="378"
+     y="0"
+     id="rect32" />
+  <line
+     stroke="#b3e2c5"
+     stroke-dasharray="5, 5"
+     stroke-width="0.5"
+     x1="378"
+     x2="378"
+     y1="0"
+     y2="40"
+     id="line34" />
+  <line
+     stroke="#b3e2c5"
+     stroke-dasharray="5, 5"
+     stroke-width="0.5"
+     x1="716"
+     x2="716"
+     y1="0"
+     y2="40"
+     id="line36" />
+  <line
+     marker-end="url(#id6)"
+     marker-start="url(#id5)"
+     stroke="#b3e2c5"
+     stroke-width="0.75"
+     x1="378"
+     x2="716"
+     y1="10"
+     y2="10"
+     id="line38" />
+  <text
+     fill="#b3e2c5"
+     font-family="Helevetica"
+     font-size="8px"
+     stroke="none"
+     text-anchor="middle"
+     x="547"
+     y="8.5"
+     id="text40">NCS funding</text>
+  <rect
+     fill="#bcd1e2"
+     fill-opacity="0.15"
+     height="103"
+     width="0"
+     x="716"
+     y="0"
+     id="rect42" />
+  <line
+     stroke="#bcd1e2"
+     stroke-dasharray="5, 5"
+     stroke-width="0.5"
+     x1="716"
+     x2="716"
+     y1="0"
+     y2="40"
+     id="line44" />
+  <line
+     stroke="#bcd1e2"
+     stroke-dasharray="5, 5"
+     stroke-width="0.5"
+     x1="716"
+     x2="716"
+     y1="0"
+     y2="40"
+     id="line46" />
+  <line
+     marker-end="url(#id8)"
+     marker-start="url(#id7)"
+     stroke="#bcd1e2"
+     stroke-width="0.75"
+     x1="716"
+     x2="716"
+     y1="10"
+     y2="10"
+     id="line48" />
+  <text
+     fill="#bcd1e2"
+     font-family="Helevetica"
+     font-size="8px"
+     stroke="none"
+     text-anchor="middle"
+     x="716"
+     y="8.5"
+     id="text50">BG-PSH funding</text>
+  <g
+     transform="translate(0,40)"
+     id="g82">
+    <line
+       stroke="#000000"
+       stroke-width="3"
+       x1="0"
+       x2="750"
+       y1="0"
+       y2="0"
+       id="line52" />
+    <line
+       stroke="#000000"
+       stroke-width="2"
+       x1="63"
+       x2="63"
+       y1="-5"
+       y2="5"
+       id="line54" />
+    <text
+       fill="#c0c0c0"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,63,0)"
+       writing-mode="tb-rl"
+       x="63"
+       y="-10"
+       id="text56">March-2020</text>
+    <line
+       stroke="#000000"
+       stroke-width="2"
+       x1="688"
+       x2="688"
+       y1="-5"
+       y2="5"
+       id="line58" />
+    <text
+       fill="#c0c0c0"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,688,0)"
+       writing-mode="tb-rl"
+       x="688"
+       y="-10"
+       id="text60">February-2023</text>
+    <path
+       d="M 63,0 V -15 H 53"
+       fill="none"
+       stroke="#000000"
+       stroke-width="1"
+       id="path62" />
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       x="50"
+       y="-13.5"
+       id="text64">start</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,63,0)"
+       writing-mode="tb-rl"
+       x="63"
+       y="-10"
+       id="text66">March-2020</text>
+    <circle
+       cx="63"
+       cy="0"
+       fill="#ffffff"
+       r="4"
+       stroke="#000000"
+       stroke-width="1"
+       id="circle68" />
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,63,0)"
+       writing-mode="tb-rl"
+       x="63"
+       y="-10"
+       id="text70">March-2020</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,377,0)"
+       writing-mode="tb-rl"
+       x="377"
+       y="-10"
+       id="text72">September-2021</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,378,0)"
+       writing-mode="tb-rl"
+       x="378"
+       y="-10"
+       id="text74">September-2021</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,716,0)"
+       writing-mode="tb-rl"
+       x="716"
+       y="-10"
+       id="text76">March-2023</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,716,0)"
+       writing-mode="tb-rl"
+       x="716"
+       y="-10"
+       id="text78">March-2023</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,716,0)"
+       writing-mode="tb-rl"
+       x="716"
+       y="-10"
+       id="text80">March-2023</text>
+  </g>
+</svg>
