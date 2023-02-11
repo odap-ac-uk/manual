@@ -1,5 +1,5 @@
 ---
-title: ODAP Partnership Steering Group v0.1
+title: ODAP Partnership Steering Group v0.11
 ---
 
 # Terms of Reference
@@ -24,9 +24,7 @@ The purpose of the ODAP is to facilitate biomedical research to advance understa
 
 The Outbreak Data Analysis Platform Partnership Steering Group supports the development of the Outbreak Data Analysis Platform by providing strategic direction. The Partnership Steering Group will provide support, guidance, and oversight of the development of the Outbreak Data Analysis Platform and will not be involved in the operational delivery of the platform.
 
-The ODAP SG will:
-
--   Support the development of a streamlined governance and data access structure for the ODAP platform
+The ODAP Partnership Steering Group will:
 
 -   Provide support to the data infrastructure development for the ODAP
 
@@ -80,19 +78,19 @@ The ODAPP Partnership Steering Group Chair(s) will:
 
 -   Makes the purpose of each meeting clear to members and explains the agenda at the beginning of each meeting
 
--   Clarifies and summarizes what is happening throughout each meeting.
+-   Clarify and summarise what is happening throughout each meeting.
 
 -   Keeps the meeting moving by putting time limits on each agenda items and ensuring meetings finish on time.
 
 -   Encourages broad participation from members in discussion by calling on different people.
 
--   Ends each meeting with a summary of decisions and assignments.
+-   End each meeting with a summary of decisions and assignments.
 
--   Follows up with consistently absent members to determine if they wish to discontinue membership.
+-   Follow up with consistently absent members to determine if they wish to discontinue membership.
 
--   Finds replacements for members who discontinue participation (with support from the ODAP Delivery Team).
+-   Find replacements for members who discontinue participation (with support from the ODAP Delivery Team).
 
--   Managed the voting process if the group does not reach a consensus
+-   Manage the voting process if the group does not reach a consensus
 
 -   Liaise with absent members via email to ensure group aware of decisions made.
 
@@ -104,13 +102,13 @@ The ODAPP Partnership Steering Group Chair(s) will:
 
 -   Actions and notes will be captured by the ODAP Delivery Team and shared within 5 days after the meeting.
 
--   Meeting minutes will be published on the ODAP website (once website is live)
+-   Meeting minutes will be published on the ODAP website
 
 -   Members may be contacted between meetings for advice and support for delivery.
 
--   Decisions will be made by consensus. Where this is not possible a vote will be taken with a majority win. In the event of a tie, the Chair(s) decides.
+-   Decisions will be made by consensus. Where this is not possible a vote will be taken with a majority win. In the event of a tie, the Chair will decide.
 
--   ODAP Delivery Team provide the secretariate for the ODAP Partnership Steering Group
+-   ODAP Delivery Team provide the secretariat for the ODAP Partnership Steering Group
 
 -   Chair's brief to be held 1 week before to discuss agenda and issues arising
 
@@ -120,9 +118,7 @@ The ODAP Partnertship Steering Group will be quorate to make decisions when 40% 
 
 ## Membership
 
-Members of the ODAP SG include representatives from the data contributors who share data with the Outbreak Data Analysis Platform, public health agencies from across the four nations, and other representatives who have supported ODAP's development, including funders.
-
-Decisions will be made by group consensus, but if no census is reached a vote will be taken by the Chair. The ODAP Partnership Steering Group will be quorate to make decisions when 40% of voting members are present. If 40% of voting members are not present, the Chair will gather a decision via email if a decision needs to be made quickly.
+Members of the ODAP Partnership Steering Group include representatives from the data contributors who share data with the Outbreak Data Analysis Platform, public health agencies from across the four nations, and other representatives who have supported ODAP's development, including funders.
 
 ## Voting members
 
@@ -131,7 +127,7 @@ Voting members will include data contributors, public health agencies and funder
   ---------------------------------------------------------------------------------------
   **Organisation**                                      **Nominated attendee(s)**
   ----------------------------------------------------- ---------------------------------
-  ODAP Principal Investigator/University of Edinburgh   Kenny Baillie
+  ODAP Chief Investigator/University of Edinburgh       Kenny Baillie
 
   Edinburgh Parallel Computing Centre                   Mark Parsons/Rob Baxter
 
@@ -139,7 +135,7 @@ Voting members will include data contributors, public health agencies and funder
 
   ICNARC                                                Kathy Rowan
 
-  ISARIC 4C                                             Calum Semple
+  ISARIC4C                                              Calum Semple
 
   GenOMICC                                              Clark Russel
 
@@ -167,11 +163,7 @@ Voting members will include data contributors, public health agencies and funder
 +-------------------------------------------------------------+---------------------------+
 | **Organisation**                                            | **Nominated attendee(s)** |
 +=============================================================+===========================+
-| Edinburgh Parallel Computing Centre/University of Edinburgh | Moni Choudhury            |
-|                                                             |                           |
-|                                                             | Wilna Oosthuyzen          |
-+-------------------------------------------------------------+---------------------------+
-| COVID-19 Genomics UK Consortium (COG-UK)                    | Ewan Harrison             |
+| University of Edinburgh                                     | ODAP secretariat          |
 +-------------------------------------------------------------+---------------------------+
 | ICNARC                                                      | David Harrison            |
 +-------------------------------------------------------------+---------------------------+
@@ -181,15 +173,13 @@ Voting members will include data contributors, public health agencies and funder
 +-------------------------------------------------------------+---------------------------+
 | Public Health Scotland                                      | Matt Holden               |
 +-------------------------------------------------------------+---------------------------+
-| Health Data Research UK                                     | Lara Edwards              |
-|                                                             |                           |
-|                                                             | Edel McNamara             |
-|                                                             |                           |
-|                                                             | Cassie Smith              |
-+-------------------------------------------------------------+---------------------------+
 | Office for National Statistics                              | Peter Stokes              |
 +-------------------------------------------------------------+---------------------------+
-| UK Longitudinal Linkage Collaboration                       | Andy Boyd/Robin Flaig     |
+| UK Longitudinal Linkage Collaboration                       | Andy Boyd                 |
 +-------------------------------------------------------------+---------------------------+
 | British Heart Foundation Data Science Centre                | Cathie Sudlow             |
 +-------------------------------------------------------------+---------------------------+
+
+
+
+

@@ -1,10 +1,15 @@
 ---
-title: Data Access Review Process v0.81
+title: Data Access Review Process v0.82
 ---
 
-# Introduction
+# Scope of Data Access Process
 
-In order to facilitate rapid data sharing during the immediate response to new threats, the ODAP has two sections: the under-embargo and no-embargo sections. This document refers only to sharing of data after the embargo has been lifted; before this, data access is controlled by the contributing organisation.
+In order to facilitate rapid data sharing during the immediate response to new threats, data from a range of contributors is linked within the ODAP. This data cannot be shared by the process described here unless two conditions are met:
+
+1. A legal agreement is in place allowing the ODAP to take on the role of data controller for the data, and
+2. The data contributor has explicitly lifted the embargo on the data.
+
+# Introduction
 
 The Outbreak Data Analysis Platform (ODAP) has committed to meet the '[Five Safes](https://blog.ons.gov.uk/2017/01/27/the-five-safes-data-privacy-at-ons/)' framework to foster responsible and trustworthy uses of data:
 
@@ -34,11 +39,11 @@ The review process must:
 
 -   Be proportionate
 
--   Meet the \'five safes\' framework and help build a trustworthy approach
+-   Meet the requirements of the \'five safes\' framework and help build a trustworthy approach
 
 -   Be light-touch and streamlined to allow access to be approved rapidly
 
--   Be scalable.
+-   Be scalable
 
 -   Where multiple datasets are involved, every effort must be made to avoid duplicating review processes
 
@@ -46,7 +51,7 @@ The review process must:
 
 ## Transparency reporting
 
-ODAP is committed to transparency across all its activities, and so will provide information about all research projects that have been approved to take place in the Platform. For projects that have been approved, we will publish the researcher's name, organisational affiliation, project title and lay project summary on the ODAP website: https://odap.ac.uk/. For projects that are not approved, we will record the reasons for rejection, using agreed categories.
+ODAP is committed to transparency across all its activities, and so will provide information about all research projects that have been approved to take place in the Platform. For projects that have been approved, we will publish the researcher's name, organisational affiliation, project title and lay project summary on the ODAP website: [odap.ac.uk](https://odap.ac.uk/). For projects that are not approved, we will record the reasons for rejection, using agreed categories.
 
 # ODAP Review processes
 
@@ -58,11 +63,10 @@ To apply for access, researchers will complete the [HDR UK "five safes" data acc
 
 In order to meet the 'safe people' and 'safe projects' requirements, approval will take the following steps:
 
-1. Data available to discover through HDR UK Gateway
-2. Researcher applies for access data
-3. Accreditation of researcher
-4. Review of research proposal
-5. Researcher approved to access data
+1. Researcher applies for access data
+2. Accreditation of researcher
+3. Review of research proposal
+4. Researcher approved to access data
 
 The on-boarding and availability of datasets within ODAP is a separate process. All data access projects must have the potential to have direct impact to address the approved research scope and provide patient benefit.
 
@@ -95,16 +99,6 @@ The ODAP data access team will undertake a light-touch check of researcher crede
 -   The researcher has a certificate demonstraing completion of the ONS training course in clinical data handling.
 
 If any of the requested fields have not been completed, or if further details are required, the data access team will contact the applicant for additional information. Once full details have been provided, the data access team will make an accreditation decision to the best of their judgement, but may also seek a second opinion from within the wider ODAP data team in the Lead Institute for complex cases.
-
-<!--
-No detail on the criteria projects will be reviewed under.
-No detail on how it will be determined a proposal has valid research purpose with defined public benefit.
-Mentions an independent external review however it is not clear to me who this is
-Mentions that UoE applications go to DAGC but does not detail the process.
-Reasons for rejection not fit for purpose.
-These should include some of the out-of-scope reasons that were discussed beforehand e.g. Research question is focused on
-a non-infectious disease area with incidental involvement of infectious disease or a pathogen with no potential public health concern
--->
 
 ### Decision and notification
 
@@ -183,7 +177,7 @@ Any amendments to approved applications will be reviewed by the Project Review P
 
 ### Appeals process
 
-Any appeals may be escalated to the DAGC.
+Any appeals may be escalated to the [Data Access Governance Committee (DAGC)](https://odap.ac.uk/manual/auto-generated/DAGC_ToR.pdf).
 
 
 

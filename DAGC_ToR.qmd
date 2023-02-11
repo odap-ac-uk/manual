@@ -92,13 +92,13 @@ Professor David Crossman University of St Andrews
 
 ## Data Contributors
 
--   ODAP Principal Investigator: Professor Kenny Baillie University of Edinburgh
--   COVID-19 Genomics UK Consortium (COG-UK): Professor Sharon Peacock University of Cambridge
--   ICNARC: Professor Kathy Rowan Intensive Care National Audit & Research Centre (ICNARC)
--   ISARIC4C: Professor Calum Semple University of Liverpool
--   GenOMICC: Dr Clark Russell University of Edinburgh
--   PHOSP-COVID: Professor Louise Wain University of Leicester
--   HEAL-COVID: Professor Charlotte Summers University of Cambridge
+-   ODAP Principal Investigator: Professor Kenny Baillie, University of Edinburgh
+-   COVID-19 Genomics UK Consortium (COG-UK): Professor Sharon Peacock, University of Cambridge
+-   ICNARC: Professor Kathy Rowan, Intensive Care National Audit & Research Centre (ICNARC)
+-   ISARIC4C: Professor Calum Semple, University of Liverpool
+-   GenOMICC: Dr Clark Russell, University of Edinburgh
+-   PHOSP-COVID: Professor Louise Wain, University of Leicester
+-   HEAL-COVID: Professor Charlotte Summers, University of Cambridge
 
 ## Public Health Agencies
 
@@ -126,3 +126,6 @@ Professor David Crossman University of St Andrews
 
 -   Lead Institute (University of Edinburgh) Rob Baxter
 -   Health Data Research UK Lara Edwards, Edel McNamara, Frances Burns
+
+
+

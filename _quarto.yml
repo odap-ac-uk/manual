@@ -11,9 +11,12 @@ format:
       \usepackage{sectsty}
     geometry: top=2.3cm, bottom=2.3cm, left=2.3cm, right=2.3cm
     template-partials:
+      - templates/toc.tex
       - templates/before-body.tex
     head:
       img: images/logo/odap-logo.png
+    titlegraphic: images/logo/odap-logo.png
+    logo: images/logo/odap-logo.png
   html:
     css: https://odap.ac.uk/style.css
 
