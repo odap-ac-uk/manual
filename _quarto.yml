@@ -14,8 +14,6 @@ format:
       - templates/before-body.tex
     head:
       img: images/logo/odap-logo.png
-  docx:
-    reference-doc: templates/odap-style.docx
   html:
     css: https://odap.ac.uk/style.css
 

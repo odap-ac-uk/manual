@@ -9,7 +9,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    height="127.58594"
    version="1.1"
-   width="752.58984"
+   width="750"
    id="svg100"
    sodipodi:docname="ukrihdr-uk-odap-data.svg">
   <metadata
@@ -38,7 +38,7 @@
   <defs
      id="defs20">
     <marker
-       id="id7"
+       id="id15"
        markerHeight="10"
        markerWidth="10"
        orient="auto"
@@ -50,7 +50,7 @@
          id="path2" />
     </marker>
     <marker
-       id="id8"
+       id="id16"
        markerHeight="10"
        markerWidth="10"
        orient="auto"
@@ -62,7 +62,7 @@
          id="path5" />
     </marker>
     <marker
-       id="id9"
+       id="id17"
        markerHeight="10"
        markerWidth="10"
        orient="auto"
@@ -74,7 +74,7 @@
          id="path8" />
     </marker>
     <marker
-       id="id10"
+       id="id18"
        markerHeight="10"
        markerWidth="10"
        orient="auto"
@@ -86,7 +86,7 @@
          id="path11" />
     </marker>
     <marker
-       id="id11"
+       id="id19"
        markerHeight="10"
        markerWidth="10"
        orient="auto"
@@ -98,7 +98,7 @@
          id="path14" />
     </marker>
     <marker
-       id="id12"
+       id="id20"
        markerHeight="10"
        markerWidth="10"
        orient="auto"
@@ -114,7 +114,7 @@
      fill="#cd3f85"
      fill-opacity="0.15"
      height="119"
-     width="316"
+     width="314"
      x="63"
      y="0"
      id="rect22" />
@@ -131,18 +131,18 @@
      stroke="#cd3f85"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="379"
-     x2="379"
+     x1="377"
+     x2="377"
      y1="0"
      y2="50"
      id="line26" />
   <line
-     marker-end="url(#id8)"
-     marker-start="url(#id7)"
+     marker-end="url(#id16)"
+     marker-start="url(#id15)"
      stroke="#cd3f85"
      stroke-width="0.75"
      x1="63"
-     x2="379"
+     x2="377"
      y1="10"
      y2="10"
      id="line28" />
@@ -152,23 +152,23 @@
      font-size="8px"
      stroke="none"
      text-anchor="middle"
-     x="221"
+     x="220"
      y="8.5"
      id="text30">UKRI funding</text>
   <rect
      fill="#b3e2c5"
      fill-opacity="0.15"
      height="119"
-     width="341"
-     x="380"
+     width="338"
+     x="378"
      y="0"
      id="rect32" />
   <line
      stroke="#b3e2c5"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="380"
-     x2="380"
+     x1="378"
+     x2="378"
      y1="0"
      y2="50"
      id="line34" />
@@ -176,18 +176,18 @@
      stroke="#b3e2c5"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="721"
-     x2="721"
+     x1="716"
+     x2="716"
      y1="0"
      y2="50"
      id="line36" />
   <line
-     marker-end="url(#id10)"
-     marker-start="url(#id9)"
+     marker-end="url(#id18)"
+     marker-start="url(#id17)"
      stroke="#b3e2c5"
      stroke-width="0.75"
-     x1="380"
-     x2="721"
+     x1="378"
+     x2="716"
      y1="10"
      y2="10"
      id="line38" />
@@ -197,7 +197,7 @@
      font-size="8px"
      stroke="none"
      text-anchor="middle"
-     x="550.5"
+     x="547"
      y="8.5"
      id="text40">NCS funding</text>
   <rect
@@ -205,15 +205,15 @@
      fill-opacity="0.15"
      height="119"
      width="0"
-     x="721"
+     x="716"
      y="0"
      id="rect42" />
   <line
      stroke="#bcd1e2"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="721"
-     x2="721"
+     x1="716"
+     x2="716"
      y1="0"
      y2="50"
      id="line44" />
@@ -221,18 +221,18 @@
      stroke="#bcd1e2"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="721"
-     x2="721"
+     x1="716"
+     x2="716"
      y1="0"
      y2="50"
      id="line46" />
   <line
-     marker-end="url(#id12)"
-     marker-start="url(#id11)"
+     marker-end="url(#id20)"
+     marker-start="url(#id19)"
      stroke="#bcd1e2"
      stroke-width="0.75"
-     x1="721"
-     x2="721"
+     x1="716"
+     x2="716"
      y1="10"
      y2="10"
      id="line48" />
@@ -242,7 +242,7 @@
      font-size="8px"
      stroke="none"
      text-anchor="middle"
-     x="721"
+     x="716"
      y="8.5"
      id="text50">BG-PSH funding</text>
   <g
@@ -329,7 +329,7 @@
        stroke-width="1"
        id="circle68" />
     <path
-       d="M 596,0 V -15 H 586"
+       d="M 592,0 V -15 H 582"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -340,7 +340,7 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="583"
+       x="579"
        y="-13.5"
        id="text72">ISARIC4C Tier 0 and COG-UK data linkage complete</text>
     <text
@@ -349,13 +349,13 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,596,0)"
+       transform="rotate(180,592,0)"
        writing-mode="tb-rl"
-       x="596"
+       x="592"
        y="-10"
        id="text74">September-2022</text>
     <circle
-       cx="596"
+       cx="592"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -363,7 +363,7 @@
        stroke-width="1"
        id="circle76" />
     <path
-       d="M 677,0 V -25 H 667"
+       d="M 673,0 V -25 H 663"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -374,7 +374,7 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="664"
+       x="660"
        y="-23.5"
        id="text80">ISARIC CCP Spine and COG-UK data linkage complete</text>
     <text
@@ -383,13 +383,13 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,677,0)"
+       transform="rotate(180,673,0)"
        writing-mode="tb-rl"
-       x="677"
+       x="673"
        y="-10"
        id="text82">January-2023</text>
     <circle
-       cx="677"
+       cx="673"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -413,9 +413,9 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,379,0)"
+       transform="rotate(180,377,0)"
        writing-mode="tb-rl"
-       x="379"
+       x="377"
        y="-10"
        id="text88">September-2021</text>
     <text
@@ -424,9 +424,9 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,380,0)"
+       transform="rotate(180,378,0)"
        writing-mode="tb-rl"
-       x="380"
+       x="378"
        y="-10"
        id="text90">September-2021</text>
     <text
@@ -435,9 +435,9 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,721,0)"
+       transform="rotate(180,716,0)"
        writing-mode="tb-rl"
-       x="721"
+       x="716"
        y="-10"
        id="text92">March-2023</text>
     <text
@@ -446,9 +446,9 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,721,0)"
+       transform="rotate(180,716,0)"
        writing-mode="tb-rl"
-       x="721"
+       x="716"
        y="-10"
        id="text94">March-2023</text>
     <text
@@ -457,9 +457,9 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,721,0)"
+       transform="rotate(180,716,0)"
        writing-mode="tb-rl"
-       x="721"
+       x="716"
        y="-10"
        id="text96">March-2023</text>
   </g>

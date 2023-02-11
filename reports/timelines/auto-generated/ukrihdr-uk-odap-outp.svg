@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   height="277.58594"
+   height="287.58594"
    version="1.1"
-   width="936.48828"
-   id="svg212"
+   width="934.89844"
+   id="svg220"
    sodipodi:docname="ukrihdr-uk-odap-outp.svg">
   <metadata
-     id="metadata216">
+     id="metadata224">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -34,11 +34,11 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview214" />
+     id="namedview222" />
   <defs
      id="defs20">
     <marker
-       id="id1"
+       id="id9"
        markerHeight="10"
        markerWidth="10"
        orient="auto"
@@ -50,7 +50,7 @@
          id="path2" />
     </marker>
     <marker
-       id="id2"
+       id="id10"
        markerHeight="10"
        markerWidth="10"
        orient="auto"
@@ -62,7 +62,7 @@
          id="path5" />
     </marker>
     <marker
-       id="id3"
+       id="id11"
        markerHeight="10"
        markerWidth="10"
        orient="auto"
@@ -74,7 +74,7 @@
          id="path8" />
     </marker>
     <marker
-       id="id4"
+       id="id12"
        markerHeight="10"
        markerWidth="10"
        orient="auto"
@@ -86,7 +86,7 @@
          id="path11" />
     </marker>
     <marker
-       id="id5"
+       id="id13"
        markerHeight="10"
        markerWidth="10"
        orient="auto"
@@ -98,7 +98,7 @@
          id="path14" />
     </marker>
     <marker
-       id="id6"
+       id="id14"
        markerHeight="10"
        markerWidth="10"
        orient="auto"
@@ -113,36 +113,36 @@
   <rect
      fill="#cd3f85"
      fill-opacity="0.15"
-     height="269"
-     width="316"
-     x="246.89844"
+     height="279"
+     width="314"
+     x="247.89844"
      y="0"
      id="rect22" />
   <line
      stroke="#cd3f85"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="246.89844"
-     x2="246.89844"
+     x1="247.89844"
+     x2="247.89844"
      y1="0"
-     y2="200"
+     y2="210"
      id="line24" />
   <line
      stroke="#cd3f85"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="562.89844"
-     x2="562.89844"
+     x1="561.89844"
+     x2="561.89844"
      y1="0"
-     y2="200"
+     y2="210"
      id="line26" />
   <line
-     marker-end="url(#id2)"
-     marker-start="url(#id1)"
+     marker-end="url(#id10)"
+     marker-start="url(#id9)"
      stroke="#cd3f85"
      stroke-width="0.75"
-     x1="246.89844"
-     x2="562.89844"
+     x1="247.89844"
+     x2="561.89844"
      y1="10"
      y2="10"
      id="line28" />
@@ -158,36 +158,36 @@
   <rect
      fill="#b3e2c5"
      fill-opacity="0.15"
-     height="269"
-     width="341"
-     x="563.89844"
+     height="279"
+     width="338"
+     x="562.89844"
      y="0"
      id="rect32" />
   <line
      stroke="#b3e2c5"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="563.89844"
-     x2="563.89844"
+     x1="562.89844"
+     x2="562.89844"
      y1="0"
-     y2="200"
+     y2="210"
      id="line34" />
   <line
      stroke="#b3e2c5"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="904.89844"
-     x2="904.89844"
+     x1="900.89844"
+     x2="900.89844"
      y1="0"
-     y2="200"
+     y2="210"
      id="line36" />
   <line
-     marker-end="url(#id4)"
-     marker-start="url(#id3)"
+     marker-end="url(#id12)"
+     marker-start="url(#id11)"
      stroke="#b3e2c5"
      stroke-width="0.75"
-     x1="563.89844"
-     x2="904.89844"
+     x1="562.89844"
+     x2="900.89844"
      y1="10"
      y2="10"
      id="line38" />
@@ -197,42 +197,42 @@
      font-size="8px"
      stroke="none"
      text-anchor="middle"
-     x="734.39844"
+     x="731.89844"
      y="8.5"
      id="text40">NCS funding</text>
   <rect
      fill="#bcd1e2"
      fill-opacity="0.15"
-     height="269"
+     height="279"
      width="0"
-     x="904.89844"
+     x="900.89844"
      y="0"
      id="rect42" />
   <line
      stroke="#bcd1e2"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="904.89844"
-     x2="904.89844"
+     x1="900.89844"
+     x2="900.89844"
      y1="0"
-     y2="200"
+     y2="210"
      id="line44" />
   <line
      stroke="#bcd1e2"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="904.89844"
-     x2="904.89844"
+     x1="900.89844"
+     x2="900.89844"
      y1="0"
-     y2="200"
+     y2="210"
      id="line46" />
   <line
-     marker-end="url(#id6)"
-     marker-start="url(#id5)"
+     marker-end="url(#id14)"
+     marker-start="url(#id13)"
      stroke="#bcd1e2"
      stroke-width="0.75"
-     x1="904.89844"
-     x2="904.89844"
+     x1="900.89844"
+     x2="900.89844"
      y1="10"
      y2="10"
      id="line48" />
@@ -242,12 +242,12 @@
      font-size="8px"
      stroke="none"
      text-anchor="middle"
-     x="904.89844"
+     x="900.89844"
      y="8.5"
      id="text50">BG-PSH funding</text>
   <g
-     transform="translate(183.89844,200)"
-     id="g210">
+     transform="translate(184.89844,210)"
+     id="g218">
     <line
        stroke="#000000"
        stroke-width="3"
@@ -397,7 +397,7 @@
        stroke-width="1"
        id="circle84" />
     <path
-       d="M 145,0 V -45 H 135"
+       d="M 144,0 V -45 H 134"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -408,7 +408,7 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="132"
+       x="131"
        y="-43.5"
        id="text88">Using imaging in COVID-19 -- UK National COVID-19 Chest Imaging Database</text>
     <text
@@ -417,13 +417,13 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,145,0)"
+       transform="rotate(180,144,0)"
        writing-mode="tb-rl"
-       x="145"
+       x="144"
        y="-10"
        id="text90">August-2020</text>
     <circle
-       cx="145"
+       cx="144"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -431,7 +431,7 @@
        stroke-width="1"
        id="circle92" />
     <path
-       d="M 145,0 V -55 H 135"
+       d="M 144,0 V -55 H 134"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -442,7 +442,7 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="132"
+       x="131"
        y="-53.5"
        id="text96">Clinical characterisation of Covid-19 in children</text>
     <text
@@ -451,13 +451,13 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,145,0)"
+       transform="rotate(180,144,0)"
        writing-mode="tb-rl"
-       x="145"
+       x="144"
        y="-10"
        id="text98">August-2020</text>
     <circle
-       cx="145"
+       cx="144"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -465,7 +465,7 @@
        stroke-width="1"
        id="circle100" />
     <path
-       d="M 163,0 V -65 H 153"
+       d="M 162,0 V -65 H 152"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -476,7 +476,7 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="150"
+       x="149"
        y="-63.5"
        id="text104">Risk prediction: the 4C Mortality Score</text>
     <text
@@ -485,13 +485,13 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,163,0)"
+       transform="rotate(180,162,0)"
        writing-mode="tb-rl"
-       x="163"
+       x="162"
        y="-10"
        id="text106">September-2020</text>
     <circle
-       cx="163"
+       cx="162"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -499,7 +499,7 @@
        stroke-width="1"
        id="circle108" />
     <path
-       d="M 217,0 V -75 H 207"
+       d="M 216,0 V -75 H 206"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -510,7 +510,7 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="204"
+       x="203"
        y="-73.5"
        id="text112">Outcomes of hospitalised COVID-19 patients with interstitial lung disease</text>
     <text
@@ -519,13 +519,13 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,217,0)"
+       transform="rotate(180,216,0)"
        writing-mode="tb-rl"
-       x="217"
+       x="216"
        y="-10"
        id="text114">December-2020</text>
     <circle
-       cx="217"
+       cx="216"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -533,7 +533,7 @@
        stroke-width="1"
        id="circle116" />
     <path
-       d="M 270,0 V -85 H 260"
+       d="M 269,0 V -85 H 259"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -544,7 +544,7 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="257"
+       x="256"
        y="-83.5"
        id="text120">Role of blood cytokines IL-6 and GM-CSF in severe COVID-19</text>
     <text
@@ -553,13 +553,13 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,270,0)"
+       transform="rotate(180,269,0)"
        writing-mode="tb-rl"
-       x="270"
+       x="269"
        y="-10"
        id="text122">March-2021</text>
     <circle
-       cx="270"
+       cx="269"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -567,7 +567,7 @@
        stroke-width="1"
        id="circle124" />
     <path
-       d="M 270,0 V -95 H 260"
+       d="M 269,0 V -95 H 259"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -578,7 +578,7 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="257"
+       x="256"
        y="-93.5"
        id="text128">Genetic mechanisms of severe Covid-19</text>
     <text
@@ -587,13 +587,13 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,270,0)"
+       transform="rotate(180,269,0)"
        writing-mode="tb-rl"
-       x="270"
+       x="269"
        y="-10"
        id="text130">March-2021</text>
     <circle
-       cx="270"
+       cx="269"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -601,7 +601,7 @@
        stroke-width="1"
        id="circle132" />
     <path
-       d="M 343,0 V -105 H 333"
+       d="M 287,0 V -105 H 277"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -612,22 +612,22 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="330"
+       x="274"
        y="-103.5"
-       id="text136">Characterisation of in-hospital complications associated with COVID-19</text>
+       id="text136">Modelling the association of tiered restrictions with COVID-19 deaths and hospital admissions</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,343,0)"
+       transform="rotate(180,287,0)"
        writing-mode="tb-rl"
-       x="343"
+       x="287"
        y="-10"
-       id="text138">July-2021</text>
+       id="text138">April-2021</text>
     <circle
-       cx="343"
+       cx="287"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -635,7 +635,7 @@
        stroke-width="1"
        id="circle140" />
     <path
-       d="M 379,0 V -115 H 369"
+       d="M 341,0 V -115 H 331"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -646,22 +646,22 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="366"
+       x="328"
        y="-113.5"
-       id="text144">Circulating histones play a central role in COVID-19-associated coagulopathy and mortality</text>
+       id="text144">Characterisation of in-hospital complications associated with COVID-19</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,379,0)"
+       transform="rotate(180,341,0)"
        writing-mode="tb-rl"
-       x="379"
+       x="341"
        y="-10"
-       id="text146">September-2021</text>
+       id="text146">July-2021</text>
     <circle
-       cx="379"
+       cx="341"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -669,7 +669,7 @@
        stroke-width="1"
        id="circle148" />
     <path
-       d="M 397,0 V -125 H 387"
+       d="M 377,0 V -125 H 367"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -680,22 +680,22 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="384"
+       x="364"
        y="-123.5"
-       id="text152">Tissue proteomic analysis identifies mechanisms and stages of immunopathology in fatal COVID-19</text>
+       id="text152">Circulating histones play a central role in COVID-19-associated coagulopathy and mortality</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,397,0)"
+       transform="rotate(180,377,0)"
        writing-mode="tb-rl"
-       x="397"
+       x="377"
        y="-10"
-       id="text154">October-2021</text>
+       id="text154">September-2021</text>
     <circle
-       cx="397"
+       cx="377"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -703,7 +703,7 @@
        stroke-width="1"
        id="circle156" />
     <path
-       d="M 505,0 V -135 H 495"
+       d="M 395,0 V -135 H 385"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -714,22 +714,22 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="492"
+       x="382"
        y="-133.5"
-       id="text160">Co-Infection with influenza virus is associated with worse outcomes in hospitalised Covid patients</text>
+       id="text160">Tissue proteomic analysis identifies mechanisms and stages of immunopathology in fatal COVID-19</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,505,0)"
+       transform="rotate(180,395,0)"
        writing-mode="tb-rl"
-       x="505"
+       x="395"
        y="-10"
-       id="text162">April-2022</text>
+       id="text162">October-2021</text>
     <circle
-       cx="505"
+       cx="395"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -737,7 +737,7 @@
        stroke-width="1"
        id="circle164" />
     <path
-       d="M 541,0 V -145 H 531"
+       d="M 502,0 V -145 H 492"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -748,22 +748,22 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="528"
+       x="489"
        y="-143.5"
-       id="text168">Hospital acquired COVID-19 in England during the first wave of the pandemic</text>
+       id="text168">Co-Infection with influenza virus is associated with worse outcomes in hospitalised Covid patients</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,541,0)"
+       transform="rotate(180,502,0)"
        writing-mode="tb-rl"
-       x="541"
+       x="502"
        y="-10"
-       id="text170">June-2022</text>
+       id="text170">April-2022</text>
     <circle
-       cx="541"
+       cx="502"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -771,7 +771,7 @@
        stroke-width="1"
        id="circle172" />
     <path
-       d="M 559,0 V -155 H 549"
+       d="M 538,0 V -155 H 528"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -782,22 +782,22 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="546"
+       x="525"
        y="-153.5"
-       id="text176">Understanding the Omicron variant and how it responds to vaccination</text>
+       id="text176">Hospital acquired COVID-19 in England during the first wave of the pandemic</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,559,0)"
+       transform="rotate(180,538,0)"
        writing-mode="tb-rl"
-       x="559"
+       x="538"
        y="-10"
-       id="text178">July-2022</text>
+       id="text178">June-2022</text>
     <circle
-       cx="559"
+       cx="538"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -805,7 +805,7 @@
        stroke-width="1"
        id="circle180" />
     <path
-       d="M 668,0 V -165 H 658"
+       d="M 555,0 V -165 H 545"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -816,22 +816,22 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="655"
+       x="542"
        y="-163.5"
-       id="text184">UK Paediatric COVID-19 cases in the first and second pandemic wave</text>
+       id="text184">Understanding the Omicron variant and how it responds to vaccination</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,668,0)"
+       transform="rotate(180,555,0)"
        writing-mode="tb-rl"
-       x="668"
+       x="555"
        y="-10"
-       id="text186">January-2023</text>
+       id="text186">July-2022</text>
     <circle
-       cx="668"
+       cx="555"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -839,7 +839,7 @@
        stroke-width="1"
        id="circle188" />
     <path
-       d="M 668,0 V -175 H 658"
+       d="M 663,0 V -175 H 653"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -850,28 +850,62 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="655"
+       x="650"
        y="-173.5"
-       id="text192">Treating COVID-19 patients with dexamethasone and remdesivir prevents neurological complications</text>
+       id="text192">UK Paediatric COVID-19 cases in the first and second pandemic wave</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,668,0)"
+       transform="rotate(180,663,0)"
        writing-mode="tb-rl"
-       x="668"
+       x="663"
        y="-10"
        id="text194">January-2023</text>
     <circle
-       cx="668"
+       cx="663"
        cy="0"
        fill="#ffffff"
        r="4"
        stroke="#000000"
        stroke-width="1"
        id="circle196" />
+    <path
+       d="M 663,0 V -185 H 653"
+       fill="none"
+       stroke="#000000"
+       stroke-width="1"
+       id="path198" />
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       x="650"
+       y="-183.5"
+       id="text200">Treating COVID-19 patients with dexamethasone and remdesivir prevents neurological complications</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,663,0)"
+       writing-mode="tb-rl"
+       x="663"
+       y="-10"
+       id="text202">January-2023</text>
+    <circle
+       cx="663"
+       cy="0"
+       fill="#ffffff"
+       r="4"
+       stroke="#000000"
+       stroke-width="1"
+       id="circle204" />
     <text
        fill="#000000"
        font-family="Helevetica"
@@ -882,61 +916,61 @@
        writing-mode="tb-rl"
        x="63"
        y="-10"
-       id="text198">March-2020</text>
+       id="text206">March-2020</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,379,0)"
+       transform="rotate(180,377,0)"
        writing-mode="tb-rl"
-       x="379"
+       x="377"
        y="-10"
-       id="text200">September-2021</text>
+       id="text208">September-2021</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,380,0)"
+       transform="rotate(180,378,0)"
        writing-mode="tb-rl"
-       x="380"
+       x="378"
        y="-10"
-       id="text202">September-2021</text>
+       id="text210">September-2021</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,721,0)"
+       transform="rotate(180,716,0)"
        writing-mode="tb-rl"
-       x="721"
+       x="716"
        y="-10"
-       id="text204">March-2023</text>
+       id="text212">March-2023</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,721,0)"
+       transform="rotate(180,716,0)"
        writing-mode="tb-rl"
-       x="721"
+       x="716"
        y="-10"
-       id="text206">March-2023</text>
+       id="text214">March-2023</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,721,0)"
+       transform="rotate(180,716,0)"
        writing-mode="tb-rl"
-       x="721"
+       x="716"
        y="-10"
-       id="text208">March-2023</text>
+       id="text216">March-2023</text>
   </g>
 </svg>

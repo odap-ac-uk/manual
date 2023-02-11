@@ -1,3 +1,43 @@
+
+# Meetings {background:#2971B0, start:2020-03-15}
+
+## RDLIG (Chair: K Baillie) {start:2021-05-01, end:2022-01-01, color:#CD3F85}
+
+## ODAP Partnership (Chair: S Peacock, K Rowan) {start:2021-05-01, end:2023-03-01, color:#CD3F85}
+
+- NCS ODAP Partnership Steering Group meeting [March 2021]
+- RDLIG meeting to promote data ingress [Oct 2021]
+- RDLIG meeting to promote data ingress [Aug 2021]
+- RDLIG meeting to promote data ingress [Nov 2021]
+- first meeting of Data Access Governance Committee (tasks: complete documentation and PPIE) [Oct 2022]
+
+# Data ingress {background:#2971B0, start:2020-03-15}
+
+- ISARIC4C [2020-01-01]
+- GenOMICC [2021-03-01]
+- RECOVERY Trial [2022-01-01]
+- HEAL-Covid Trial [2022-01-01]
+- PHOSP [2021-03-01]
+- NHS Digital (ISARIC4C Tier 0) [2022-01-01]
+- NHS Digital (PHOSP) [2022-02-22]
+- NHS Digital (COG-UK) [2022-03-15]
+- COG-UK viral sequences (ISARIC4C Tier 0 only) [2022-01-01]
+- COG-UK viral sequences (All) [2023-01-12]
+
+# Staffing {background:#2971B0, start:2020-03-15}
+
+## UKRI funding {start:2020-03-15, end:2021-09-01, color:#CD3F85}
+
+## NCS funding {start:2021-09-02, end:2023-03-31, color:#b3e2c5}
+
+## BG-PSH funding {start:2023-03-31, end:2023-03-31, color:#bcd1e2}
+
+- Ewan Harrison appointed as ODAP Director [Sept 2021]
+- Ewan Harrison steps down as ODAP Director [June 2022]
+- Attempt to supply project management from HDR UK (unsuccessful) [Sept 2022]
+- Attempt to supply project management from HDR UK (unsuccessful) [Nov 2022]
+
+
 # UKRI/HDR UK ODAP Outputs {background:#2971B0, start:2020-03-15}
 
 ## UKRI funding {start:2020-03-15, end:2021-09-01, color:#CD3F85}

@@ -10,4 +10,4 @@ python timeline.py -f isaric4c_list.md
 
 Use this command to convert to new pdfs. Better for including in quarto documents.
 
-inkscape --export-type pdf *.svg 
+inkscape --export-type pdf auto-generated/*.svg 
