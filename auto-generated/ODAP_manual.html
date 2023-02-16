@@ -33,6 +33,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="ODAP_manual_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="ODAP_manual_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="ODAP_manual_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="ODAP_manual_files/libs/quarto-diagram/mermaid.min.js"></script>
+<script src="ODAP_manual_files/libs/quarto-diagram/mermaid-init.js"></script>
+<link href="ODAP_manual_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="https://odap.ac.uk/style.css">
@@ -224,12 +227,13 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="data-ingress" class="level2" data-number="2.7">
 <h2 data-number="2.7" class="anchored" data-anchor-id="data-ingress"><span class="header-section-number">2.7</span> Data ingress</h2>
-<p>Data are linked into the ISARIC Spine using the patient’s NHS numbers by PHS before transfer to the FCS as shown in <strong>?@fig-flow</strong>.</p>
-<pre class="mermaid"><code>%%| fig-width: 9
-%%| label: fig-flow
-%%| fig-cap: "Simplified flowchart showing data linkage procedures."
-
-graph LR
+<p>Data are linked into the ISARIC Spine using the patient’s NHS numbers by PHS before transfer to the FCS as shown in <a href="#fig-flow">Figure&nbsp;2</a>.</p>
+<div class="cell" data-fig-width="9">
+<div class="cell-output-display">
+<div id="fig-flow" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p>
+</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-1">graph LR
 
 subgraph ODAP
   subgraph ISARIC SPINE LINKAGE
@@ -253,6 +257,12 @@ subgraph ODAP
   subgraph PHS data linkage team
     NHS_IDS[\Master link&lt;br&gt;to NHS numbers/] --&gt;|PHS team only| ISARIC3((ISARIC Spine&lt;br&gt;ID allocation))
   end
+  subgraph Legend
+        Dataset-no-embargo[Open dataset - &lt;br&gt;no embargo]:::no-embargo
+        Dataset-embargo[Dataset in ODAP]:::embargo
+        Dataset-planned[Dataset ingress planned]:::planned
+        Process[Processing steps] 
+  end
 end
 
 Derived ---&gt;|API|PHA([Public&lt;br&gt;Health&lt;br&gt;Agencies])
@@ -261,19 +271,23 @@ Derived ---&gt;|API|TRE([External&lt;br&gt;TREs])
 New(New Dataset) --&gt; ISARIC3
 
 
-subgraph Legend
-    Dataset-no-embargo[Open dataset - &lt;br&gt;no embargo]:::no-embargo
-    Dataset-embargo[Dataset in ODAP]:::embargo
-    Dataset-planned[Dataset ingress planned]:::planned
-    Process[Processing steps] 
-end
 
     classDef default fill:#bec3e8,stroke:#333,stroke-width:1px,text-align:center;
     classDef no-embargo fill:#00ff9d,stroke:#333,stroke-width:1px,font-weight:bold,text-align:center;
     classDef embargo fill:#ff9b9b,stroke:#333,stroke-width:1px,font-weight:bold,text-align:center;
     classDef planned fill:#f4ebeb,stroke:#333,stroke-width:1px,font-weight:normal,text-align:center;
     class reduce,change choices
-</code></pre>
+
+</pre>
+<div id="mermaid-tooltip-1" class="mermaidTooltip">
+
+</div>
+<p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;2: Simplified flowchart showing data linkage procedures.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="api" class="level2" data-number="2.8">
 <h2 data-number="2.8" class="anchored" data-anchor-id="api"><span class="header-section-number">2.8</span> API</h2>
