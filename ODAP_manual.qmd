@@ -182,6 +182,10 @@ Applications and approved users are found here: https://uoe.sharepoint.com/:x:/r
 
 Dataset lists and embargo status is recorded here: XXX
 
+Legal agreements are recorded here:
+https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/_layouts/15/Doc.aspx?sourcedoc=%7BBDC6F872-D6E1-477E-B51D-B7971F9E352E%7D&file=Current_Agreements_ERO_Contracts.xlsx&action=default&mobileredirect=true
+
+
 -->
 
 # OPAP Open
