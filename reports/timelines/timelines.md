@@ -23,6 +23,7 @@
 - NHS Digital (COG-UK) [2022-03-15]
 - COG-UK viral sequences (ISARIC4C Tier 0 only) [2022-01-01]
 - COG-UK viral sequences (All) [2023-01-12]
+- COPI regulation 3 approved [2023-02-15]
 
 # Staffing {background:#2971B0, start:2020-03-15}
 

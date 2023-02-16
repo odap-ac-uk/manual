@@ -33,9 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="ODAP_manual_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="ODAP_manual_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="ODAP_manual_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="ODAP_manual_files/libs/quarto-diagram/mermaid.min.js"></script>
-<script src="ODAP_manual_files/libs/quarto-diagram/mermaid-init.js"></script>
-<link href="ODAP_manual_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="https://odap.ac.uk/style.css">
@@ -227,45 +224,56 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="data-ingress" class="level2" data-number="2.7">
 <h2 data-number="2.7" class="anchored" data-anchor-id="data-ingress"><span class="header-section-number">2.7</span> Data ingress</h2>
-<p>Data are linked into the ISARIC Spine using the patient’s NHS numbers by PHS before transfer to the FCS as shown in <a href="#fig-flow">Figure&nbsp;2</a>.</p>
-<div class="cell" data-fig-width="9">
-<div class="cell-output-display">
-<div id="fig-flow" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p>
-</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-1">graph LR
+<p>Data are linked into the ISARIC Spine using the patient’s NHS numbers by PHS before transfer to the FCS as shown in <strong>?@fig-flow</strong>.</p>
+<pre class="mermaid"><code>%%| fig-width: 9
+%%| label: fig-flow
+%%| fig-cap: "Simplified flowchart showing data linkage procedures."
 
-New(New Dataset) --&gt; ISARIC3
+graph LR
 
 subgraph ODAP
-  subgraph Flexible Compute Space
-    ISARIC4C[ISARIC Spine] --- NHS[NHS England]  
-    ISARIC4C --- GenOMICC  
-    ISARIC4C --- PHOSP     
-    ISARIC4C --- COG-UKs  
-    ISARIC4C --- SICSAG  
+  subgraph ISARIC SPINE LINKAGE
+    Spine --- I4CT0[ISARIC4C&lt;br&gt;Tier Zero]:::no-embargo
+    Spine --- I4CT12[ISARIC4C&lt;br&gt;Biological]:::no-embargo
+    Spine[ISARIC Spine] --- GenOMICC:::no-embargo
+    Spine --- COG-UK:::embargo
+    Spine --- PHOSP:::embargo
+    Spine --- SICSAG:::embargo
+    Spine --- NHSE[NHS England]:::embargo  
+    Spine --- NHSS[NHS Scotland]:::embargo
+    Spine --- Pillar1:::embargo
+    Spine --- Pillar2:::embargo
+    Spine --- NIMS:::embargo
+    Spine --- ICNARC:::planned
+
     Derived[Derived&lt;br&gt;variables]
   end
-  ISARIC3 ==&gt; to_fcs[(IDs allocated&lt;br&gt;Transfer to FCS)]
-  to_fcs ==&gt; ISARIC4C
-  subgraph Safe Haven
+  ISARIC3 ==&gt; to_fcs[(Transfer to FCS)]
+  to_fcs ==&gt; Spine
+  subgraph PHS data linkage team
     NHS_IDS[\Master link&lt;br&gt;to NHS numbers/] --&gt;|PHS team only| ISARIC3((ISARIC Spine&lt;br&gt;ID allocation))
-    RECOVERY --&gt; ISARIC2[ISARIC-CCP&lt;br&gt;extract]
   end
 end
 
 Derived ---&gt;|API|PHA([Public&lt;br&gt;Health&lt;br&gt;Agencies])
 Derived ---&gt;|API|TRE([External&lt;br&gt;TREs])
-</pre>
-<div id="mermaid-tooltip-1" class="mermaidTooltip">
 
-</div>
-<p></p>
-<p></p><figcaption class="figure-caption">Figure&nbsp;2: Simplified flowchart showing data linkage procedures.</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
+New(New Dataset) --&gt; ISARIC3
+
+
+subgraph Legend
+    Dataset-no-embargo[Open dataset - &lt;br&gt;no embargo]:::no-embargo
+    Dataset-embargo[Dataset in ODAP]:::embargo
+    Dataset-planned[Dataset ingress planned]:::planned
+    Process[Processing steps] 
+end
+
+    classDef default fill:#bec3e8,stroke:#333,stroke-width:1px,text-align:center;
+    classDef no-embargo fill:#00ff9d,stroke:#333,stroke-width:1px,font-weight:bold,text-align:center;
+    classDef embargo fill:#ff9b9b,stroke:#333,stroke-width:1px,font-weight:bold,text-align:center;
+    classDef planned fill:#f4ebeb,stroke:#333,stroke-width:1px,font-weight:normal,text-align:center;
+    class reduce,change choices
+</code></pre>
 </section>
 <section id="api" class="level2" data-number="2.8">
 <h2 data-number="2.8" class="anchored" data-anchor-id="api"><span class="header-section-number">2.8</span> API</h2>
@@ -292,12 +300,16 @@ Applications and approved users are found here: https://uoe.sharepoint.com/:x:/r
 
 Dataset lists and embargo status is recorded here: XXX
 
+Legal agreements are recorded here:
+https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/_layouts/15/Doc.aspx?sourcedoc=%7BBDC6F872-D6E1-477E-B51D-B7971F9E352E%7D&file=Current_Agreements_ERO_Contracts.xlsx&action=default&mobileredirect=true
+
+
 -->
 </section>
 </section>
 <section id="opap-open" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> OPAP Open</h1>
-<p>Once the embargo is lifted by a data contributor, data provision will be <em>FAIR</em> (Findable, Accessible, Interoperable, Reusable) and access will adhere to the <em>five safes</em> principles:</p>
+<p>Once the embargo is lifted by a data contributor, or (in the case of public data) delegated access is approved by the data controller, data provision will be <em>FAIR</em> (Findable, Accessible, Interoperable, Reusable) and access will adhere to the <em>five safes</em> principles:</p>
 <ul>
 <li>Safe data: data is treated to protect any confidentiality concerns.</li>
 <li>Safe projects: research projects are approved by data owners for the public good.</li>

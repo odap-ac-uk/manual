@@ -115,36 +115,57 @@ Some data remains within the PHS National Safe Haven but will transfer to the FC
 Data are linked into the ISARIC Spine using the patient's NHS numbers by PHS before transfer to the FCS as shown in @fig-flow. 
 
 
-```{mermaid}
+```mermaid
 %%| fig-width: 9
 %%| label: fig-flow
 %%| fig-cap: "Simplified flowchart showing data linkage procedures."
 
 graph LR
 
-New(New Dataset) --> ISARIC3
-
 subgraph ODAP
-  subgraph Flexible Compute Space
-    ISARIC4C[ISARIC Spine] --- NHS[NHS England]  
-    ISARIC4C --- GenOMICC  
-    ISARIC4C --- PHOSP     
-    ISARIC4C --- COG-UKs  
-    ISARIC4C --- SICSAG  
+  subgraph ISARIC SPINE LINKAGE
+    Spine --- I4CT0[ISARIC4C<br>Tier Zero]:::no-embargo
+    Spine --- I4CT12[ISARIC4C<br>Biological]:::no-embargo
+    Spine[ISARIC Spine] --- GenOMICC:::no-embargo
+    Spine --- COG-UK:::embargo
+    Spine --- PHOSP:::embargo
+    Spine --- SICSAG:::embargo
+    Spine --- NHSE[NHS England]:::embargo  
+    Spine --- NHSS[NHS Scotland]:::embargo
+    Spine --- Pillar1:::embargo
+    Spine --- Pillar2:::embargo
+    Spine --- NIMS:::embargo
+    Spine --- ICNARC:::planned
+
     Derived[Derived<br>variables]
   end
-  ISARIC3 ==> to_fcs[(IDs allocated<br>Transfer to FCS)]
-  to_fcs ==> ISARIC4C
-  subgraph Safe Haven
+  ISARIC3 ==> to_fcs[(Transfer to FCS)]
+  to_fcs ==> Spine
+  subgraph PHS data linkage team
     NHS_IDS[\Master link<br>to NHS numbers/] -->|PHS team only| ISARIC3((ISARIC Spine<br>ID allocation))
-    RECOVERY --> ISARIC2[ISARIC-CCP<br>extract]
   end
 end
 
 Derived --->|API|PHA([Public<br>Health<br>Agencies])
 Derived --->|API|TRE([External<br>TREs])
-```
 
+New(New Dataset) --> ISARIC3
+
+
+subgraph Legend
+    Dataset-no-embargo[Open dataset - <br>no embargo]:::no-embargo
+    Dataset-embargo[Dataset in ODAP]:::embargo
+    Dataset-planned[Dataset ingress planned]:::planned
+    Process[Processing steps] 
+end
+
+    classDef default fill:#bec3e8,stroke:#333,stroke-width:1px,text-align:center;
+    classDef no-embargo fill:#00ff9d,stroke:#333,stroke-width:1px,font-weight:bold,text-align:center;
+    classDef embargo fill:#ff9b9b,stroke:#333,stroke-width:1px,font-weight:bold,text-align:center;
+    classDef planned fill:#f4ebeb,stroke:#333,stroke-width:1px,font-weight:normal,text-align:center;
+    class reduce,change choices
+
+```
 
 ## API
 
@@ -190,7 +211,7 @@ https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/_layouts/15/Doc.aspx?sourcedoc=%
 
 # OPAP Open
 
-Once the embargo is lifted by a data contributor, data provision will be *FAIR* (Findable, Accessible, Interoperable, Reusable) and access will adhere to the *five safes* principles:
+Once the embargo is lifted by a data contributor, or (in the case of public data) delegated access is approved by the data controller, data provision will be *FAIR* (Findable, Accessible, Interoperable, Reusable) and access will adhere to the *five safes* principles:
 
 - Safe data: data is treated to protect any confidentiality concerns.
 - Safe projects: research projects are approved by data owners for the public good.
