@@ -33,9 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="ODAP_manual_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="ODAP_manual_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="ODAP_manual_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="ODAP_manual_files/libs/quarto-diagram/mermaid.min.js"></script>
-<script src="ODAP_manual_files/libs/quarto-diagram/mermaid-init.js"></script>
-<link href="ODAP_manual_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="https://odap.ac.uk/style.css">
@@ -72,10 +69,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#flexible-compute-space" id="toc-flexible-compute-space" class="nav-link" data-scroll-target="#flexible-compute-space"><span class="toc-section-number">2.6.1</span>  Flexible Compute Space</a></li>
   <li><a href="#phs-national-safe-haven" id="toc-phs-national-safe-haven" class="nav-link" data-scroll-target="#phs-national-safe-haven"><span class="toc-section-number">2.6.2</span>  PHS National Safe Haven</a></li>
   </ul></li>
-  <li><a href="#data-ingress" id="toc-data-ingress" class="nav-link" data-scroll-target="#data-ingress"><span class="toc-section-number">2.7</span>  Data ingress</a></li>
-  <li><a href="#api" id="toc-api" class="nav-link" data-scroll-target="#api"><span class="toc-section-number">2.8</span>  API</a></li>
-  <li><a href="#data-contributors" id="toc-data-contributors" class="nav-link" data-scroll-target="#data-contributors"><span class="toc-section-number">2.9</span>  Data Contributors</a></li>
-  <li><a href="#dataset-catalogue" id="toc-dataset-catalogue" class="nav-link" data-scroll-target="#dataset-catalogue"><span class="toc-section-number">2.10</span>  Dataset catalogue</a></li>
+  <li><a href="#legal-architecture" id="toc-legal-architecture" class="nav-link" data-scroll-target="#legal-architecture"><span class="toc-section-number">2.7</span>  Legal architecture</a></li>
+  <li><a href="#data-ingress" id="toc-data-ingress" class="nav-link" data-scroll-target="#data-ingress"><span class="toc-section-number">2.8</span>  Data ingress</a></li>
+  <li><a href="#api" id="toc-api" class="nav-link" data-scroll-target="#api"><span class="toc-section-number">2.9</span>  API</a></li>
+  <li><a href="#data-contributors" id="toc-data-contributors" class="nav-link" data-scroll-target="#data-contributors"><span class="toc-section-number">2.10</span>  Data Contributors</a></li>
+  <li><a href="#dataset-catalogue" id="toc-dataset-catalogue" class="nav-link" data-scroll-target="#dataset-catalogue"><span class="toc-section-number">2.11</span>  Dataset catalogue</a></li>
   </ul></li>
   <li><a href="#opap-open" id="toc-opap-open" class="nav-link" data-scroll-target="#opap-open"><span class="toc-section-number">3</span>  OPAP Open</a></li>
   </ul>
@@ -225,80 +223,24 @@ ul.task-list li input[type="checkbox"] {
 <p>Some data remains within the PHS National Safe Haven but will transfer to the FCS on completion of the Systems Security Policy.</p>
 </section>
 </section>
-<section id="data-ingress" class="level2" data-number="2.7">
-<h2 data-number="2.7" class="anchored" data-anchor-id="data-ingress"><span class="header-section-number">2.7</span> Data ingress</h2>
-<p>Data are linked into the ISARIC Spine using the patient’s NHS numbers by PHS before transfer to the FCS as shown in <a href="#fig-flow">Figure&nbsp;2</a>.</p>
-<div class="cell" data-fig-width="9">
-<div class="cell-output-display">
-<div id="fig-flow" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p>
-</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-1">graph LR
-
-subgraph ODAP
-  subgraph ISARIC SPINE LINKAGE
-    Spine --- I4CT0[ISARIC4C&lt;br&gt;Tier Zero]:::no-embargo
-    Spine --- I4CT12[ISARIC4C&lt;br&gt;Biological]:::no-embargo
-    Spine[ISARIC Spine] --- GenOMICC:::no-embargo
-    Spine --- COG-UK:::embargo
-    Spine --- PHOSP:::embargo
-    Spine --- SICSAG:::embargo
-    Spine --- NHSE[NHS England]:::embargo  
-    Spine --- NHSS[NHS Scotland]:::embargo
-    Spine --- Pillar1:::embargo
-    Spine --- Pillar2:::embargo
-    Spine --- NIMS:::embargo
-    Spine --- ICNARC:::planned
-
-    Derived[Derived&lt;br&gt;variables]
-  end
-  ISARIC3 ==&gt; to_fcs[(Transfer to FCS)]
-  to_fcs ==&gt; Spine
-  subgraph PHS data linkage team
-    NHS_IDS[\Master link&lt;br&gt;to NHS numbers/] --&gt;|PHS team only| ISARIC3((ISARIC Spine&lt;br&gt;ID allocation))
-  end
-  subgraph Legend
-        Dataset-no-embargo[Open dataset - &lt;br&gt;no embargo]:::no-embargo
-        Dataset-embargo[Dataset in ODAP]:::embargo
-        Dataset-planned[Dataset ingress planned]:::planned
-        Process[Processing steps] 
-  end
-end
-
-Derived ---&gt;|API|PHA([Public&lt;br&gt;Health&lt;br&gt;Agencies])
-Derived ---&gt;|API|TRE([External&lt;br&gt;TREs])
-
-New(New Dataset) --&gt; ISARIC3
-
-
-
-    classDef default fill:#bec3e8,stroke:#333,stroke-width:1px,text-align:center;
-    classDef no-embargo fill:#00ff9d,stroke:#333,stroke-width:1px,font-weight:bold,text-align:center;
-    classDef embargo fill:#ff9b9b,stroke:#333,stroke-width:1px,font-weight:bold,text-align:center;
-    classDef planned fill:#f4ebeb,stroke:#333,stroke-width:1px,font-weight:normal,text-align:center;
-    class reduce,change choices
-
-</pre>
-<div id="mermaid-tooltip-1" class="mermaidTooltip">
-
-</div>
-<p></p>
-<p></p><figcaption class="figure-caption">Figure&nbsp;2: Simplified flowchart showing data linkage procedures.</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
+<section id="legal-architecture" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="legal-architecture"><span class="header-section-number">2.7</span> Legal architecture</h2>
+<p>The legal entity hosting ODAP is the University of Edinburgh. A data processing agreement UoE(controller)-PHS(processor) directs PHS to (1) host and (2) index data from multiple data contributors within the ODAP. The ISARIC Clinical Characterisation Protocol (CCP) has ethical approval across the four nations of the UK and is sponsored by Oxford University. Both joint Chief Investigators (Calum Semple and Kenneth Baillie) have honorary contracts at Oxford Unversity to facilitate this. Data linkage for ISARIC CCP Covid-19 data is authorised under the COPI notice (regulation 3<!-- - confirmed 15.2.23-->).</p>
 </section>
-<section id="api" class="level2" data-number="2.8">
-<h2 data-number="2.8" class="anchored" data-anchor-id="api"><span class="header-section-number">2.8</span> API</h2>
+<section id="data-ingress" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="data-ingress"><span class="header-section-number">2.8</span> Data ingress</h2>
+<p>Data are linked into the ISARIC Spine using the patient’s NHS numbers by PHS before transfer to the FCS as shown in <strong>?@fig-flow</strong>.</p>
+</section>
+<section id="api" class="level2" data-number="2.9">
+<h2 data-number="2.9" class="anchored" data-anchor-id="api"><span class="header-section-number">2.9</span> API</h2>
 <p>There will be a secure API in place from the Flexible Compute Space to External TREs and UK Public Health Agencies. This is to accelerate research by enabling data linkage across multiple data sets using unique identifiers to facilitate secure transfer of specified data fields e.g., viral sequencing data. The future purpose of the API is more in line with providing a mechanism for quick pandemic updates to national health services.</p>
 </section>
-<section id="data-contributors" class="level2" data-number="2.9">
-<h2 data-number="2.9" class="anchored" data-anchor-id="data-contributors"><span class="header-section-number">2.9</span> Data Contributors</h2>
+<section id="data-contributors" class="level2" data-number="2.10">
+<h2 data-number="2.10" class="anchored" data-anchor-id="data-contributors"><span class="header-section-number">2.10</span> Data Contributors</h2>
 <p>Each data contributor will explicitly consent to the lifting of any embargo on their data. A permanent record of these instructions will be held in a shared file. <!--FILE PATH TO MASTER RECORD OF EMBARGO STATUS IN SECURE LOCAION XXX --></p>
 </section>
-<section id="dataset-catalogue" class="level2" data-number="2.10">
-<h2 data-number="2.10" class="anchored" data-anchor-id="dataset-catalogue"><span class="header-section-number">2.10</span> Dataset catalogue</h2>
+<section id="dataset-catalogue" class="level2" data-number="2.11">
+<h2 data-number="2.11" class="anchored" data-anchor-id="dataset-catalogue"><span class="header-section-number">2.11</span> Dataset catalogue</h2>
 <p>The ODAP dataset catalogue is a flexible central record of the datasets held within the platform, approval requirements for access, embargo status, and contents. Each row of the catalogue provides information about an <code>atomic dataset</code>.</p>
 <p>An <code>atomic dataset</code> should be the smallest unit of data that a user would apply for access to. All data elements in an <code>atomic dataset</code> will have, by definition, - the same version number - the same data controllers - the same data processors - the same embargo status - the same legal agreements - the same users with data access</p>
 <p>Any legal agreement that applies to part of an <code>atomic dataset</code> will apply to all of the data within it. Any user who has access to part of an <code>atomic dataset</code> has access to all of the data within it. Where possible an <code>atomic dataset</code> will be in <a href="https://tidyr.tidyverse.org/articles/tidy-data.html">tidy</a> format.</p>

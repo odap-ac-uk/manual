@@ -1,0 +1,74 @@
+---
+title: ODAP plan
+---
+
+[See the ODAP manual for full summary of the project](https://odap.ac.uk/manual/auto-generated/ODAP_manual.pdf)
+
+<!--
+Creating a robust system to detect important phenotypes of critical illness using automated data collection, linkage and analysis
+Real time feedback to improve the quality of NHS critical care
+-->
+
+
+```{mermaid}
+gantt
+title       ODAP immediate plans
+dateFormat  YYYY-MM-DD
+axisFormat  %b %y
+
+section Core ODAP
+Complete Comprehensive Data Catalogue[Jim]: active, catalog, 2023-02-02, 18d
+Link GenOMICC and COG-UK[PHS]: active, hvlink, 2023-28-02, 30d
+Install automatic phylogeny analysis and dashboard on ODAP[Cardiff]: active, 2023-28-02, 60d
+Analysis of host and viral genomes[Kenny]: after hvlink, 100d
+Complete Systems Security Policy[Andrew]: active, ssp, 2023-01-01, 60d
+Get approval from data providers to migrate to GCS[Jack]:active, after ssp, 80d
+Copy ISARIC4C, PHOSP, NHSD data to FCS[PHS]:active,    fcs, 2023-03-15, 80d
+Complete cost-recovery charging structure[Wilna]: done, cost, 2023-02-01, 40d
+
+section Data access 
+Complete TORs & SOPs for data access process: done, 2023-01-01, 30d
+Initiate PPIE[HDR UK]: ppie, 2023-01-01, 150d
+Milestone 1-cost-recovery data access  : milestone, crit, after dagc1, 
+DAGC meeting : dagc1, after ppie, 1d
+HDR Gateway goes live: gateway, after dagc1, 1d
+Run 5-safes data access process[Jack]: after dagc1, 2023-10-01
+```
+
+
+
+```{mermaid}
+gantt
+title       ODAP: 5-year plans
+dateFormat  YYYY-MM-DD
+axisFormat  %b %y
+
+section Pandemics and Outbreaks
+Establish CCP eCRF in UCLH software pharmacy[Harris]: uclh, 2023-09-01, 100d
+Test laboratory integration in UCLH[Harris]: lab1, 2024-03-01, 100d
+Reprofile tiered CCP sample packs[Baillie]: ccp0, 2023-06-01, 60d
+Test outsourcing of sample pack distribution for ISARIC CCP[Baillie]: ccp1, 2023-09-01, 40d
+2-week "activation" - resp samples from UCLH[Semple, Thomson]: 2024-09-01, 14d
+2-week "activation" - resp samples from multiple sites[Thomson]: 2025-06-01, 14d
+Winter season samples[Thomson]: 2025-12-01, 100d
+Winter season samples[Thomson]: 2026-12-01, 100d
+Winter season samples[Thomson]: 2027-12-01, 100d
+Establish CCP eCRF in other digitally-mature trusts[Harris]: after uclh, 300d
+Share open software/standards for eCRF depolyment[Harris]: after uclh, 800d
+Create data non-sharing agreement template[Lawyer1]: legal1, 2023-09-01, 100d
+Sign data non-sharing agreement (DNSA) template with UCLH[Lawyer1]: legal2, after legal1, 100d
+Establish SMPC test process UCLH <-> ODAP[Kerr]: smpc1, after legal2, 100d
+Establish SMPC test process multiple sites to ODAP[Kerr]: smpc2, after smpc1, 100d
+Share open software/standards/DNSA for SMPC[Kerr]: after smpc1, 800d
+Share open software/standards/DNSA for SMPC[Kerr]: after smpc1, 800d
+
+section ODAP easy access
+Recruit PPIE coordinator : ppie-staff, 2023-08-21, 10d
+Establish and run continuous PPIE   : after ppie-staff,  2028-12-01
+Recruit Information Governance expert : ig-staff, 2023-08-21, 10d
+Obtain sublicense from NHS England  : after ig-staff,  60d
+Lift embargo on additional datasets  : 2023-04-01, 2026-12-01
+Further data ingress on cost-recovery basis  : 2023-04-01, 2028-12-01
+
+```
+

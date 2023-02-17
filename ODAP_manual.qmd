@@ -110,6 +110,10 @@ Access to the FCS is provided to researchers through *private project zones*
 
 Some data remains within the PHS National Safe Haven but will transfer to the FCS on completion of the Systems Security Policy.
 
+## Legal architecture
+
+The legal entity hosting ODAP is the University of Edinburgh. A data processing agreement UoE(controller)-PHS(processor) directs PHS to (1) host and (2) index data from multiple data contributors within the ODAP. The ISARIC Clinical Characterisation Protocol (CCP) has ethical approval across the four nations of the UK and is sponsored by Oxford University. Both joint Chief Investigators (Calum Semple and Kenneth Baillie) have honorary contracts at Oxford Unversity to facilitate this. Data linkage for ISARIC CCP Covid-19 data is authorised under the COPI notice (regulation 3<!-- - confirmed 15.2.23-->). 
+
 ## Data ingress
 
 Data are linked into the ISARIC Spine using the patient's NHS numbers by PHS before transfer to the FCS as shown in @fig-flow. 
