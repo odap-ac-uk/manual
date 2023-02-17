@@ -77,3 +77,25 @@
 
 - ISARIC4C Tier 0 and COG-UK data linkage complete {date: 2022-09-01}
 - ISARIC CCP Spine and COG-UK data linkage complete {date: 2023-01-17}
+
+# ODAP researcher access agreements {background:#2971B0, start:2020-01-01}
+## ISARIC4C {start:2020-01-01, end:2023-03-31, color:#bcd1e2}
+- Imperial College London, "Modelling the dynamics of viral load to reveal mechanisms of protection in COVID-19" [25/06/2020] <!--001-034-->
+- University College London, "Associations between smoking status, hospitalisation with COVID-19, critical care admission, length of stay and mortality: A prospective, observational, matched cohort study in the UK" [24/11/2020] <!--001-038-->
+- University of Leicester, "Are people with multiple long-term conditions at greater risk of poorer outcomes as a result of contracting COVID19?" [22/07/2020] <!--001-040-->
+- University Hospitals Coventry & Warwickshire, "Further understanding the behaviour of SARS-CoV-2 across Coverntry & Warwickshire through linking of ISARIC data and other patient data" [27/11/2020] <!--001-044-->
+- Imperial College London, "Predictors of COVID-19 mortality in patients with NAFLD" [15/07/2020] <!--001-050-->
+- Trisomy 21 Research Society, "COVID-19 and Down syndrome" [29/06/2020] <!--001-059-->
+- Your.md, "COVID-19 Symptom Mapper" [16/07/2020] <!--001-060-->
+- West Hertfordshire Hospitals NHS Trust, "Predict COVID UK: The development of a risk scoring tool for COVID 19" [26/08/2020] <!--001-083-->
+- NCCID Collaboration, "National COVID-19 Chest Image Database (NCCID)" [03/12/2020] <!--001-084-->
+- University of Glasgow, "Cardiac complications in Covid-19: associated characteristics, time-course and clinical significance" [17/02/2021] <!--001-085-->
+- University Hospitals North Midlands NHS Trust, "Can quantitative (real-time) PCR cycle threshold (Ct) values be used to predict poor outcomes for patients infected with SARS-CoV-2" [08/12/2020] <!--001-104-->
+- Machine Learning and Biomarkers Group, "Predicting Renal Outcomes of SARS-COV2 Infection through Machine Learning and Biomarkers (short: MLB COVID Kidney)" [15/03/2021] <!--001-120-->
+- Coronerve, "The potential benefits of remdesivir in averting and/or attenuating the neuro-psychiatric sequelae of COVID-19 in a real-world setting" [03/03/2021] <!--001-144-->
+- Boston Children's Hospital, "Repository of Aggregated Pediatric International Data on COVID-19 (RAPID-19)" [07/12/2020] <!--001-155-->
+- AstraZeneca, "IL-33 and proteomic biomarker studies of nasal lining fluids and matched plasma from hospitalised COVID19 patients" [22/07/2022] <!--001-209-->
+- Institute for Medical BioMathematics (IMBM) Israel, "Alleviating Hospital Load by an AI-based Clinical Decision Support Tool Alerting to Imminent Deterioration in Patients with COVID-19" [15/06/2022] <!--001-195-->
+- McLean Hospital, "Epistasis of COVID-19" [26/08/2022] <!--001-184-->
+- University of Georgia, "Development and Validation of a Risk Score for Hospitaluization in Outpatients with COVID 19" [21/09/2022] <!--001-199-->
+- London School of Hygiene and Tropical Medicine, "?What is the contribution of hospital-acquired SARSCoV-2 infections to the UK epidemic??" [09/05/2022] <!--001-053-->
