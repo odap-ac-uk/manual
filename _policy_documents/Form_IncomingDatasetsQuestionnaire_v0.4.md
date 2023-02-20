@@ -1,3 +1,11 @@
+---
+project:
+    output-dir: auto-generated
+number-sections: true
+toc: true
+title: Incoming Datasets Questionnaire
+---
+
 # Introduction
 This document is intended for gathering metadata for new datasets to be added to ODAP.  
 

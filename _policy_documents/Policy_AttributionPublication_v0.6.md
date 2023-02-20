@@ -3,6 +3,7 @@ project:
   output-dir: auto-generated
 number-sections: true
 toc: true
+title: Attribution and Publication Policy
 ---
 
 # Introduction

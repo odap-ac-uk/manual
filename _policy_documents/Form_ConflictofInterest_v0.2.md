@@ -3,6 +3,7 @@ project:
   output-dir: auto-generated
 number-sections: true
 toc: true
+title: Conflict of Interest Form
 ---
 
 ## Definitions
