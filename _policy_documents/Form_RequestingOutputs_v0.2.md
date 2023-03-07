@@ -81,57 +81,53 @@ The ODAP data access team ask that you acknowledge the use of ODAP data in any p
 
 # Disclosure checklist for ODAP Outputs Requests
 
-_Complete the following checks (please answer all questions):_
+Complete the following checks by simply answering "yes" or "no" for each question _(please answer all questions)_. Further details on what to do if you think you may fail Statistical Disclosure Checks (SDC) are present after the below questions. 
 
 ## Frequency tables/charts 
 
-1. **Are there any cells in the table with a value \>0 and less than or equal to 5 _(yes/no)_?**       
+1. Are there any cells in the table with a value \>0 and less than or equal to 5 ("**Yes**" _will_ fail SDC)?  
  
-2. **If there is any sensitive information or low-level geography, are there any cells in the table with a value \>0 and less than or equal to 10- _(yes/no)_?**
+2. If there is any sensitive information or low-level geography, are there any cells in the table with a value \>0 and less than or equal to 10 ("**Yes**" _may_ fail SDC)?
 
-3. **Are there any columns or rows dominated by zeros or 100% of observations _(yes/no)_?**                                           
+3. Are there any columns or rows dominated by zeros or 100% of observations ("**Yes**" _may_ fail SDC)?
  
-4. **Are there any cells with suppressed values/hidden columns or rows _(yes/no)_?**                                                  
+4. Are there any cells with suppressed values/hidden columns or rows ("**Yes**" _may_ fail SDC)? 
 
-5. **Has the table used a different population base from previous similar tables _(yes/no)_?**                                        
+5. Has the table used a different population base from previous similar tables ("**Yes**" _may_ fail SDC)? 
   
-6. **Has the table used a different variable breakdown from a previous similar table _(yes/no)_?**                                    
+6. Has the table used a different variable breakdown from a previous similar table ("**Yes**" _may_ fail SDC)?
 
-7. **Has the table used a different definition or source for a variable previously tabulated _(yes/no)_?**                            
+7. Has the table used a different definition or source for a variable previously tabulated ("**Yes**" _may_ fail SDC)? 
  
-8. **Are there any minima/maxima present _(yes/no)_?**                                                                                
+8. Are there any minima/maxima present ("**Yes**" _may_ fail SDC)? 
 
 ## Models 
-9. **Does the model have fewer than 10 residual degrees of freedom _(yes/no)_?**                                           
+9. Does the model have fewer than 10 residual degrees of freedom ("**Yes**" _will_ fail SDC)? 
 
-10. **Does the model description quote or plot any individual values, such as minimum or maximum values or outliers _(yes/no)_?**
+10. Does the model description quote or plot any individual values, such as minimum or maximum values or outliers ("**Yes**" _will_ fail SDC)? 
  
-11. **Does the model description include a residual plot or residual values _(yes/no)_?**                                   
+11. Does the model description include a residual plot or residual values ("**Yes**" _will_ fail SDC)? 
  
-12. **Has the model used a different population base from a previously described model _(yes/no)_?**                        
+12. Has the model used a different population base from a previously described model ("**Yes**" _may_ fail SDC)?
  
-13. **Is the regression undertaken on a single unit _(yes/no)_?**                                                           
+13. Is the regression undertaken on a single unit ("**Yes**" _may_ fail SDC)?
  
-14. **Does the regression solely consist of categorical variables _(yes/no)_?**                                             
+14. Does the regression solely consist of categorical variables ("**Yes**" _may_ fail SDC)? 
 
 
 ## Coding files (syntax) 
-15. **Is the code clearly annotated with comments to assist the reviewer _(yes/no)_?**
+15. Is the code clearly annotated with comments to assist the reviewer ("**No**" _will_ fail SDC)?
   
-16. **Are there any references or figures in the comments or code that could lead to potential identification of individuals _(yes/no)_?**
+16. Are there any references or figures in the comments or code that could lead to potential identification of individuals ("**Yes**" _will_ fail SDC)?
  
-17. **Are there any pseudo anonymised ID numbers included in the code or the comments _(yes/no)_?**
+17. Are there any pseudo anonymised ID numbers included in the code or the comments ("**Yes**" _will_ fail SDC)?
  
-18. **Has the volume of code needed been minimised _(yes/no)_?**
+18. Has the volume of code needed been minimised ("**No**" _will_ fail SDC)?
   
-19. **Are there any counts from the data present in the comments or code _(yes/no)_?**
+19. Are there any counts from the data present in the comments or code ("**Yes**" _will_ fail SDC)?
 
-- Answering "yes" to questions: 1, 9, 10, 11, 16, 17, 19; means your output will fail Statistical Disclosure Check (SDC).
-- Answering "no" to quetions: 15, 18; means your output will fail SDC.
-- Answering "yes" to questions: 2, 3, 4, 5, 6, 7, 8, 12, 13, 14; means your output **may** fail SDC.
-- Otherwise, your output is likely to pass SDC, but it still needs to be checked.
-- If you think your output should still pass, please discuss this with an ODAP data manager.   
-- If your output fails, an ODAP data manager can also provide advice about how to re-design your outputs so they will pass.  
+## About Statistical Disclosure Checks
+If you think your output should still pass, please discuss this with an ODAP data manager. If your output fails, an ODAP data manager can also provide advice about how to re-design your outputs so they will pass.  
 
 The data manager will compare your outputs to all outputs previously released from the same dataset to make sure it is not possible to identify any individuals or small cells by comparing outputs.   
 
