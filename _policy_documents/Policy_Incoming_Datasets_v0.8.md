@@ -1,11 +1,28 @@
 ---
+title: Incomeing Datasets Policy
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    highlight-style: github
+    header-includes:
+      \usepackage{fancyhdr}
+      \usepackage{xcolor}
+      \usepackage{sectsty}
+    geometry: top=2.3cm, bottom=2.3cm, left=2.3cm, right=2.3cm
+    template-partials:
+      - templates/toc.tex
+      - templates/before-body.tex
+    head:
+      img: images/logo/odap-logo.png
+    titlegraphic: images/logo/odap-logo.png
+    logo: images/logo/odap-logo.png
+pdf-engine: pdflatex
 project:
   output-dir: auto-generated
-number-sections: true
-toc: true
-title: Incomeing Datasets Policy
 ---
 
+{{< pagebreak >}}
 # Introduction
 
 The Incoming Dataset Policy and Questionnaire is a tool used when moving your dataset from the embargoed area of the platform to the non-embargoed area of the platform and is intended to capture and formalise details of your dataset for wider dissemination.

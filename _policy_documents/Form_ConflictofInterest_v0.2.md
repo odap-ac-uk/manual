@@ -1,9 +1,13 @@
 ---
+title: Conflict of Interest Form
+format:
+  docx:
+    toc: true
+    number-sections: true
+    highlight-style: github
+    reference-doc: templates/odap-style.docx
 project:
   output-dir: auto-generated
-number-sections: true
-toc: true
-title: Conflict of Interest Form
 ---
 
 ## Definitions

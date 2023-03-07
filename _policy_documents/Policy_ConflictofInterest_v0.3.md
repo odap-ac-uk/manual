@@ -1,11 +1,28 @@
 ---
+title: Conflict of Interest Policy
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    highlight-style: github
+    header-includes:
+      \usepackage{fancyhdr}
+      \usepackage{xcolor}
+      \usepackage{sectsty}
+    geometry: top=2.3cm, bottom=2.3cm, left=2.3cm, right=2.3cm
+    template-partials:
+      - templates/toc.tex
+      - templates/before-body.tex
+    head:
+      img: images/logo/odap-logo.png
+    titlegraphic: images/logo/odap-logo.png
+    logo: images/logo/odap-logo.png
+pdf-engine: pdflatex
 project:
   output-dir: auto-generated
-number-sections: true
-toc: true
-title: Conflict of Interest Policy
 ---
 
+{{< pagebreak >}}
 # Introduction
 
 The purpose of the Outbreak Data Analysis Platform is to provide an accessible and usable data resource to enable research that is relevant to COVID-19, including new future COVID-19 outbreaks as well as those arising from other viruses. This will accelerate scientific understanding of new outbreaks for the benefit of patients and the protection of the public.

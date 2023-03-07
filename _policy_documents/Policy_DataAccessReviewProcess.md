@@ -1,11 +1,28 @@
 ---
+title: Data Access Review Process
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    highlight-style: github
+    header-includes:
+      \usepackage{fancyhdr}
+      \usepackage{xcolor}
+      \usepackage{sectsty}
+    geometry: top=2.3cm, bottom=2.3cm, left=2.3cm, right=2.3cm
+    template-partials:
+      - templates/toc.tex
+      - templates/before-body.tex
+    head:
+      img: images/logo/odap-logo.png
+    titlegraphic: images/logo/odap-logo.png
+    logo: images/logo/odap-logo.png
+pdf-engine: pdflatex
 project:
   output-dir: auto-generated
-number-sections: true
-toc: true
-title: Data Access Review Process
 ---
 
+{{< pagebreak >}}
 # Introduction
 
 In order to facilitate rapid data sharing during the immediate response to new threats, the ODAP has two sections: the under-embargo and no-embargo sections. This document refers only to sharing of data after the embargo has been lifted; before this, data access is controlled by the contributing organisation.

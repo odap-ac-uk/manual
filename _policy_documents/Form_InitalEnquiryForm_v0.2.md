@@ -1,9 +1,13 @@
 ---
-project:
-    output-dir: auto-generated
-number-sections: true
-toc: true
 title: Inital Enquiry Form
+format:
+  docx:
+    toc: true
+    number-sections: true
+    highlight-style: github
+    reference-doc: templates/odap-style.docx
+project:
+  output-dir: auto-generated
 ---
 
 # Applicant details
