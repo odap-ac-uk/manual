@@ -4,7 +4,6 @@ format:
   docx:
     toc: true
     toc-depth: 2
-    number-sections: true
     highlight-style: github
     reference-doc: templates/odap-style.docx
 project:
