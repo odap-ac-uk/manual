@@ -78,4 +78,4 @@ I have read and understood the ODAP Conflict of Interest Policy and will adhere 
 
 # Linked Documents
 
-[Conflict of Interest Policy](..)
+[Conflict of Interest Policy](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Policy_ConflictofInterest_v0.3.pdf)

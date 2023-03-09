@@ -156,5 +156,5 @@ You release some data on all individuals registered as blind or partially sighte
 
 # Linked Documents
 
-[Output Review Process](..)
-[Attribution and Publication Policy](..)
+[Output Review Process](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Policy_OutputsReviewProcess_v0.6.pdf)
+[Attribution and Publication Policy](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Policy_AttributionPublication_v0.6.pdf)

@@ -213,5 +213,5 @@ For access to ODAP brand assets like a logo, or style guide please contact ODAP@
 
 # Linked Documents
 
-[Output Review Process](..)
-[Requesting Outputs Form](..)
+[Output Review Process](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Policy_OutputsReviewProcess_v0.6.pdf)
+[Requesting Outputs Form](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Form_RequestingOutputs_v0.2.docx)

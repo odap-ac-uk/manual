@@ -191,5 +191,5 @@ Any appeals may be escalated to the DAGC.
 
 # Linked Documents
 
-[Data Access Review Standard Operating Procedure](...)
-[Inital Enquiry Form](...)
+[Data Access Review Standard Operating Procedure](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/SOP_DataAccessReviewProcess_v0.3.pdf)
+[Inital Enquiry Form](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Form_InitalEnquiryForm_v0.2.docx)

@@ -170,5 +170,5 @@ The ODAP data access team will adhere to the publicity policy (to be developed) 
 
 # Linked Documents
 
-[Data Access Review Policy](..)
-[Inital Enquiry Form](...)
+[Data Access Review Policy](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Policy_DataAccessReviewProcess.pdf)
+[Inital Enquiry Form](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Form_InitalEnquiryForm_v0.2.docx)

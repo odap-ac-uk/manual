@@ -136,5 +136,5 @@ If a review is not approved, feedback will be shared with researchers, who will 
 
 # Linked Documents
 
-[Attribution and Publication Policy](..)
-[Requesting Outputs Form](..)
+[Attribution and Publication Policy](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Policy_AttributionPublication_v0.6.pdf)
+[Requesting Outputs Form](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Form_RequestingOutputs_v0.2.docx)

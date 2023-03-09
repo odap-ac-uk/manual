@@ -300,4 +300,4 @@ w. Other, if there are other limitations on the use of this dataset please provi
 
 # Linked Documents
 
-[Incoming Datasets Policy](..)
+[Incoming Datasets Policy](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Policy_Incoming_Datasets_v0.8.pdf)

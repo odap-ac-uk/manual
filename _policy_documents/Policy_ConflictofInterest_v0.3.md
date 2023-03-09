@@ -87,5 +87,5 @@ Requests for data access applications from persons associated with ODAP DAGC mem
 
 # Linked Documents
 
-[Conflict of Interest Form](..)
+[Conflict of Interest Form](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Form_ConflictofInterest_v0.2.docx)
 

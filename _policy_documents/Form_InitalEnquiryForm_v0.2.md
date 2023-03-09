@@ -124,5 +124,5 @@ _Details (if applicable, please indicate how recently these courses were complet
 
 # Linked Documents
 
-[Data Access Review Standard Operating Procedure](...)
-[Data Access Review Policy](...)
+[Data Access Review Standard Operating Procedure](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/SOP_DataAccessReviewProcess_v0.3.pdf)
+[Data Access Review Policy](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Policy_DataAccessReviewProcess.pdf)
