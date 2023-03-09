@@ -87,5 +87,5 @@ Requests for data access applications from persons associated with ODAP DAGC mem
 
 # Linked Documents
 
-[DRAFT ODAP Conflict of Interest Form](https://uoe.sharepoint.com/sites/ISARIC4C/DataInfrastructureAndGovernance/ODAP/_documents/Archive/SOPs/DRAFT_ODAP_ConflictofInterest_Form%20v0.1.docx)
+[Conflict of Interest Form](..)
 

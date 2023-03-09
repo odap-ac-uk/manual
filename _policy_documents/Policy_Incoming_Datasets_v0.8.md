@@ -47,27 +47,7 @@ The ODAP data access team will keep this information on record for the purposes 
 
 The ODAP data access team may this information with their colleague, professional advisors, partners, auditors, regulators, and funders, as required to carry out the due diligence connected with this project or other research projects on which it is supporting.
 
-# Declarations 
+# Linked Documents
 
-- [ ] Confirmation of understanding that the University of Edinburgh, as the Lead Institution will become a joint Data Controller to facilitate the onboarding of key data sets to the ODAP and to facilitate external access to ODAP only.
+[Incoming Datasets Questionnaire](...)
 
-- [ ] Confirmation of understanding that as a Data Contributor that Data Controllership of these data sets is retained, and that the lead Institution becomes joint controller for facilitating access and onboarding to ODAP only.
-
-- [ ] Confirmation of the authority to submit this form on behalf of my institution.
-
-- [ ] Confirmation of the consent to the information submitted being used for the purposes stated above.
-
-- [ ] Confirmation that all information entered is complete and accurate to the best of my/our knowledge and belief, having made reasonable enquiries.
-
-## Signatures 
-
-Agreed on behalf of the Signatory Institution by:
-
-| Signature: |     | Role: |     |
-|------------|-----|-------|-----|
-|            |     |       |     |
-|            |     |       |     |
-| Name:      |     | Date: |     |
-|            |     |       |     |
-
-: Signatures {tbl-colwidths="[50,50]"}

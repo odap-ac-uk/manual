@@ -10,9 +10,41 @@ project:
   output-dir: auto-generated
 ---
 
+{{< pagebreak >}}
 # Introduction
 This document is intended for gathering metadata for new datasets to be added to ODAP.  
 
+# Declarations 
+1. Confirmation of understanding that the University of Edinburgh, as the Lead Institution will become a joint Data Controller to facilitate the onboarding of key data sets to the ODAP and to facilitate external access to ODAP only.  
+  **Initals:**
+
+2. Confirmation of understanding that as a Data Contributor that Data Controllership of these data sets is retained, and that the lead Institution becomes joint controller for facilitating access and onboarding to ODAP only.  
+  **Initals:**
+
+3. Confirmation of the authority to submit this form on behalf of my institution.  
+  **Initals:**
+
+4. Confirmation of the consent to the information submitted being used for the purposes stated above.  
+  **Initals:**
+
+5. Confirmation that all information entered is complete and accurate to the best of my/our knowledge and belief, having made reasonable enquiries.  
+  **Initals:**
+
+## Signatures 
+
+Agreed on behalf of the Signatory Institution by:
+
+| Signature: |     | Role: |     |
+|------------|-----|-------|-----|
+|            |     |       |     |
+|            |     |       |     |
+| Name:      |     | Date: |     |
+|            |     |       |     |
+
+: {tbl-colwidths="[50,50]"}
+
+
+{{< pagebreak >}}
 # Questionnaire 
 
 ## Summary 
@@ -38,7 +70,6 @@ _(This is to help researchers locate your specific dataset within the collection
 5. **If able, please provide the DOIs of other datasets that have previously been linked to this dataset and their availability:**  
 &nbsp;  
 
-{{< pagebreak >}}
 ## Coverage
 
 6. **What is the geographic area covered by the dataset?**   
@@ -87,7 +118,6 @@ o. Other, please specify:
 &nbsp;  
 
 
-{{< pagebreak >}}
 ## Provenance  
 
 12. **Please indicate what was the original purpose for gathering this data-set? _(a-h)_**
@@ -115,6 +145,7 @@ g. Other, data has been extracted:
 &nbsp;  
 
 
+{{< pagebreak >}}
 14. **Please indicate where was the original collection situation for this data-set? _(a-k)_**
 a. Clinic, specific clinic such as antenatal clinic
 b. Primary care, general medical practitioner practice
@@ -138,7 +169,6 @@ c. No, the dataset has a fixed end date _(skip questions 17 & 18)_
 &nbsp;  
 
 
-{{< pagebreak >}}
 16. **What is the start of the time period that the dataset provides coverage for?**   
 _(If there are multiple cohorts in the dataset with varying start dates, please provide the earliest date and use the description or the media attribute to provide more information.)_  
 &nbsp;  
@@ -161,6 +191,7 @@ h. Other, other time lag:
 &nbsp;  
 
 
+{{< pagebreak >}}
 19. **Please indicate the release date for the specific version of the dataset being provided?**   
 _(If there are multiple cohorts in the dataset with varying start dates, please provide the earliest date and use the description or the media attribute to provide more information.)_  
 &nbsp;  
@@ -266,3 +297,7 @@ w. Other, if there are other limitations on the use of this dataset please provi
 34. **Please provide the filenames and locations for any available publication or attribution documents:**   
 &nbsp;  
 
+
+# Linked Documents
+
+[Incoming Datasets Policy](..)

@@ -134,3 +134,7 @@ Results declined for export:
 If a review is not approved, feedback will be shared with researchers, who will have an opportunity to amend and resubmit.
 
 
+# Linked Documents
+
+[Attribution and Publication Policy](..)
+[Requesting Outputs Form](..)

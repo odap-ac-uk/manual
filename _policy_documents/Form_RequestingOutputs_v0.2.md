@@ -154,3 +154,7 @@ You release some data on all individuals registered as blind or partially sighte
 - You release some data on all individuals in your sample who said they were retired at a certain date. You later change your definitions to use HMRC records showing whether or not an individual received a state pension.  This would not necessarily create a problem for SDC, as it is possible to be either retired with no state pension or receiving a state pension while not retired.  
 
 
+# Linked Documents
+
+[Output Review Process](..)
+[Attribution and Publication Policy](..)

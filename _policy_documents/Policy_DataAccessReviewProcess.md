@@ -187,3 +187,9 @@ Any amendments to approved applications will be reviewed by the Project Review P
 ### Appeals process
 
 Any appeals may be escalated to the DAGC.
+
+
+# Linked Documents
+
+[Data Access Review Standard Operating Procedure](...)
+[Inital Enquiry Form](...)
