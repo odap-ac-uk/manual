@@ -6,12 +6,149 @@
 </head>
 
 <body>
-	<h3 style="color:#2971B0">UKRI/HDR UK ODAP Outputs</h3>
+	<h3 style="color:#2971B0">Meetings</h3>
+<div id="meetings"></div><h3 style="color:#2971B0">Staffing</h3>
+<div id="staffing"></div><h3 style="color:#2971B0">UKRI/HDR UK ODAP Outputs</h3>
 <div id="ukri/hdrukodapoutputs"></div><h3 style="color:#2971B0">UKRI/HDR UK ODAP Data Linkage and Access</h3>
 <div id="ukri/hdrukodapdatalinkageandaccess"></div>
 </body>
 
 <script type="text/javascript">
+var meetings = [
+    {
+        "name": "start",
+        "date": "2020-03-15"
+    },
+    {
+        "name": "NCS ODAP Partnership Steering Group meeting",
+        "date": "2021-03-01",
+        "color": "red"
+    },
+    {
+        "name": "RDLIG meeting to promote data ingress",
+        "date": "2021-10-01",
+        "color": "red"
+    },
+    {
+        "name": "RDLIG meeting to promote data ingress",
+        "date": "2021-08-01",
+        "color": "red"
+    },
+    {
+        "name": "RDLIG meeting to promote data ingress",
+        "date": "2021-11-01",
+        "color": "red"
+    },
+    {
+        "name": "First meeting of Data Access Governance Committee (tasks: complete documentation and PPIE)",
+        "date": "2022-09-23",
+        "color": "red"
+    },
+    {
+        "name": "ISARIC4C",
+        "date": "2020-01-01"
+    },
+    {
+        "name": "GenOMICC",
+        "date": "2021-03-01"
+    },
+    {
+        "name": "RECOVERY Trial",
+        "date": "2022-01-01"
+    },
+    {
+        "name": "HEAL-Covid Trial",
+        "date": "2022-01-01"
+    },
+    {
+        "name": "PHOSP",
+        "date": "2021-03-01"
+    },
+    {
+        "name": "NHS Digital (ISARIC4C Tier 0)",
+        "date": "2022-01-01"
+    },
+    {
+        "name": "NHS Digital (PHOSP)",
+        "date": "2022-02-22"
+    },
+    {
+        "name": "NHS Digital (COG-UK)",
+        "date": "2022-03-15"
+    },
+    {
+        "name": "COG-UK viral sequences (ISARIC4C Tier 0 only)",
+        "date": "2022-01-01"
+    },
+    {
+        "name": "COG-UK viral sequences (All)",
+        "date": "2023-01-12"
+    },
+    {
+        "name": "COPI regulation 3 approved",
+        "date": "2023-02-15"
+    }
+];
+
+TimeKnots.draw("#meetings",
+	meetings,
+		{
+		dateFormat: "%B %Y",
+		labelFormat: "%Y/%m/%d %H:%M:%S",
+		color: "#2971B0",
+		background: "#2971B0",
+		showLabels: true,
+		labelFormat: "%Y", 
+		addNow: true,
+		width: 1000,
+		height: 100,
+		radius: 10,
+		lineWidth: 4,
+		horizontalLayout: true,
+		}
+	);
+
+var staffing = [
+    {
+        "name": "start",
+        "date": "2020-03-15"
+    },
+    {
+        "name": "Ewan Harrison appointed as ODAP Director",
+        "date": "2021-09-01"
+    },
+    {
+        "name": "Ewan Harrison steps down as ODAP Director",
+        "date": "2022-06-01"
+    },
+    {
+        "name": "Attempt to supply project management from HDR UK (unsuccessful)",
+        "date": "2022-09-01"
+    },
+    {
+        "name": "Attempt to supply project management from HDR UK (unsuccessful)",
+        "date": "2022-11-01"
+    }
+];
+
+TimeKnots.draw("#staffing",
+	staffing,
+		{
+		dateFormat: "%B %Y",
+		labelFormat: "%Y/%m/%d %H:%M:%S",
+		color: "#2971B0",
+		background: "#2971B0",
+		showLabels: true,
+		labelFormat: "%Y", 
+		addNow: true,
+		width: 1000,
+		height: 100,
+		radius: 10,
+		lineWidth: 4,
+		horizontalLayout: true,
+		}
+	);
+
 var ukri/hdrukodapoutputs = [
     {
         "name": "start",

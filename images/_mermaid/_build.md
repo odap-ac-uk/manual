@@ -1,0 +1,1 @@
+mmdc -i _flowchart.md -o flowchart.svg

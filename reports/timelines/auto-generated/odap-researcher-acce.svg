@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   height="257.58594"
+   height="317.58594"
    version="1.1"
-   width="782.99609"
-   id="svg186"
-   sodipodi:docname="meetings.svg">
+   width="1395.6328"
+   id="svg204"
+   sodipodi:docname="odap-researcher-acce.svg">
   <metadata
-     id="metadata190">
+     id="metadata208">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -34,7 +34,7 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview188" />
+     id="namedview206" />
   <defs
      id="defs8">
     <marker
@@ -46,7 +46,7 @@
        refY="3">
       <path
          d="M 6,0 V 7 L 0,3 6,0"
-         fill="#cd3f85"
+         fill="#bcd1e2"
          id="path2" />
     </marker>
     <marker
@@ -58,103 +58,58 @@
        refY="3">
       <path
          d="M 0,0 V 7 L 6,3 0,0"
-         fill="#cd3f85"
+         fill="#bcd1e2"
          id="path5" />
     </marker>
   </defs>
   <rect
-     fill="#cd3f85"
+     fill="#bcd1e2"
      fill-opacity="0.15"
-     height="249"
-     width="143"
-     x="335.99609"
+     height="309"
+     width="646"
+     x="708.63281"
      y="0"
      id="rect10" />
   <line
-     stroke="#cd3f85"
+     stroke="#bcd1e2"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="335.99609"
-     x2="335.99609"
+     x1="708.63281"
+     x2="708.63281"
      y1="0"
-     y2="180"
+     y2="240"
      id="line12" />
   <line
-     stroke="#cd3f85"
+     stroke="#bcd1e2"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="478.99609"
-     x2="478.99609"
+     x1="1354.6328"
+     x2="1354.6328"
      y1="0"
-     y2="180"
+     y2="240"
      id="line14" />
   <line
      marker-end="url(#id2)"
      marker-start="url(#id1)"
-     stroke="#cd3f85"
+     stroke="#bcd1e2"
      stroke-width="0.75"
-     x1="335.99609"
-     x2="478.99609"
+     x1="708.63281"
+     x2="1354.6328"
      y1="10"
      y2="10"
      id="line16" />
   <text
-     fill="#cd3f85"
+     fill="#bcd1e2"
      font-family="Helevetica"
      font-size="8px"
      stroke="none"
      text-anchor="middle"
-     x="407.49609"
+     x="1031.6328"
      y="8.5"
-     id="text18">RDLIG (Chair: K Baillie)</text>
-  <rect
-     fill="#cd3f85"
-     fill-opacity="0.15"
-     height="249"
-     width="390"
-     x="335.99609"
-     y="0"
-     id="rect20" />
-  <line
-     stroke="#cd3f85"
-     stroke-dasharray="5, 5"
-     stroke-width="0.5"
-     x1="335.99609"
-     x2="335.99609"
-     y1="0"
-     y2="180"
-     id="line22" />
-  <line
-     stroke="#cd3f85"
-     stroke-dasharray="5, 5"
-     stroke-width="0.5"
-     x1="725.99609"
-     x2="725.99609"
-     y1="0"
-     y2="180"
-     id="line24" />
-  <line
-     marker-end="url(#id2)"
-     marker-start="url(#id1)"
-     stroke="#cd3f85"
-     stroke-width="0.75"
-     x1="335.99609"
-     x2="725.99609"
-     y1="10"
-     y2="10"
-     id="line26" />
-  <text
-     fill="#cd3f85"
-     font-family="Helevetica"
-     font-size="8px"
-     stroke="none"
-     text-anchor="middle"
-     x="530.99609"
-     y="8.5"
-     id="text28">ODAP Partnership (Chair: S Peacock, K Rowan)</text>
+     id="text18">ISARIC4C</text>
   <g
-     transform="translate(32.996094,180)"
-     id="g184">
+     transform="translate(645.63281,240)"
+     id="g202">
     <line
        stroke="#000000"
        stroke-width="3"
@@ -162,7 +117,7 @@
        x2="750"
        y1="0"
        y2="0"
-       id="line30" />
+       id="line20" />
     <line
        stroke="#000000"
        stroke-width="2"
@@ -170,7 +125,7 @@
        x2="63"
        y1="-5"
        y2="5"
-       id="line32" />
+       id="line22" />
     <text
        fill="#c0c0c0"
        font-family="Helevetica"
@@ -181,7 +136,7 @@
        writing-mode="tb-rl"
        x="63"
        y="-10"
-       id="text34">March-2020</text>
+       id="text24">January-2020</text>
     <line
        stroke="#000000"
        stroke-width="2"
@@ -189,7 +144,7 @@
        x2="688"
        y1="-5"
        y2="5"
-       id="line36" />
+       id="line26" />
     <text
        fill="#c0c0c0"
        font-family="Helevetica"
@@ -200,47 +155,13 @@
        writing-mode="tb-rl"
        x="688"
        y="-10"
-       id="text38">February-2023</text>
-    <path
-       d="M 19,0 V -15 H 9"
-       fill="none"
-       stroke="#000000"
-       stroke-width="1"
-       id="path40" />
-    <text
-       fill="#000000"
-       font-family="Helevetica"
-       font-size="8px"
-       stroke="none"
-       text-anchor="end"
-       x="6"
-       y="-13.5"
-       id="text42">ISARIC4C</text>
-    <text
-       fill="#000000"
-       font-family="Helevetica"
-       font-size="8px"
-       stroke="none"
-       text-anchor="end"
-       transform="rotate(180,19,0)"
-       writing-mode="tb-rl"
-       x="19"
-       y="-10"
-       id="text44">January-2020</text>
-    <circle
-       cx="19"
-       cy="0"
-       fill="#ffffff"
-       r="4"
-       stroke="#000000"
-       stroke-width="1"
-       id="circle46" />
+       id="text28">February-2023</text>
     <path
        d="M 63,0 V -15 H 53"
        fill="none"
        stroke="#000000"
        stroke-width="1"
-       id="path48" />
+       id="path30" />
     <text
        fill="#000000"
        font-family="Helevetica"
@@ -249,7 +170,7 @@
        text-anchor="end"
        x="50"
        y="-13.5"
-       id="text50">start</text>
+       id="text32">start</text>
     <text
        fill="#000000"
        font-family="Helevetica"
@@ -260,7 +181,7 @@
        writing-mode="tb-rl"
        x="63"
        y="-10"
-       id="text52">March-2020</text>
+       id="text34">January-2020</text>
     <circle
        cx="63"
        cy="0"
@@ -268,560 +189,708 @@
        r="4"
        stroke="#000000"
        stroke-width="1"
-       id="circle54" />
+       id="circle36" />
     <path
-       d="M 267,0 V -15 H 257"
+       d="M 145,0 V -25 H 135"
        fill="none"
        stroke="#000000"
        stroke-width="1"
-       id="path56" />
+       id="path38" />
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="254"
-       y="-13.5"
-       id="text58">PHOSP</text>
-    <text
-       fill="#000000"
-       font-family="Helevetica"
-       font-size="8px"
-       stroke="none"
-       text-anchor="end"
-       transform="rotate(180,267,0)"
-       writing-mode="tb-rl"
-       x="267"
-       y="-10"
-       id="text60">March-2021</text>
-    <circle
-       cx="267"
-       cy="0"
-       fill="#ffffff"
-       r="4"
-       stroke="#000000"
-       stroke-width="1"
-       id="circle62" />
-    <path
-       d="M 267,0 V -25 H 257"
-       fill="none"
-       stroke="#000000"
-       stroke-width="1"
-       id="path64" />
-    <text
-       fill="#000000"
-       font-family="Helevetica"
-       font-size="8px"
-       stroke="none"
-       text-anchor="end"
-       x="254"
+       x="132"
        y="-23.5"
-       id="text66">GenOMICC</text>
+       id="text40">Trisomy 21 Research Society, &quot;COVID-19 and Down syndrome&quot;</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,267,0)"
+       transform="rotate(180,145,0)"
        writing-mode="tb-rl"
-       x="267"
+       x="145"
        y="-10"
-       id="text68">March-2021</text>
+       id="text42">June-2020</text>
     <circle
-       cx="267"
+       cx="145"
        cy="0"
        fill="#ffffff"
        r="4"
        stroke="#000000"
        stroke-width="1"
-       id="circle70" />
+       id="circle44" />
     <path
-       d="M 267,0 V -35 H 257"
+       d="M 145,0 V -35 H 135"
        fill="none"
-       stroke="#ff0000"
+       stroke="#000000"
        stroke-width="1"
-       id="path72" />
+       id="path46" />
     <text
-       fill="#ff0000"
+       fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="254"
+       x="132"
        y="-33.5"
-       id="text74">NCS ODAP Partnership Steering Group meeting</text>
+       id="text48">Imperial College London, &quot;Modelling the dynamics of viral load to reveal mechanisms of protection in COVID-19&quot;</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,267,0)"
+       transform="rotate(180,145,0)"
        writing-mode="tb-rl"
-       x="267"
+       x="145"
        y="-10"
-       id="text76">March-2021</text>
+       id="text50">June-2020</text>
     <circle
-       cx="267"
+       cx="145"
        cy="0"
        fill="#ffffff"
        r="4"
-       stroke="#ff0000"
+       stroke="#000000"
        stroke-width="1"
-       id="circle78" />
+       id="circle52" />
     <path
-       d="M 356,0 V -45 H 346"
+       d="M 162,0 V -45 H 152"
        fill="none"
-       stroke="#ff0000"
+       stroke="#000000"
        stroke-width="1"
-       id="path80" />
+       id="path54" />
     <text
-       fill="#ff0000"
+       fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="343"
+       x="149"
        y="-43.5"
-       id="text82">RDLIG meeting to promote data ingress</text>
+       id="text56">Your.md, &quot;COVID-19 Symptom Mapper&quot;</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,356,0)"
+       transform="rotate(180,162,0)"
        writing-mode="tb-rl"
-       x="356"
+       x="162"
        y="-10"
-       id="text84">August-2021</text>
+       id="text58">July-2020</text>
     <circle
-       cx="356"
+       cx="162"
        cy="0"
        fill="#ffffff"
        r="4"
-       stroke="#ff0000"
+       stroke="#000000"
        stroke-width="1"
-       id="circle86" />
+       id="circle60" />
     <path
-       d="M 392,0 V -55 H 382"
+       d="M 162,0 V -55 H 152"
        fill="none"
-       stroke="#ff0000"
+       stroke="#000000"
        stroke-width="1"
-       id="path88" />
+       id="path62" />
     <text
-       fill="#ff0000"
+       fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="379"
+       x="149"
        y="-53.5"
-       id="text90">RDLIG meeting to promote data ingress</text>
+       id="text64">Imperial College London, &quot;Predictors of COVID-19 mortality in patients with NAFLD&quot;</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,392,0)"
+       transform="rotate(180,162,0)"
        writing-mode="tb-rl"
-       x="392"
+       x="162"
        y="-10"
-       id="text92">October-2021</text>
+       id="text66">July-2020</text>
     <circle
-       cx="392"
+       cx="162"
        cy="0"
        fill="#ffffff"
        r="4"
-       stroke="#ff0000"
+       stroke="#000000"
        stroke-width="1"
-       id="circle94" />
+       id="circle68" />
     <path
-       d="M 410,0 V -65 H 400"
+       d="M 162,0 V -65 H 152"
        fill="none"
-       stroke="#ff0000"
+       stroke="#000000"
        stroke-width="1"
-       id="path96" />
+       id="path70" />
     <text
-       fill="#ff0000"
+       fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="397"
+       x="149"
        y="-63.5"
-       id="text98">RDLIG meeting to promote data ingress</text>
+       id="text72">University of Leicester, &quot;Are people with multiple long-term conditions at greater risk of poorer outcomes as a result of contracting COVID19?&quot;</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,410,0)"
+       transform="rotate(180,162,0)"
        writing-mode="tb-rl"
-       x="410"
+       x="162"
        y="-10"
-       id="text100">November-2021</text>
+       id="text74">July-2020</text>
     <circle
-       cx="410"
+       cx="162"
        cy="0"
        fill="#ffffff"
        r="4"
-       stroke="#ff0000"
+       stroke="#000000"
        stroke-width="1"
-       id="circle102" />
+       id="circle76" />
     <path
-       d="M 446,0 V -75 H 436"
+       d="M 179,0 V -75 H 169"
        fill="none"
        stroke="#000000"
        stroke-width="1"
-       id="path104" />
+       id="path78" />
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="433"
+       x="166"
        y="-73.5"
-       id="text106">COG-UK viral sequences (ISARIC4C Tier 0 only)</text>
+       id="text80">West Hertfordshire Hospitals NHS Trust, &quot;Predict COVID UK: The development of a risk scoring tool for COVID 19&quot;</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,446,0)"
+       transform="rotate(180,179,0)"
        writing-mode="tb-rl"
-       x="446"
+       x="179"
        y="-10"
-       id="text108">January-2022</text>
+       id="text82">August-2020</text>
     <circle
-       cx="446"
+       cx="179"
        cy="0"
        fill="#ffffff"
        r="4"
        stroke="#000000"
        stroke-width="1"
-       id="circle110" />
+       id="circle84" />
     <path
-       d="M 446,0 V -85 H 436"
+       d="M 229,0 V -85 H 219"
        fill="none"
        stroke="#000000"
        stroke-width="1"
-       id="path112" />
+       id="path86" />
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="433"
+       x="216"
        y="-83.5"
-       id="text114">NHS Digital (ISARIC4C Tier 0)</text>
+       id="text88">University Hospitals Coventry &amp; Warwickshire, &quot;Further understanding the behaviour of SARS-CoV-2 across Coverntry &amp; Warwickshire through linking of ISARIC data and other patient data&quot;</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,446,0)"
+       transform="rotate(180,229,0)"
        writing-mode="tb-rl"
-       x="446"
+       x="229"
        y="-10"
-       id="text116">January-2022</text>
+       id="text90">November-2020</text>
     <circle
-       cx="446"
+       cx="229"
        cy="0"
        fill="#ffffff"
        r="4"
        stroke="#000000"
        stroke-width="1"
-       id="circle118" />
+       id="circle92" />
     <path
-       d="M 446,0 V -95 H 436"
+       d="M 229,0 V -95 H 219"
        fill="none"
        stroke="#000000"
        stroke-width="1"
-       id="path120" />
+       id="path94" />
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="433"
+       x="216"
        y="-93.5"
-       id="text122">HEAL-Covid Trial</text>
+       id="text96">University College London, &quot;Associations between smoking status, hospitalisation with COVID-19, critical care admission, length of stay and mortality: A prospective, observational, matched cohort study in the UK&quot;</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,446,0)"
+       transform="rotate(180,229,0)"
        writing-mode="tb-rl"
-       x="446"
+       x="229"
        y="-10"
-       id="text124">January-2022</text>
+       id="text98">November-2020</text>
     <circle
-       cx="446"
+       cx="229"
        cy="0"
        fill="#ffffff"
        r="4"
        stroke="#000000"
        stroke-width="1"
-       id="circle126" />
+       id="circle100" />
     <path
-       d="M 446,0 V -105 H 436"
+       d="M 245,0 V -105 H 235"
        fill="none"
        stroke="#000000"
        stroke-width="1"
-       id="path128" />
+       id="path102" />
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="433"
+       x="232"
        y="-103.5"
-       id="text130">RECOVERY Trial</text>
+       id="text104">Boston Children's Hospital, &quot;Repository of Aggregated Pediatric International Data on COVID-19 (RAPID-19)&quot;</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,446,0)"
+       transform="rotate(180,245,0)"
        writing-mode="tb-rl"
-       x="446"
+       x="245"
        y="-10"
-       id="text132">January-2022</text>
+       id="text106">December-2020</text>
     <circle
-       cx="446"
+       cx="245"
        cy="0"
        fill="#ffffff"
        r="4"
        stroke="#000000"
        stroke-width="1"
-       id="circle134" />
+       id="circle108" />
     <path
-       d="M 476,0 V -115 H 466"
+       d="M 245,0 V -115 H 235"
        fill="none"
        stroke="#000000"
        stroke-width="1"
-       id="path136" />
+       id="path110" />
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="463"
+       x="232"
        y="-113.5"
-       id="text138">NHS Digital (PHOSP)</text>
+       id="text112">University Hospitals North Midlands NHS Trust, &quot;Can quantitative (real-time) PCR cycle threshold (Ct) values be used to predict poor outcomes for patients infected with SARS-CoV-2&quot;</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,476,0)"
+       transform="rotate(180,245,0)"
        writing-mode="tb-rl"
-       x="476"
+       x="245"
        y="-10"
-       id="text140">February-2022</text>
+       id="text114">December-2020</text>
     <circle
-       cx="476"
+       cx="245"
        cy="0"
        fill="#ffffff"
        r="4"
        stroke="#000000"
        stroke-width="1"
-       id="circle142" />
+       id="circle116" />
     <path
-       d="M 488,0 V -125 H 478"
+       d="M 245,0 V -125 H 235"
        fill="none"
        stroke="#000000"
        stroke-width="1"
-       id="path144" />
+       id="path118" />
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="475"
+       x="232"
        y="-123.5"
-       id="text146">NHS Digital (COG-UK)</text>
+       id="text120">NCCID Collaboration, &quot;National COVID-19 Chest Image Database (NCCID)&quot;</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,488,0)"
+       transform="rotate(180,245,0)"
        writing-mode="tb-rl"
-       x="488"
+       x="245"
        y="-10"
-       id="text148">March-2022</text>
+       id="text122">December-2020</text>
     <circle
-       cx="488"
+       cx="245"
        cy="0"
        fill="#ffffff"
        r="4"
        stroke="#000000"
        stroke-width="1"
-       id="circle150" />
+       id="circle124" />
     <path
-       d="M 600,0 V -135 H 590"
+       d="M 279,0 V -135 H 269"
+       fill="none"
+       stroke="#000000"
+       stroke-width="1"
+       id="path126" />
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       x="266"
+       y="-133.5"
+       id="text128">University of Glasgow, &quot;Cardiac complications in Covid-19: associated characteristics, time-course and clinical significance&quot;</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,279,0)"
+       writing-mode="tb-rl"
+       x="279"
+       y="-10"
+       id="text130">February-2021</text>
+    <circle
+       cx="279"
+       cy="0"
+       fill="#ffffff"
+       r="4"
+       stroke="#000000"
+       stroke-width="1"
+       id="circle132" />
+    <path
+       d="M 294,0 V -145 H 284"
+       fill="none"
+       stroke="#000000"
+       stroke-width="1"
+       id="path134" />
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       x="281"
+       y="-143.5"
+       id="text136">Coronerve, &quot;The potential benefits of remdesivir in averting and/or attenuating the neuro-psychiatric sequelae of COVID-19 in a real-world setting&quot;</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,294,0)"
+       writing-mode="tb-rl"
+       x="294"
+       y="-10"
+       id="text138">March-2021</text>
+    <circle
+       cx="294"
+       cy="0"
+       fill="#ffffff"
+       r="4"
+       stroke="#000000"
+       stroke-width="1"
+       id="circle140" />
+    <path
+       d="M 294,0 V -155 H 284"
+       fill="none"
+       stroke="#000000"
+       stroke-width="1"
+       id="path142" />
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       x="281"
+       y="-153.5"
+       id="text144">Machine Learning and Biomarkers Group, &quot;Predicting Renal Outcomes of SARS-COV2 Infection through Machine Learning and Biomarkers (short: MLB COVID Kidney)&quot;</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,294,0)"
+       writing-mode="tb-rl"
+       x="294"
+       y="-10"
+       id="text146">March-2021</text>
+    <circle
+       cx="294"
+       cy="0"
+       fill="#ffffff"
+       r="4"
+       stroke="#000000"
+       stroke-width="1"
+       id="circle148" />
+    <path
+       d="M 527,0 V -165 H 517"
+       fill="none"
+       stroke="#000000"
+       stroke-width="1"
+       id="path150" />
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       x="514"
+       y="-163.5"
+       id="text152">London School of Hygiene and Tropical Medicine, &quot;?What is the contribution of hospital-acquired SARSCoV-2 infections to the UK epidemic??&quot;</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,527,0)"
+       writing-mode="tb-rl"
+       x="527"
+       y="-10"
+       id="text154">May-2022</text>
+    <circle
+       cx="527"
+       cy="0"
+       fill="#ffffff"
+       r="4"
+       stroke="#000000"
+       stroke-width="1"
+       id="circle156" />
+    <path
+       d="M 544,0 V -175 H 534"
+       fill="none"
+       stroke="#000000"
+       stroke-width="1"
+       id="path158" />
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       x="531"
+       y="-173.5"
+       id="text160">Institute for Medical BioMathematics (IMBM) Israel, &quot;Alleviating Hospital Load by an AI-based Clinical Decision Support Tool Alerting to Imminent Deterioration in Patients with COVID-19&quot;</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,544,0)"
+       writing-mode="tb-rl"
+       x="544"
+       y="-10"
+       id="text162">June-2022</text>
+    <circle
+       cx="544"
+       cy="0"
+       fill="#ffffff"
+       r="4"
+       stroke="#000000"
+       stroke-width="1"
+       id="circle164" />
+    <path
+       d="M 560,0 V -185 H 550"
+       fill="none"
+       stroke="#000000"
+       stroke-width="1"
+       id="path166" />
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       x="547"
+       y="-183.5"
+       id="text168">AstraZeneca, &quot;IL-33 and proteomic biomarker studies of nasal lining fluids and matched plasma from hospitalised COVID19 patients&quot;</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,560,0)"
+       writing-mode="tb-rl"
+       x="560"
+       y="-10"
+       id="text170">July-2022</text>
+    <circle
+       cx="560"
+       cy="0"
+       fill="#ffffff"
+       r="4"
+       stroke="#000000"
+       stroke-width="1"
+       id="circle172" />
+    <path
+       d="M 577,0 V -195 H 567"
+       fill="none"
+       stroke="#000000"
+       stroke-width="1"
+       id="path174" />
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       x="564"
+       y="-193.5"
+       id="text176">McLean Hospital, &quot;Epistasis of COVID-19&quot;</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,577,0)"
+       writing-mode="tb-rl"
+       x="577"
+       y="-10"
+       id="text178">August-2022</text>
+    <circle
+       cx="577"
+       cy="0"
+       fill="#ffffff"
+       r="4"
+       stroke="#000000"
+       stroke-width="1"
+       id="circle180" />
+    <path
+       d="M 594,0 V -205 H 584"
+       fill="none"
+       stroke="#000000"
+       stroke-width="1"
+       id="path182" />
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       x="581"
+       y="-203.5"
+       id="text184">University of Georgia, &quot;Development and Validation of a Risk Score for Hospitaluization in Outpatients with COVID 19&quot;</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,594,0)"
+       writing-mode="tb-rl"
+       x="594"
+       y="-10"
+       id="text186">September-2022</text>
+    <circle
+       cx="594"
+       cy="0"
+       fill="#ffffff"
+       r="4"
+       stroke="#000000"
+       stroke-width="1"
+       id="circle188" />
+    <path
+       d="M 606,0 V -215 H 596"
        fill="none"
        stroke="#ff0000"
        stroke-width="1"
-       id="path152" />
+       id="path190" />
     <text
        fill="#ff0000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="587"
-       y="-133.5"
-       id="text154">First meeting of Data Access Governance Committee (tasks: complete documentation and PPIE)</text>
+       x="593"
+       y="-213.5"
+       id="text192">DATA ACCESS GOVERNANCE COMMITTEE MEETING</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,600,0)"
+       transform="rotate(180,606,0)"
        writing-mode="tb-rl"
-       x="600"
+       x="606"
        y="-10"
-       id="text156">September-2022</text>
+       id="text194">September-2022</text>
     <circle
-       cx="600"
+       cx="606"
        cy="0"
        fill="#ffffff"
        r="4"
        stroke="#ff0000"
        stroke-width="1"
-       id="circle158" />
-    <path
-       d="M 665,0 V -145 H 655"
-       fill="none"
-       stroke="#000000"
-       stroke-width="1"
-       id="path160" />
+       id="circle196" />
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="652"
-       y="-143.5"
-       id="text162">COG-UK viral sequences (All)</text>
-    <text
-       fill="#000000"
-       font-family="Helevetica"
-       font-size="8px"
-       stroke="none"
-       text-anchor="end"
-       transform="rotate(180,665,0)"
+       transform="rotate(180,63,0)"
        writing-mode="tb-rl"
-       x="665"
+       x="63"
        y="-10"
-       id="text164">January-2023</text>
-    <circle
-       cx="665"
-       cy="0"
-       fill="#ffffff"
-       r="4"
-       stroke="#000000"
-       stroke-width="1"
-       id="circle166" />
-    <path
-       d="M 685,0 V -155 H 675"
-       fill="none"
-       stroke="#000000"
-       stroke-width="1"
-       id="path168" />
+       id="text198">January-2020</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="672"
-       y="-153.5"
-       id="text170">COPI regulation 3 approved</text>
-    <text
-       fill="#000000"
-       font-family="Helevetica"
-       font-size="8px"
-       stroke="none"
-       text-anchor="end"
-       transform="rotate(180,685,0)"
+       transform="rotate(180,709,0)"
        writing-mode="tb-rl"
-       x="685"
+       x="709"
        y="-10"
-       id="text172">February-2023</text>
-    <circle
-       cx="685"
-       cy="0"
-       fill="#ffffff"
-       r="4"
-       stroke="#000000"
-       stroke-width="1"
-       id="circle174" />
-    <text
-       fill="#000000"
-       font-family="Helevetica"
-       font-size="8px"
-       stroke="none"
-       text-anchor="end"
-       transform="rotate(180,303,0)"
-       writing-mode="tb-rl"
-       x="303"
-       y="-10"
-       id="text176">May-2021</text>
-    <text
-       fill="#000000"
-       font-family="Helevetica"
-       font-size="8px"
-       stroke="none"
-       text-anchor="end"
-       transform="rotate(180,446,0)"
-       writing-mode="tb-rl"
-       x="446"
-       y="-10"
-       id="text178">January-2022</text>
-    <text
-       fill="#000000"
-       font-family="Helevetica"
-       font-size="8px"
-       stroke="none"
-       text-anchor="end"
-       transform="rotate(180,303,0)"
-       writing-mode="tb-rl"
-       x="303"
-       y="-10"
-       id="text180">May-2021</text>
-    <text
-       fill="#000000"
-       font-family="Helevetica"
-       font-size="8px"
-       stroke="none"
-       text-anchor="end"
-       transform="rotate(180,693,0)"
-       writing-mode="tb-rl"
-       x="693"
-       y="-10"
-       id="text182">March-2023</text>
+       id="text200">March-2023</text>
   </g>
 </svg>

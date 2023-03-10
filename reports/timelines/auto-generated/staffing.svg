@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   height="117.58594"
+   height="137.58594"
    version="1.1"
    width="750"
-   id="svg84"
+   id="svg116"
    sodipodi:docname="staffing.svg">
   <metadata
-     id="metadata88">
+     id="metadata120">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -34,7 +34,7 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview86" />
+     id="namedview118" />
   <defs
      id="defs20">
     <marker
@@ -113,8 +113,8 @@
   <rect
      fill="#cd3f85"
      fill-opacity="0.15"
-     height="103"
-     width="314"
+     height="129"
+     width="311"
      x="63"
      y="0"
      id="rect22" />
@@ -125,16 +125,16 @@
      x1="63"
      x2="63"
      y1="0"
-     y2="40"
+     y2="60"
      id="line24" />
   <line
      stroke="#cd3f85"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="377"
-     x2="377"
+     x1="374"
+     x2="374"
      y1="0"
-     y2="40"
+     y2="60"
      id="line26" />
   <line
      marker-end="url(#id4)"
@@ -142,7 +142,7 @@
      stroke="#cd3f85"
      stroke-width="0.75"
      x1="63"
-     x2="377"
+     x2="374"
      y1="10"
      y2="10"
      id="line28" />
@@ -152,42 +152,42 @@
      font-size="8px"
      stroke="none"
      text-anchor="middle"
-     x="220"
+     x="218.5"
      y="8.5"
      id="text30">UKRI funding</text>
   <rect
      fill="#b3e2c5"
      fill-opacity="0.15"
-     height="103"
-     width="338"
-     x="378"
+     height="129"
+     width="335"
+     x="375"
      y="0"
      id="rect32" />
   <line
      stroke="#b3e2c5"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="378"
-     x2="378"
+     x1="375"
+     x2="375"
      y1="0"
-     y2="40"
+     y2="60"
      id="line34" />
   <line
      stroke="#b3e2c5"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="716"
-     x2="716"
+     x1="710"
+     x2="710"
      y1="0"
-     y2="40"
+     y2="60"
      id="line36" />
   <line
      marker-end="url(#id6)"
      marker-start="url(#id5)"
      stroke="#b3e2c5"
      stroke-width="0.75"
-     x1="378"
-     x2="716"
+     x1="375"
+     x2="710"
      y1="10"
      y2="10"
      id="line38" />
@@ -197,42 +197,42 @@
      font-size="8px"
      stroke="none"
      text-anchor="middle"
-     x="547"
+     x="542.5"
      y="8.5"
      id="text40">NCS funding</text>
   <rect
      fill="#bcd1e2"
      fill-opacity="0.15"
-     height="103"
+     height="129"
      width="0"
-     x="716"
+     x="710"
      y="0"
      id="rect42" />
   <line
      stroke="#bcd1e2"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="716"
-     x2="716"
+     x1="710"
+     x2="710"
      y1="0"
-     y2="40"
+     y2="60"
      id="line44" />
   <line
      stroke="#bcd1e2"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="716"
-     x2="716"
+     x1="710"
+     x2="710"
      y1="0"
-     y2="40"
+     y2="60"
      id="line46" />
   <line
      marker-end="url(#id8)"
      marker-start="url(#id7)"
      stroke="#bcd1e2"
      stroke-width="0.75"
-     x1="716"
-     x2="716"
+     x1="710"
+     x2="710"
      y1="10"
      y2="10"
      id="line48" />
@@ -242,12 +242,12 @@
      font-size="8px"
      stroke="none"
      text-anchor="middle"
-     x="716"
+     x="710"
      y="8.5"
      id="text50">BG-PSH funding</text>
   <g
-     transform="translate(0,40)"
-     id="g82">
+     transform="translate(0,60)"
+     id="g114">
     <line
        stroke="#000000"
        stroke-width="3"
@@ -328,6 +328,142 @@
        stroke="#000000"
        stroke-width="1"
        id="circle68" />
+    <path
+       d="M 374,0 V -15 H 364"
+       fill="none"
+       stroke="#000000"
+       stroke-width="1"
+       id="path70" />
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       x="361"
+       y="-13.5"
+       id="text72">Ewan Harrison appointed as ODAP Director</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,374,0)"
+       writing-mode="tb-rl"
+       x="374"
+       y="-10"
+       id="text74">September-2021</text>
+    <circle
+       cx="374"
+       cy="0"
+       fill="#ffffff"
+       r="4"
+       stroke="#000000"
+       stroke-width="1"
+       id="circle76" />
+    <path
+       d="M 534,0 V -15 H 524"
+       fill="none"
+       stroke="#000000"
+       stroke-width="1"
+       id="path78" />
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       x="521"
+       y="-13.5"
+       id="text80">Ewan Harrison steps down as ODAP Director</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,534,0)"
+       writing-mode="tb-rl"
+       x="534"
+       y="-10"
+       id="text82">June-2022</text>
+    <circle
+       cx="534"
+       cy="0"
+       fill="#ffffff"
+       r="4"
+       stroke="#000000"
+       stroke-width="1"
+       id="circle84" />
+    <path
+       d="M 587,0 V -25 H 577"
+       fill="none"
+       stroke="#000000"
+       stroke-width="1"
+       id="path86" />
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       x="574"
+       y="-23.5"
+       id="text88">Attempt to supply project management from HDR UK (unsuccessful)</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,587,0)"
+       writing-mode="tb-rl"
+       x="587"
+       y="-10"
+       id="text90">September-2022</text>
+    <circle
+       cx="587"
+       cy="0"
+       fill="#ffffff"
+       r="4"
+       stroke="#000000"
+       stroke-width="1"
+       id="circle92" />
+    <path
+       d="M 623,0 V -35 H 613"
+       fill="none"
+       stroke="#000000"
+       stroke-width="1"
+       id="path94" />
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       x="610"
+       y="-33.5"
+       id="text96">Attempt to supply project management from HDR UK (unsuccessful)</text>
+    <text
+       fill="#000000"
+       font-family="Helevetica"
+       font-size="8px"
+       stroke="none"
+       text-anchor="end"
+       transform="rotate(180,623,0)"
+       writing-mode="tb-rl"
+       x="623"
+       y="-10"
+       id="text98">November-2022</text>
+    <circle
+       cx="623"
+       cy="0"
+       fill="#ffffff"
+       r="4"
+       stroke="#000000"
+       stroke-width="1"
+       id="circle100" />
     <text
        fill="#000000"
        font-family="Helevetica"
@@ -338,61 +474,61 @@
        writing-mode="tb-rl"
        x="63"
        y="-10"
-       id="text70">March-2020</text>
+       id="text102">March-2020</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,377,0)"
+       transform="rotate(180,374,0)"
        writing-mode="tb-rl"
-       x="377"
+       x="374"
        y="-10"
-       id="text72">September-2021</text>
+       id="text104">September-2021</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,378,0)"
+       transform="rotate(180,375,0)"
        writing-mode="tb-rl"
-       x="378"
+       x="375"
        y="-10"
-       id="text74">September-2021</text>
+       id="text106">September-2021</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,716,0)"
+       transform="rotate(180,710,0)"
        writing-mode="tb-rl"
-       x="716"
+       x="710"
        y="-10"
-       id="text76">March-2023</text>
+       id="text108">March-2023</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,716,0)"
+       transform="rotate(180,710,0)"
        writing-mode="tb-rl"
-       x="716"
+       x="710"
        y="-10"
-       id="text78">March-2023</text>
+       id="text110">March-2023</text>
     <text
        fill="#000000"
        font-family="Helevetica"
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,716,0)"
+       transform="rotate(180,710,0)"
        writing-mode="tb-rl"
-       x="716"
+       x="710"
        y="-10"
-       id="text80">March-2023</text>
+       id="text112">March-2023</text>
   </g>
 </svg>

@@ -17,8 +17,9 @@ The ODAP is funded by the Baillie Gifford Pandemic Science Hub (PSH) at the Univ
 # Key Achievements
 
 - Data ingress and linkage
-- Publications
-- Support for research to answer key public health questions through ISARIC4C Consortium
+- 102 Publications
+- 140 users from 12 institutions (Edinburgh, UCL, Cambridge, Sheffield, Liverpool, Glasgow, Imperial, Oxford, Newcastle, Dusseldorf, Leeds, Utrecht, Harvard, MRC, Leicester, Cardiff, UK Health Security Agency and Public Health Scotland)
+- Support for research to answer key public health questions
 - Support for NCS and UKRI-funded research studies
 	+ (CI: Kamlesh Khunti)
 	+ SLICK. Studying Long-term Impact of COVID on Kids. A consortium involving investigators from Edinburgh, Oxford and Liverpool using data from ISARIC4C and GP records to ask, “Do children and young people need extra follow up care after having SARS-CoV-2 infection?” Funded by Health Data Research UK and the Alan Turing Institute. (CI: Dr Olivia Swann, University of Edinburgh)

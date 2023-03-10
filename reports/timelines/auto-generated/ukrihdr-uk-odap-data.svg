@@ -114,7 +114,7 @@
      fill="#cd3f85"
      fill-opacity="0.15"
      height="119"
-     width="314"
+     width="311"
      x="63"
      y="0"
      id="rect22" />
@@ -131,8 +131,8 @@
      stroke="#cd3f85"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="377"
-     x2="377"
+     x1="374"
+     x2="374"
      y1="0"
      y2="50"
      id="line26" />
@@ -142,7 +142,7 @@
      stroke="#cd3f85"
      stroke-width="0.75"
      x1="63"
-     x2="377"
+     x2="374"
      y1="10"
      y2="10"
      id="line28" />
@@ -152,23 +152,23 @@
      font-size="8px"
      stroke="none"
      text-anchor="middle"
-     x="220"
+     x="218.5"
      y="8.5"
      id="text30">UKRI funding</text>
   <rect
      fill="#b3e2c5"
      fill-opacity="0.15"
      height="119"
-     width="338"
-     x="378"
+     width="335"
+     x="375"
      y="0"
      id="rect32" />
   <line
      stroke="#b3e2c5"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="378"
-     x2="378"
+     x1="375"
+     x2="375"
      y1="0"
      y2="50"
      id="line34" />
@@ -176,8 +176,8 @@
      stroke="#b3e2c5"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="716"
-     x2="716"
+     x1="710"
+     x2="710"
      y1="0"
      y2="50"
      id="line36" />
@@ -186,8 +186,8 @@
      marker-start="url(#id17)"
      stroke="#b3e2c5"
      stroke-width="0.75"
-     x1="378"
-     x2="716"
+     x1="375"
+     x2="710"
      y1="10"
      y2="10"
      id="line38" />
@@ -197,7 +197,7 @@
      font-size="8px"
      stroke="none"
      text-anchor="middle"
-     x="547"
+     x="542.5"
      y="8.5"
      id="text40">NCS funding</text>
   <rect
@@ -205,15 +205,15 @@
      fill-opacity="0.15"
      height="119"
      width="0"
-     x="716"
+     x="710"
      y="0"
      id="rect42" />
   <line
      stroke="#bcd1e2"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="716"
-     x2="716"
+     x1="710"
+     x2="710"
      y1="0"
      y2="50"
      id="line44" />
@@ -221,8 +221,8 @@
      stroke="#bcd1e2"
      stroke-dasharray="5, 5"
      stroke-width="0.5"
-     x1="716"
-     x2="716"
+     x1="710"
+     x2="710"
      y1="0"
      y2="50"
      id="line46" />
@@ -231,8 +231,8 @@
      marker-start="url(#id19)"
      stroke="#bcd1e2"
      stroke-width="0.75"
-     x1="716"
-     x2="716"
+     x1="710"
+     x2="710"
      y1="10"
      y2="10"
      id="line48" />
@@ -242,7 +242,7 @@
      font-size="8px"
      stroke="none"
      text-anchor="middle"
-     x="716"
+     x="710"
      y="8.5"
      id="text50">BG-PSH funding</text>
   <g
@@ -329,7 +329,7 @@
        stroke-width="1"
        id="circle68" />
     <path
-       d="M 592,0 V -15 H 582"
+       d="M 587,0 V -15 H 577"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -340,7 +340,7 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="579"
+       x="574"
        y="-13.5"
        id="text72">ISARIC4C Tier 0 and COG-UK data linkage complete</text>
     <text
@@ -349,13 +349,13 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,592,0)"
+       transform="rotate(180,587,0)"
        writing-mode="tb-rl"
-       x="592"
+       x="587"
        y="-10"
        id="text74">September-2022</text>
     <circle
-       cx="592"
+       cx="587"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -363,7 +363,7 @@
        stroke-width="1"
        id="circle76" />
     <path
-       d="M 673,0 V -25 H 663"
+       d="M 668,0 V -25 H 658"
        fill="none"
        stroke="#000000"
        stroke-width="1"
@@ -374,7 +374,7 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       x="660"
+       x="655"
        y="-23.5"
        id="text80">ISARIC CCP Spine and COG-UK data linkage complete</text>
     <text
@@ -383,13 +383,13 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,673,0)"
+       transform="rotate(180,668,0)"
        writing-mode="tb-rl"
-       x="673"
+       x="668"
        y="-10"
        id="text82">January-2023</text>
     <circle
-       cx="673"
+       cx="668"
        cy="0"
        fill="#ffffff"
        r="4"
@@ -413,9 +413,9 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,377,0)"
+       transform="rotate(180,374,0)"
        writing-mode="tb-rl"
-       x="377"
+       x="374"
        y="-10"
        id="text88">September-2021</text>
     <text
@@ -424,9 +424,9 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,378,0)"
+       transform="rotate(180,375,0)"
        writing-mode="tb-rl"
-       x="378"
+       x="375"
        y="-10"
        id="text90">September-2021</text>
     <text
@@ -435,9 +435,9 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,716,0)"
+       transform="rotate(180,710,0)"
        writing-mode="tb-rl"
-       x="716"
+       x="710"
        y="-10"
        id="text92">March-2023</text>
     <text
@@ -446,9 +446,9 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,716,0)"
+       transform="rotate(180,710,0)"
        writing-mode="tb-rl"
-       x="716"
+       x="710"
        y="-10"
        id="text94">March-2023</text>
     <text
@@ -457,9 +457,9 @@
        font-size="8px"
        stroke="none"
        text-anchor="end"
-       transform="rotate(180,716,0)"
+       transform="rotate(180,710,0)"
        writing-mode="tb-rl"
-       x="716"
+       x="710"
        y="-10"
        id="text96">March-2023</text>
   </g>
