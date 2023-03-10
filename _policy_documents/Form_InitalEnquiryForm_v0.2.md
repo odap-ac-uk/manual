@@ -1,178 +1,128 @@
+---
+title: Inital Enquiry Form
+format:
+  docx:
+    toc: true
+    toc-depth: 2
+    highlight-style: github
+    reference-doc: templates/odap-style.docx
+project:
+  output-dir: auto-generated
+---
+
 # Applicant details
+1. **Full Name:**
+&nbsp;  
 
-  -----------------------------------------------------------------------
-  Full Name:           
-  -------------------- --------------------------------------------------
-  Job Title:           
+2. **Job Title:**
+&nbsp;  
 
-  Sponsoring           
-  Organisation:        
+3. **Sponsoring Organisation:**
+&nbsp;  
 
-  email:               
+4. **Contact email:**
+&nbsp;  
 
-                       
+5. **Please list any additional team-members that will require data access, including contact email addresses:**
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
 
-  Please list any      
-  additional           
-  team-members that    
-  will require data    
-  access, including    
-  contact email        
-  addresses:           
+6. **Please indicate if this application is _(a-e)_:**
+a. New project
+b. An amendment to an existing project
+c. An extension of an existing approval
+d. A renewal of an existing approval
+e. Related to a previous application (approved or not)
+&nbsp;  
+&nbsp;  
 
-                       
-  -----------------------------------------------------------------------
+7. **If related to a previous application, please provide the project names for any related projects:**  
+&nbsp;  
 
-  ------------------------------------------------------------------------
-  Is this        ☐ New project
-  application:   
-  -------------- ---------------------------------------------------------
-                 ☐ An amendment to an existing project
-
-                 ☐ An extension of an existing approval
-
-                 ☐ A renewal of an existing approval
-
-                 ☐ Related to a previous application (approved or not)
-
-  Please provide 
-  the project    
-  names for any  
-  related        
-  projects:      
-
-                 
-  ------------------------------------------------------------------------
-
+{{< pagebreak >}}
 # Commercial interest
-
-  ------------------------------------------------------------------------
-  Is there a commercial interest  ☐ Yes  ☐ No
-  in this project?                       
-  ------------------------------- ------ ---------------------------------
-  Details:                               
-
-                                         
-  ------------------------------------------------------------------------
+8. **Is there a commercial interest in this project? _(yes/no)_:**  
+_Details:_  
+&nbsp;  
 
 # Project details
+9. **What is your research question?:**  
+&nbsp;  
 
-  -----------------------------------------------------------------------
-  What is your research question?
-  -----------------------------------------------------------------------
+10. **What is the purpose of this research and how does it benefit the public?:**  
+&nbsp;  
 
-  What is the purpose of this research and how does it benefit the
-  public? And, have you undertaken any Patient and public involvement and
-  engagement work in designing your project?
+11. **Have you undertaken any Patient and public involvement and engagement work in designing your project? _(yes/no)_:**  
+&nbsp;  
 
-  What data will you need to answer your research question?
+12. **What data will you need to answer your research question?:**  
+&nbsp;  
 
-  How will this data help you answer the research question?
+13. **How will this data help you answer the research question?:**  
+&nbsp;  
 
-  -----------------------------------------------------------------------
+14. **Will you require periodic refreshes of the data? _(a-c)_:**
+a. Yes
+b. No
+c. Unsure
+&nbsp;  
+&nbsp;  
 
-  ------------------------------------------------------------------------
-  Will you require periodic         ☐ Yes        ☐ No        ☐ Unsure
-  refreshes of the data?                                     
-  --------------------------------- ------------ ----------- -------------
-  Do you require aggregated or      ☐ Aggregated ☐ Record    ☐ Unsure
-  record level data?                             level       
+15. **Do you require aggregated or record level data? _(a-c)_:**
+a. Aggregated
+b. Record level
+c. Unsure
+&nbsp;  
+&nbsp;  
 
-  Do you intend for the datasets    ☐ Yes        ☐ No        ☐ Unsure
-  requested to be linked with any                            
-  additional datasets?\                                      
-  Details:                                                   
+16. **Do you intend for the datasets requested to be linked with any additional datasets? _(a-c)_:**
+a. Yes
+b. No
+c. Unsure
+_Details:_  
+&nbsp;  
+&nbsp;  
 
-                                                             
-  ------------------------------------------------------------------------
+17. **How long do you expect your project to last?:**  
+&nbsp;  
 
-  -----------------------------------------------------------------------
-  How long do you expect your project to last?
-  -----------------------------------------------------------------------
+18. **When would you be able to begin your project?:**  
+&nbsp;  
 
-  -----------------------------------------------------------------------
+19. **How do you plan to share data, results, and products from these your research project?:**  
+&nbsp;  
 
-  -----------------------------------------------------------------------
-  When would you be able to begin your project?
-  -----------------------------------------------------------------------
+20. **How is your research Funded?:**  
+&nbsp;  
 
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
-  How do you plan to share data, results, and products from these your
-  research project?
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
-  How is your research Funded?
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
-  Has ethical approval been ☐ Yes   ☐ No
-  obtained?                         
-  ------------------------- ------- -------------------------------------
-  Details:                          
-
-                                    
-  -----------------------------------------------------------------------
+21. **Has ethical approval been obtained? _(yes/no)_:**  
+_Details:_  
+&nbsp;  
 
 # Training & Accreditation
 
-  -----------------------------------------------------------------------
-  What is your previous track record of delivering similar work?
-  -----------------------------------------------------------------------
+22. **What is your previous track record of delivering similar work?:**  
+&nbsp;  
 
-  -----------------------------------------------------------------------
+23. **What assurance can your team give with regards to your safe handling of data?:**
+&nbsp;  
+&nbsp;  
 
-  -----------------------------------------------------------------------
-  What assurance can your team give with regards to your safe handling of
-  data; have you completed ONS Safe Researcher Training course (ONS-SRT)
-  or the MRC. Research, GDPR and Confidentiality course? When were these
-  completed?
-  -----------------------------------------------------------------------
+24. **Have your team completed either the ONS Safe Researcher Training course (ONS-SRT) or the MRC. Research, GDPR and Confidentiality course? _(a-d)_**
+a. ONS Safe Researcher Training course (ONS-SRT)
+b. MRC. Research, GDPR and Confidentiality course
+c. Other data security course
+d. None  
+_Details (if applicable, please indicate how recently these courses were completed):_
+&nbsp;  
+&nbsp;  
 
-  -----------------------------------------------------------------------
 
-# Document Control
+# Linked Documents
 
-Internal use only.
-
-  -----------------------------------------------------------------------
-  Document Version: 0.2
-  ----------------- -----------------------------------------------------
-  Publication Date: 
-
-  Review Date:      
-  -----------------------------------------------------------------------
-
-## Revision History
-
-  ----------------------------------------------------------------------------
-  Version   Date         Author      Comment
-  --------- ------------ ----------- -----------------------------------------
-  0.1       2022-11-16   ODAP Data   Initial draft, based on ISARIC4C enquiry
-                         Access Team form and 5 Safe requirements
-
-  0.2       2022-11-24   ODAP Data   Updated question layout based on
-                         Access Team feedback.
-  ----------------------------------------------------------------------------
-
-## Archival Information
-
-To be filled out upon document archival.
-
-  -----------------------------------------------------------------------
-  Original file     
-  name:             
-  ----------------- -----------------------------------------------------
-  Original file     
-  location:         
-
-  Archival date:    
-
-  Archived by:      
-  -----------------------------------------------------------------------
+[Data Access Review Standard Operating Procedure](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/SOP_DataAccessReviewProcess_v0.3.pdf)
+[Data Access Review Policy](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Policy_DataAccessReviewProcess.pdf)
