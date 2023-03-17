@@ -1,5 +1,6 @@
 ---
-title: ODAP Partnership Steering Group v0.11
+title: ODAP Partnership Steering Group 
+version: 0.11
 ---
 
 # Terms of Reference

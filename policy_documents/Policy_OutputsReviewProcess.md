@@ -4,17 +4,6 @@ version: 0.3
 ---
 
 {{< pagebreak >}}
-# Introduction
-
-The purpose of the Outbreak Data Analysis Platform is to provide an accessible and usable data resource to enable research that is relevant to COVID-19, including new future COVID-19 outbreaks as well as those arising from other viruses. This will accelerate scientific understanding of new outbreaks for the benefit of patients and the protection of the public. To enable this to happen the Outbreak Data Analysis Platform (ODAP) brings together data from clinical records, research studies and audit data. ODAP is supported by UKRI and the Data and Connectivity Programme of the National Core Studies.
-
-ODAP expects a high standard of accountability from researchers, and the Output Review process is part of this expectation.
-
-## Definitions
-
-**Safe outputs** ensure that all research outputs cannot be used to identify data subjects. They typically include ‘descriptive statistics’ that have been sufficiently aggregated such that identification is near enough impossible, and modelled outputs which are inherently non-confidential.
-
-For more definitions, please refer to the ODAP Glossary
 
 ## Purpose
 
@@ -31,26 +20,6 @@ This policy is managed and maintained by the ODAP data access team. It is review
 ## Outputs
 
 Outputs can include *the results of the research/data analyses generated in the allocated ODAP workspaces.*
-
-# Purpose of the Output Review Process
-
-## The ‘Five Safes’ Framework
-
-ODAP has committed to the ‘Five Safes’ Framework. This document refers to number 5 - ‘Safe Outputs’
-
-1.  Safe projects – Is the use of data appropriate?
-
-2.  Safe data – Is the risk of disclosure in the data minimised?
-
-3.  Safe people – Can users be trusted to use the data in an appropriate manner?
-
-4.  Safe settings – Can data be accessed in a Trusted Research Environment (TRE)?
-
-5.  Safe outputs – Are there disclosure risks from reported results?
-
-## Purpose
-
-To ensure Safe Outputs, i.e. ensure there are no disclosure risks from output generated and exported from research conducted within ODAP.
 
 ## The Output Review process
 
@@ -115,7 +84,8 @@ Results declined for export:
 If a review is not approved, feedback will be shared with researchers, who will have an opportunity to amend and resubmit.
 
 
-# Linked Documents
 
-[Attribution and Publication Policy](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Policy_AttributionPublication_v0.6.pdf)
-[Requesting Outputs Form](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Form_RequestingOutputs_v0.2.docx)
+
+
+
+

@@ -17,13 +17,7 @@ This document is authored and maintained by the ODAP data access team based with
 
 
 
-#### Right to publish
 
-All publications will adhere to the principle that for embargoed data the originating data contributor retains the right to publish their data first, recognizing the policy on attribution and acknowledging ODAP as the enabling platform as described below.
-
-#### Pre-printing
-
-We support the principle of pre-printing but accept there may be circumstances where this is not feasible.
 
 #### Derived data
 

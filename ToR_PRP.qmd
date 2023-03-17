@@ -1,5 +1,6 @@
 ---
-title: ODAP Project Review Panel (PRP) Terms of Reference v0.51
+title: ODAP Project Review Panel (PRP) Terms of Reference
+version: 0.51
 ---
 
 # Role and responsibility

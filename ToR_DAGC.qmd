@@ -1,5 +1,6 @@
 ---
-title: ODAP Data Access Governance Committee v0.81
+title: ODAP Data Access Governance Committee
+version: 0.81
 ---
 
 # Terms of Reference
