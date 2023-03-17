@@ -16,6 +16,11 @@ quarto render ODAP_manual.qmd.qmd
 quarto render DataAccessReviewProcess.qmd.qmd
 quarto render DAGC_ToR.qmd.qmd
 
+# Rules
+
+- No version numbers in filenames
+- No dates in filenames
+- No spaces in filenames
 
 # Website
 

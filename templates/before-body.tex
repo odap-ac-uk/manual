@@ -7,9 +7,38 @@ $if(head.img)$
 \fancyhead[LO,LE]{\includegraphics[height=1cm]{$head.img$}}
 $endif$
 $if(title)$
-\fancyhead[RO,RE]{\color{odapred}\emph{$title$}}
+	\fancyhead[RO,RE]{\color{odapred}\emph{$title$
+	$if(version)$
+		v$version$
+	$endif$
+	}}
 $endif$
 \sectionfont{\color{odapred}\sectionrule{3ex}{0pt}{-1ex}{0.5pt}} % above and below
+
+\makeatletter
+\def\@maketitle{%
+  \newpage
+  \null
+  \vskip 2em%
+  \begin{center}%
+  \let \footnote \thanks
+    {\LARGE \@title \par}%
+    \vskip 1em%
+	$if(version)$
+    {\Large Version $version$\par}%
+	$endif$
+    \vskip 1.5em%
+    {\large
+      \lineskip .5em%
+      \begin{tabular}[t]{c}%
+        \@author
+      \end{tabular}\par}%
+    \vskip 1em%
+    {\large \@date}%
+  \end{center}%
+  \par
+  \vskip 1.5em}
+\makeatother
 % === END OF ODAP CUSTOM SECTION ===
 
 $if(has-frontmatter)$
