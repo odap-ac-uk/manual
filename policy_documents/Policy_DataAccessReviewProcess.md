@@ -1,0 +1,175 @@
+---
+title: Data Access Review Process
+---
+
+{{< pagebreak >}}
+# Introduction
+
+In order to facilitate rapid data sharing during the immediate response to new threats, the ODAP has two sections: the under-embargo and no-embargo sections. This document refers only to sharing of data after the embargo has been lifted; before this, data access is controlled by the contributing organisation.
+
+The Outbreak Data Analysis Platform (ODAP) has committed to meet the ‘[Five Safes](https://blog.ons.gov.uk/2017/01/27/the-five-safes-data-privacy-at-ons/)’ framework to foster responsible and trustworthy uses of data:
+
+1.  ***Safe projects:*** Is the use of data appropriate?
+
+2.  ***Safe data:*** is the risk of disclosure in the data minimised?
+
+3.  ***Safe people:*** can users be trusted to use the data in an appropriate manner?
+
+4.  ***Safe settings:*** can data be accessed in a Trusted Research Environment?
+
+5.  ***Safe outputs:*** are there disclosure risks from reported results?
+
+This policy focuses on ‘Safe people’, ‘safe projects’ and introduces ‘safe outputs’.
+
+## Definitions
+
+**Safe People** should have the right motivations for accessing research data and understand the legal and ethical considerations when using data that may be sensitive or confidential. Safe People should also have sufficient skills, knowledge, and experience to work with the data effectively. Researchers may need to undergo specific training or accreditation before accessing certain data or research environments and demonstrate that they are part of a bona fide research organisation.
+
+**Safe projects** are those that have a valid research purpose with a defined public benefit. For access to data to be granted the researchers need to demonstrate that their proposal is an appropriate and ethical use of the data, and that it is intended to deliver clear public benefits.
+
+**Safe outputs** ensure that all research outputs cannot be used to identify data subjects. They typically include ‘descriptive statistics’ that have been sufficiently aggregated such that identification is near enough impossible, and modelled outputs which are inherently non-confidential.
+
+## Key Principles
+
+The review process must:
+
+- Be proportionate
+
+- Meet the 'five safes' framework and help build a trustworthy approach
+
+- Be light-touch and streamlined to allow access to be approved rapidly
+
+- Be scalable.
+
+- Where multiple datasets are involved, every effort must be made to avoid duplicating review processes
+
+- For security and to handle changes of circumstance, access is time bound and should be subject to review at regular intervals
+
+## Transparency reporting
+
+ODAP is committed to transparency across all its activities, and so will provide information about all research projects that have been approved to take place in the Platform. For projects that have been approved, we will publish the researcher’s name, organisational affiliation, project title and lay project summary on the ODAP website: https://odap.ac.uk/. For projects that are not approved, we will record the reasons for rejection, using agreed categories.
+
+# ODAP Review processes
+
+To apply for access, researchers will complete the [HDR UK “five safes” data access application form](https://odap.ac.uk/forms/HDRUK_5_Safes_Application_Form.pdf).
+
+## Simplified review process
+
+<img src="media/media/image1.emf" style="width:6.5in;height:3.84013in" alt="Flow diagram for review process" />
+
+Flow diagram for review process
+
+In order to meet the ‘safe people’ and ‘safe projects’ requirements, approval will take the following steps:
+
+1.  Data available to discover through HDR UK Gateway
+2.  Researcher applies for access data
+3.  Accreditation of researcher
+4.  Review of research proposal
+5.  Researcher approved to access data
+
+The on-boarding and availability of datasets within ODAP is a separate process. All data access projects must have the potential to have direct impact to address the approved research scope and provide patient benefit.
+
+## Dataset availability
+
+Once data is available for access, a researcher can search for data through the HDR UK Innovation Gateway/ODAP website and wiki. The Gateway includes a number of functions:
+
+- search engine to allow researchers to discover data
+- Data Access Request form for researchers to apply for data
+
+The next two sections set out the process for researcher accreditation and review of project proposal. The two processes can happen in parallel rather than sequentially. However, we have illustrated them as separate reviews because, in future, an accredited researcher might apply to access data for a second research project. In such a case, the researcher accreditation would not need to be repeated, only the project proposal would be reviewed.
+
+## Accreditation of Researchers
+
+In order to ensure access is restricted to ‘safe people’, ODAP has introduced a process to accredit researchers. This will help ensure users can be trusted to use data in an appropriate manner, giving confidence to data contributors that data will be used responsibly, and enabling high quality research to be conducted using data in the Platform.
+
+### Review of researcher credentials by ODAP data access team
+
+The ODAP data access team will undertake a light-touch check of researcher credentials, using the following criteria:
+
+- All the requested information has been provided
+
+- The researcher is affiliated to a legitimate organisation conducting research (verified via institutional email address, institutional webpage profile or publication record)
+
+- The researcher is a bona fide researcher (see below)
+
+- The researcher has the professional qualifications and experience to work with health data ().
+
+- The researcher has a certificate demonstraing completion of the ONS training course in clinical data handling.
+
+If any of the requested fields have not been completed, or if further details are required, the data access team will contact the applicant for additional information. Once full details have been provided, the data access team will make an accreditation decision to the best of their judgement, but may also seek a second opinion from within the wider ODAP data team in the Lead Institute for complex cases.
+
+### Decision and notification
+
+There are two possible outcomes:
+
+- the researcher is accredited
+
+- the researcher’s application is rejected.
+
+The researcher is notified of the decision by email, including the reason for rejection (where relevant). The accreditation decision is recorded in the ODAP internal records log (kept confidentially), a password-protected database.
+
+## Bona Fide researchers
+
+The term bona fide researcher is often used but rarely defined. We use the definition adopted by the UK Medical Research Council in its Policy and Guidance on Sharing of Research Data from Population and Patient Studies.
+
+A bona fide researcher is a person with:
+
+- the professional expertise and experience to conduct bona fide research and
+- a formal relationship with a bona fide research organisation that requires compliance with appropriate research governance and management systems. Bona fide research can be considered to be as follows:
+- An intention to generate new knowledge and understanding using rigorous scientific methods. (This includes discovery research, development and validation of methodology and technology, validating and challenging previous findings, and pilot research). And…
+- An intention to publish the research findings and share the derived data in the scientific community, without restrictions and with minimal delay, for wider scientific and eventual public benefit. (Recognised constraints include a short prepublication delay to ensure proper management of intellectual property). And…
+- The intended activities are not inconsistent with legal and ethical requirements or widely recognised good research practice.
+
+A bona fide research organisation is one that has the capability to lead or participate in high quality, ethical research. It will have a public commitment to adhere to recognised research and information governance good practice. (It is not a requirement that such research is the primary business of that organisation, or that all of the research undertaken by that organisation is published. Nor is it a requirement that the organisation be publicly funded.)
+
+# Review of Research Proposals
+
+## Safe projects
+
+Proposals need to be reviewed to ensure the use of the data is appropriate, within the scope of the ODAP, and that the project has a valid research purpose with a defined public benefit.
+
+## Process
+
+The process of reviewing research proposals is as follows:
+
+1.  Application. The researcher provides basic information about the proposed project as detailed in the [HDR UK “five safes” data access application form](https://odap.ac.uk/forms/HDRUK_5_Safes_Application_Form.pdf).
+
+2.  Internal review. The proposals will initially be triaged by the ODAP data access team, and then referred to the Project Review Panel. Where necessary, the researcher may need to be contacted to provide further information or clarification. The review will be light-touch, and based on the following criteria:
+
+    - Does the research question fit within the scope of the ODAP?
+
+    - Is the relevant data available?
+
+3.  Decision. There are three possible outcomes:
+
+    - The proposal is approved
+
+    - the proposal is rejected
+
+    - The proposal is returned to the applicant with suggestions for changes that need to be made before it can be approved.
+
+- The researcher is notified of the decision, including the reason for rejection (where relevant). The decision is recorded, and metrics kept on approvals and rejections. The decision is recorded in the ODAP internal records log (kept confidentially), a password-protected database.
+
+  Reasons for rejection, which will be recorded, might include:
+
+  - Data not available to access via the ODAP
+
+  - Research proposal does not meet the informed consent requirements for that dataset
+
+  - Research proposal requires identifiable patient data or there is a risk to participant privacy
+
+  - The proposal is not in the public interest
+
+### Amendment process
+
+Any amendments to approved applications will be reviewed by the Project Review Panel.
+
+### Appeals process
+
+Any appeals may be escalated to the DAGC.
+
+
+# Linked Documents
+
+[Data Access Review Standard Operating Procedure](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/SOP_DataAccessReviewProcess_v0.3.pdf)
+[Inital Enquiry Form](https://github.com/odap-ac-uk/manual/blob/master/_policy_documents/auto-generated/Form_InitalEnquiryForm_v0.2.docx)

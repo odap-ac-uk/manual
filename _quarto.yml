@@ -1,6 +1,7 @@
 project:
   output-dir: auto-generated
 pdf-engine: pdflatex
+highlight-style: github
 number-sections: true
 toc: true
 format: 
