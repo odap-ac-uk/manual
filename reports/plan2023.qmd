@@ -50,7 +50,7 @@ include_table("../_costs/core_costs.xlsx")
 
 {{< include _temp_core_costs.md >}}
 
-: Rough esitmate costs for core activities. It is anticipated that costs to support and maintain the legacy Covid and hepatitis datasets with existing linkage will decrease over the next 3 years as user numbers decline. If there are further outbreaks or acitivities during this time, new funding will be needed to scale up activity. 
+: Estimated costs for core activities. **These costs are provisional and are yet to be confirmed**. It is anticipated that costs to support and maintain the legacy Covid and hepatitis datasets with existing linkage will decrease over the next 3 years as user numbers decline. If there are further outbreaks or acitivities during this time, new funding will be needed to scale up activity. 
 
 ## Direct costs: charges for access to ODAP non-embargo data
 
