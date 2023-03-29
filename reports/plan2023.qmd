@@ -1,0 +1,68 @@
+---
+title: ODAP Operational Plan 2023
+---
+
+
+# Prelude
+
+The ODAP has created a globally-unique research capability combining clinical data, deep phenotyping, host genome sequence, viral sequence data and clinical trial data across the four nations of the UK. ODAP-delivered research has changed the global course of the Covid-19 pandemic, and the outbreak of unexplained hepaptitis in children. ODAP combines the security of an accredited trusted research environment with flexible software tools and high-performance compute power, including state-of-the-art GPU compute for machine learning and artificial intelligence applications.
+
+The key innovation in the ODAP is the ovararching ISARIC Clinical Characertisation Protocol (CCP), which enables a single set of legal agreements and regulatory approvals to apply across multiple studies, vastly decreasing the complexity of data linkage. This is known as the [ISARIC Spine](https://odap.ac.uk/manual/auto-generated/odap_manual#the-isaric-spine). The Spine offers investigators access to a range of other academic and clinical data sources, creating a significant incentive for researchers to contribute data to the platform.
+
+Access to data is at the discretion of data controllers. ODAP offers to share data controllership with any data contributor who wishes to take advantage of this service, in order simplify and streamline data access for external groups. At present, data from the [ISARIC4C](https://isaric4c.net) and [GenOMICC](https://genomicc.org) studies is openly accessible.
+
+The ODAP is funded by the Baillie Gifford Pandemic Science Hub (PSH) at the University of Edinburgh, and the University of Edinburgh City Deal for Data Driven Innovation. The set up and design was funded by UKRI (MC_PC_19025, MC_PC_19059). Funding from the National Core Studies Data and Connectivity Programme (MC_PC_20029, administered by HDR UK) supported the programme from Sept 2021 to March 2023. ODAP is delivered by three organisations: the Baillie Gifford Pandemic Science Hub (BG-PSH) at the University of Edinburgh coordinate delivery and funding, the Edinburgh Parallel Compute Centre (EPCC) at the University of Edinburgh provide TRE infrastructure, and Public Health Scotland provide data linkage and data governance expertise and infrastructure. 
+
+# ODAP year 4 operational plan
+
+## Core activities
+
+ODPA will provide legacy access to linked four nations research data for two outbreaks: Covid-19 and unexplained hepatitis. Subject to future funding, ODAP will expand, adapt, add new features, and support response to new outbreaks. 
+
+ODAP will provide data access to UK-based applicants using the five-safes framework (see odap.ac.uk for details). The ODAP operate a cost-recovery model with charges to cover administration, access review, linkage and provision of datasets, compute load, and output checks.
+
+
+## Costs
+
+## Minimum operating activity
+
+To 
+
+
+
+Costs will be recovered directly from users for the following activities:
+
+
+1. Data access. Costs will be proportional to the number of data access reviews required, complexity of data access, the number of users, and the number of export requests.
+2. Data ingress. Costing will be estimated based on the scale and complexity of data linkage
+
+
+# Gantt
+
+```mermaid
+gantt
+title       ODAP immediate plans
+dateFormat  YYYY-MM-DD
+axisFormat  %b %y
+
+section CORE
+Complete Comprehensive Data Catalogue[Jim]: active, catalog, 2023-02-02, 68d
+Link GenOMICC and COG-UK[PHS]: active, hvlink, 2023-28-02, 30d
+Install automatic phylogeny dashboard[Cardiff]: active, after fcs-build, 80d
+Build GPU GWAS on-the-fly dashboard on ODAP[Konrad]: active, after fcs-build, 30d
+Analysis of host and viral genomes: after hvlink, 100d
+Specifications for new FCS [Jim]: active, fcs-design, 2023-01-01, 80d
+Build new FCS [EPCC]: active, fcs-build, after fcs-design, 20d
+Complete SSP for new FCS [Andrew]: active, ssp, after fcs-design, 60d
+Get FCS approval from data providers[Jack]:active, after ssp, 2023-10-01
+Copy ISARIC4C, PHOSP, NHSD data to FCS[PHS]:active,    fcs-move, after fcs-build, 2023-10-01
+Complete cost-recovery charging structure[Wilna]: done, cost, 2023-02-01, 60d
+
+section ACCESS
+Complete TORs & SOPs for data access process: done, 2023-01-01, 30d
+Initiate PPIE[HDR UK]: ppie, 2023-01-01, 150d
+Milestone 1-cost-recovery data access  : milestone, crit, after dagc1, 
+DAGC meeting : dagc1, after ppie, 1d
+HDR Gateway goes live: gateway, after dagc1, 1d
+Run 5-safes data access process[Jack]: after dagc1, 2023-10-01
+```

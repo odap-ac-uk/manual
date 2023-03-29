@@ -50,20 +50,6 @@ Fundamentally, data linkage on this scale is difficult, and the achievements of 
 ![Timeline of data transfer and access activity](timelines/auto-generated/ukrihdr-uk-odap-data.pdf){#fig-timedata}
 
 
-
-
-
-
-
-
-Plans:
-
-[ppie2] startdate:nov22 endate:jan23
-[dagc2] dependency: ppie2
-
-
-
-
 # Outputs
 
 **ODAP has supported 102 papers with an average altmetric score of 611.**

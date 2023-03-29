@@ -149,6 +149,15 @@ When an `atomic dataset` is split, two new `atomic datasets` are created, and th
 
 <!--
 
+The following key capabilities define the ODAP:
+
+1. Ingress new datasets. 
+    - Sign and check data sharing agreement with data provider
+    - Where eligible, link new dataset to other data in the ODAP using the ISARIC Spine, and generate project-specific identifiers for each patient
+2. Approve new users for access to specific subsets of data held.
+3. Provide approved users with access to subsets of the data held, a flexible range of software including python and R modules, and high performance compute.
+4. Approve extracts of non-disclosive data from ODAP
+
 A live [ODAP datasets mapping.xlsx](https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/DataInfrastructureAndGovernance/ODAP/_documents/ODAP%20datasets%20mapping.xlsx?d=w1dde5dbd6a094799b1595de102fa3818&csf=1&web=1&e=coUYiB) is available for reference. \[Further details about processes and approvals to be added\]
 
 A parallel document exists for [eDRIS](https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/DataInfrastructureAndGovernance/Research%20Projects/ISARIC%20eDRIS%20Projects.xlsx?d=w8624bebadf7f491abc6add8587a039d8&csf=1&web=1&e=npUB8k)
