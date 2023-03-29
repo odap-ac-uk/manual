@@ -4,6 +4,8 @@ pdf-engine: pdflatex
 highlight-style: github
 number-sections: true
 toc: true
+execute:
+  echo: false
 format: 
   pdf:
     header-includes:

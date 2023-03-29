@@ -11,9 +11,9 @@ The key innovation in the ODAP is the ovararching ISARIC Clinical Characertisati
 
 Access to data is at the discretion of data controllers. ODAP offers to share data controllership with any data contributor who wishes to take advantage of this service, in order simplify and streamline data access for external groups. At present, data from the [ISARIC4C](https://isaric4c.net) and [GenOMICC](https://genomicc.org) studies is openly accessible.
 
-The ODAP is funded by the Baillie Gifford Pandemic Science Hub (PSH) at the University of Edinburgh, and the University of Edinburgh City Deal for Data Driven Innovation. The set up and design was funded by UKRI (MC_PC_19025, MC_PC_19059). Funding from the National Core Studies Data and Connectivity Programme (MC_PC_20029, administered by HDR UK) supported the programme from Sept 2021 to March 2023. ODAP is delivered by three organisations: the Baillie Gifford Pandemic Science Hub (BG-PSH) at the University of Edinburgh coordinate delivery and funding, the Edinburgh Parallel Compute Centre (EPCC) at the University of Edinburgh provide TRE infrastructure, and Public Health Scotland provide data linkage and data governance expertise and infrastructure. 
+The ODAP set up and design was funded by UKRI (MC_PC_19025, MC_PC_19059) and the University of Edinburgh City Deal for Data Driven Innovation. Funding from the National Core Studies Data and Connectivity Programme (MC_PC_20029, administered by HDR UK) supported the programme from Sept 2021 to March 2023. ODAP is delivered by three organisations: the Baillie Gifford Pandemic Science Hub (BG-PSH) at the University of Edinburgh coordinate delivery and funding, the Edinburgh Parallel Compute Centre (EPCC) at the University of Edinburgh provide TRE infrastructure, and Public Health Scotland provide data linkage and data governance expertise and infrastructure. Future funding will be provided by the Baillie Gifford Pandemic Science Hub (PSH) at the University of Edinburgh, the University of Edinburgh City Deal for Data Driven Innovation, and through future applications for funding through HDR UK, UKRI and other funders.
 
-# ODAP year 4 operational plan
+# ODAP operational plan
 
 ## Core activities
 
@@ -21,25 +21,66 @@ ODPA will provide legacy access to linked four nations research data for two out
 
 ODAP will provide data access to UK-based applicants using the five-safes framework (see odap.ac.uk for details). The ODAP operate a cost-recovery model with charges to cover administration, access review, linkage and provision of datasets, compute load, and output checks.
 
-
 ## Costs
 
-## Minimum operating activity
+ODAP will move to a cost-recovery model for future operations. The cost recovery model includes both core and direct costs. Core costs are the minimum support costs that are needed for the general running of our platform. Core costs need to support and maintain the activities and functions of EPCC, Public Health Scotland, and the ODAP administration team. Direct costs are allocated to researchers and require grant funding.
 
-To 
+### Core costs: minimum operating activity
 
-
-
-Costs will be recovered directly from users for the following activities:
+To maintain current data storage and infrastructure, linkage, access, support for existing researchers, and management of the initial phase of applications, the following costs will need to be incurred.
 
 
-1. Data access. Costs will be proportional to the number of data access reviews required, complexity of data access, the number of users, and the number of export requests.
-2. Data ingress. Costing will be estimated based on the scale and complexity of data linkage
+```{python, echo=False}
+import os
+import pandas as pd
+from tabulate import tabulate
+def include_table(input_file):
+    xlsx_data = pd.read_excel(input_file)
+    for column in xlsx_data.columns:
+        if "(£)" in column:
+            xlsx_data[column] = xlsx_data[column].apply(lambda x: f"£{x:,.2f}" if pd.notna(x) else '')
+    xlsx_data = xlsx_data.fillna('')
+    markdown_table = tabulate(xlsx_data, tablefmt="pipe", headers="keys", showindex=False)
+    temp_file_name = os.path.splitext(os.path.basename(input_file))[0]
+    temp_file_name = f"_temp_{temp_file_name}.md"
+    with open(temp_file_name, "w") as f:
+        f.write(markdown_table)
+include_table("../_costs/core_costs.xlsx")
+```
+
+{{< include _temp_core_costs.md >}}
+
+: Rough esitmate costs for core activities. It is anticipated that costs to support and maintain the legacy Covid and hepatitis datasets with existing linkage will decrease over the next 3 years as user numbers decline. If there are further outbreaks or acitivities during this time, new funding will be needed to scale up activity. 
+
+## Direct costs: charges for access to ODAP non-embargo data
+
+Researchers will be expected to meet any and all costs for data access and provision. All researchers accessing ODAP data will be charged on a cost recovery basis to academic users. 
+
+The following activities are costed:
+
+1. Application fee. A fee is charged for each application for data access to fund the review process, including external reviews of scientific quality.
+2. Data access. Costs will be proportional to the number of data access reviews required, complexity of data access (i.e. number of atomic datasets required, see [ODAP manual](https://odap.ac.uk/manual/auto-generated/odap_manual#dataset-catalogue) for further explanation), the number of users, and the number of export requests expected.
+3. Data ingress. Costing will be estimated based on the scale and complexity of data linkage, including the number of individuals to be linked, and the need for new data sharing agreements. 
+
+## Planned activities
+
+### Data access governance process
+
+Documentation of the data access governance processs can be found on the [ODAP website](https://odap.ac.uk/documents). Following completion of the planned PPIE exercise with HDR UK, this process will be formally initiated at a Data Access Governance Committee meeting in Spring/Summer 2023.
+
+### Computational infrastructure
+
+ODAP will move to new infrastructure with greater flexibility and capacity for development and external interaction
+
+### Data catalogue
+
+The ODAP data catalogue has been reformatted to make it easier for users to select and access data. This will be shared openly through the [ODAP web page](odap.ac.uk) in Spring 2023. <!-- JIM to do this -->
 
 
-# Gantt
+# Summary of immediate plans
 
-```mermaid
+```{mermaid}
+%%| fig-width: 6.5
 gantt
 title       ODAP immediate plans
 dateFormat  YYYY-MM-DD

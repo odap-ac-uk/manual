@@ -12,12 +12,12 @@ To maintain current data storage and infrastructure, linkage, access, and suppor
 
 
 | Description                       | Resource          | Cost per annum     | 
-| :---                              | :---              | :---
+| :---                              | :---              | :---               |
 | Data infrastructure and storage   | EPCC 			    | £25,000.00		 | 
 | Researcher support and use of NSH | PHS               | £33,755.50         |
 | Data linkage                      | PHS               |                    | 
 | Disclosure control                | PHS               |                    |
-| Administration 					| 0.2FTE ODAP admin | £5,190.00          |
+| Administration 					| 0.4FTE ODAP admin | £10,380.00         |
 | Total core cost per annum			|					| £63,945.00         |	
 
 
