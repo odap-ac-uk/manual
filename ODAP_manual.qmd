@@ -119,7 +119,7 @@ The legal entity hosting ODAP is the University of Edinburgh. A data processing 
 
 Data are linked into the ISARIC Spine using the patient's NHS numbers by PHS before transfer to the FCS as shown in @fig-flow. 
 
-![Flowchart showing data linkage and accessibility within ODAP](images/flowchart.png){#fig-flow}
+{{< include _includes/_flowchart.qmd >}}
 
 ## API
 

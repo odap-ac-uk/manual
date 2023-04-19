@@ -1,3 +1,6 @@
 The whole manual is a git `submodule` included in the website. 
 
-The files in this folder are used in both the website and multiple documents. They must only contain markdown text which can be read by both `quarto` and `jekyll`, and no "includes" from other files or references to image paths. 
+The files in this folder are used in both the website and multiple documents. They should only contain markdown text which can be read by both `quarto` and `jekyll`, and no "includes" from other files or references to image paths. 
+
+
+

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.296">
+<meta name="generator" content="quarto-1.3.330">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,6 +33,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="ODAP_manual_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="ODAP_manual_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="ODAP_manual_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="ODAP_manual_files/libs/quarto-diagram/mermaid.min.js"></script>
+<script src="ODAP_manual_files/libs/quarto-diagram/mermaid-init.js"></script>
+<link href="ODAP_manual_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="https://odap.ac.uk/style.css">
@@ -198,7 +201,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Some data providers choose to delegate approval of data access to the ODAP team. The diagram in <a href="#fig-access">Figure&nbsp;1</a> describes the five safes application form and light-touch review process. These processes are overseen by the Data Access Governance Committee (DAGC).</p>
 <div id="fig-access" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><embed src="images/data_access/Data_access_flow.pdf" class="quarto-discovered-preview-image img-fluid"></p>
+<p><embed src="images/data_access/Data_access_flow.pdf" class="img-fluid"></p>
 <p></p><figcaption class="figure-caption">Figure&nbsp;1: Data access flows</figcaption><p></p>
 </figure>
 </div>
@@ -230,11 +233,57 @@ ul.task-list li input[type="checkbox"] {
 <section id="data-ingress" class="level2" data-number="2.8">
 <h2 data-number="2.8" class="anchored" data-anchor-id="data-ingress"><span class="header-section-number">2.8</span> Data ingress</h2>
 <p>Data are linked into the ISARIC Spine using the patient’s NHS numbers by PHS before transfer to the FCS as shown in <a href="#fig-flow">Figure&nbsp;2</a>.</p>
+<div class="cell" data-fig-width="8">
+<div class="cell-output-display">
 <div id="fig-flow" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="images/flowchart.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure&nbsp;2: Flowchart showing data linkage and accessibility within ODAP</figcaption><p></p>
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-flow">graph LR
+
+subgraph ODAP
+  subgraph ISARIC SPINE LINKAGE
+    Spine --- I4CT0[ISARIC4C&lt;br&gt;Tier Zero]:::no-embargo
+    Spine --- I4CT12[ISARIC4C&lt;br&gt;Biological]:::no-embargo
+    Spine[ISARIC Spine] --- GenOMICC:::no-embargo
+    Spine --- COG-UK:::embargo
+    Spine --- PHOSP:::embargo
+    Spine --- SICSAG:::embargo
+    Spine --- NHSE[NHS England]:::embargo  
+    Spine --- NHSS[NHS Scotland]:::embargo
+    Spine --- Pillar1:::embargo
+    Spine --- Pillar2:::embargo
+    Spine --- NIMS:::embargo
+    Spine --- ICNARC:::planned
+    Derived[Derived&lt;br&gt;variables]
+  end
+  ISARIC3 ==&gt; to_fcs[(Transfer to FCS)]
+  to_fcs ==&gt; Spine
+  subgraph PHS data linkage team
+    NHS_IDS[\Master link&lt;br&gt;to NHS numbers/] --&gt;|PHS team only| ISARIC3((ISARIC Spine&lt;br&gt;ID allocation))
+  end
+  subgraph Legend
+        Dataset-no-embargo[Open dataset - &lt;br&gt;no embargo]:::no-embargo
+        Dataset-embargo[Dataset&lt;br&gt;in ODAP]:::embargo
+        Dataset-planned[Dataset ingress planned]:::planned
+        Process[Processing steps] 
+  end
+end
+
+Derived ---&gt;|API|PHA([Public&lt;br&gt;Health&lt;br&gt;Agencies])
+Derived ---&gt;|API|TRE([External&lt;br&gt;TREs])
+
+New(New Dataset) --&gt; ISARIC3:::planned
+    classDef default fill:#bec3e8,stroke:#333,stroke-width:1px,text-align:center;
+    classDef no-embargo fill:#00ff9d,stroke:#333,stroke-width:1px,font-weight:bold,text-align:center;
+    classDef embargo fill:#ff9b9b,stroke:#333,stroke-width:1px,font-weight:bold,text-align:center;
+    classDef planned fill:#f4ebeb,stroke:#333,stroke-width:1px,font-weight:normal,text-align:center;
+    class reduce,change choices
+</pre>
+</div>
+<p></p><figcaption class="figure-caption">Figure&nbsp;2: Simplified flowchart showing data linkage procedures.</figcaption><p></p>
 </figure>
+</div>
+</div>
 </div>
 </section>
 <section id="api" class="level2" data-number="2.9">

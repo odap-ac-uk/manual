@@ -1,7 +1,5 @@
-
-
 ```{mermaid}
-%%| fig-width: 9
+%%| fig-width: 8
 %%| label: fig-flow
 %%| fig-cap: "Simplified flowchart showing data linkage procedures."
 
