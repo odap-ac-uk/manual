@@ -1,0 +1,281 @@
+<mxfile host="app.diagrams.net" modified="2023-04-20T10:11:47.286Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="AGdqBQIunZo1Tg5B5Vn1" version="21.1.8" type="device">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="2074" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5sq4bgUqjRFgzolprqc3-74" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="200" as="sourcePoint" />
+            <mxPoint x="1110" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000FF;" edge="1" parent="1" source="5sq4bgUqjRFgzolprqc3-1" target="5sq4bgUqjRFgzolprqc3-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-1" value="Collects clinical data" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-2" value="ISARIC4C CCP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="55" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-3" value="Data Controller&amp;nbsp; Oxford" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="10" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-6" value="&lt;font&gt;Study ID, NHS numbers, clinical data&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="430" y="80" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-8" value="NHS England" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-9" value="Links data&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="425" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.715;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5sq4bgUqjRFgzolprqc3-12" target="5sq4bgUqjRFgzolprqc3-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1005" y="202" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-12" value="Return extracts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="425" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5sq4bgUqjRFgzolprqc3-19" target="5sq4bgUqjRFgzolprqc3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-19" value="Send &lt;b&gt;ALL &lt;/b&gt;ISARIC IDs and NHS numbers to NHSE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="795" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="317.5" width="120" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5sq4bgUqjRFgzolprqc3-22">
+          <mxGeometry y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-16" value="GenOMICC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5sq4bgUqjRFgzolprqc3-22">
+          <mxGeometry x="35" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-17" value="Data controller&amp;nbsp;&lt;br&gt;Edinburgh" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5sq4bgUqjRFgzolprqc3-22">
+          <mxGeometry x="20" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="205" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5sq4bgUqjRFgzolprqc3-23">
+          <mxGeometry y="44" width="120" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-15" value="PHOSP-COVID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5sq4bgUqjRFgzolprqc3-23">
+          <mxGeometry x="32.3076923076923" y="60.50000000000001" width="55.38461538461539" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-18" value="Data controller&amp;nbsp;&lt;br&gt;Leicester &amp;amp; Edinburgh" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5sq4bgUqjRFgzolprqc3-23">
+          <mxGeometry width="120" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5sq4bgUqjRFgzolprqc3-26" target="5sq4bgUqjRFgzolprqc3-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-26" value="Receives data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="147.5" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="100" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-24" value="PHS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5sq4bgUqjRFgzolprqc3-36">
+          <mxGeometry y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-25" value="Data Processor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5sq4bgUqjRFgzolprqc3-36">
+          <mxGeometry x="5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5sq4bgUqjRFgzolprqc3-39" target="5sq4bgUqjRFgzolprqc3-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-39" value="Create ISARIC Spine by assigning ISARIC ID to &lt;b&gt;ALL&lt;/b&gt; Study ID and NHS numbers" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="138.75" width="130" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5sq4bgUqjRFgzolprqc3-49" target="5sq4bgUqjRFgzolprqc3-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-49" value="ISARIC spine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="35" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-50" value="&lt;font color=&quot;#ff8000&quot;&gt;DPA with PHS&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-51" value="&lt;font color=&quot;#ff8000&quot;&gt;DPA with PHS&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-52" value="&lt;font color=&quot;#ff8000&quot;&gt;DPA with PHS&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-53" value="&lt;font color=&quot;#ff8000&quot;&gt;DARS with ISARIC4C&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="435" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-58" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="920" y="160" width="126.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-54" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="5sq4bgUqjRFgzolprqc3-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint x="107.03846153846153" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-55" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="5sq4bgUqjRFgzolprqc3-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="35" as="sourcePoint" />
+            <mxPoint as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-56" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="5sq4bgUqjRFgzolprqc3-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="35" as="sourcePoint" />
+            <mxPoint x="107.03846153846153" y="35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-57" value="ODAP data platform" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5sq4bgUqjRFgzolprqc3-58">
+          <mxGeometry y="8.75" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-59" value="Provision ISARIC4C data with NHSE-linked data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="147.5" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-60" value="&lt;font color=&quot;#ff8000&quot;&gt;Data access as per DARS&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="943.5" y="107.5" width="103" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-63" value="&lt;font&gt;Study ID, NHS numbers, clinical data&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="490" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5sq4bgUqjRFgzolprqc3-9" target="5sq4bgUqjRFgzolprqc3-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="290" as="sourcePoint" />
+            <mxPoint x="600" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-75" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="310" as="sourcePoint" />
+            <mxPoint x="1111" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-76" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="420" as="sourcePoint" />
+            <mxPoint x="1111" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-77" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="50" width="330" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-78" value="&lt;b&gt;Key&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1211" y="55" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-79" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="90" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-80" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="145" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-81" value="" style="endArrow=none;html=1;rounded=0;fontColor=#0000FF;strokeColor=#0000FF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1235" y="264.5" as="sourcePoint" />
+            <mxPoint x="1295" y="264.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-82" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#006600;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1235" y="294.5" as="sourcePoint" />
+            <mxPoint x="1295" y="294.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-83" value="Contracts and Agreements" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="320" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-84" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1230" y="210" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-85" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="5sq4bgUqjRFgzolprqc3-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint x="76.15384615384615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-86" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="5sq4bgUqjRFgzolprqc3-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="26.666666666666664" as="sourcePoint" />
+            <mxPoint as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-87" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="5sq4bgUqjRFgzolprqc3-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="26.666666666666664" as="sourcePoint" />
+            <mxPoint x="76.15384615384615" y="26.666666666666664" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000FF;" edge="1" parent="1" source="5sq4bgUqjRFgzolprqc3-89" target="5sq4bgUqjRFgzolprqc3-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-89" value="Send data to PHS" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="40" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#006600;" edge="1" parent="1" source="5sq4bgUqjRFgzolprqc3-93" target="5sq4bgUqjRFgzolprqc3-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-93" value="Collects clinical data" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#006600;" vertex="1" parent="1">
+          <mxGeometry x="220" y="240" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#006600;" edge="1" parent="1" source="5sq4bgUqjRFgzolprqc3-94" target="5sq4bgUqjRFgzolprqc3-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-94" value="Send data to PHS" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#006600;" edge="1" parent="1" source="5sq4bgUqjRFgzolprqc3-95" target="5sq4bgUqjRFgzolprqc3-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-95" value="Collects clinical data" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#006600;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-96" value="Send data to PHS" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5sq4bgUqjRFgzolprqc3-57" target="5sq4bgUqjRFgzolprqc3-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-114" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#006600;" edge="1" parent="1" source="5sq4bgUqjRFgzolprqc3-96">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="590" as="sourcePoint" />
+            <mxPoint x="480" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-115" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#006600;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="370" as="sourcePoint" />
+            <mxPoint x="480" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-116" value="Entity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-117" value="Process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="145" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-118" value="Outbreak Data Analysis Platform" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="205" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-119" value="Unconsented data - COPI notice" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="250" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-120" value="Informed consent" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="290" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-123" value="&lt;font&gt;ISARIC ID, NHS numbers&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="780" y="260" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5sq4bgUqjRFgzolprqc3-124" value="&lt;font&gt;ISARIC ID, linked NHSE data&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="320" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
