@@ -1,0 +1,302 @@
+---
+title: HDR UK Pandemics and Outbreaks Driver Programme Delivery Plan
+number-sections: true
+toc: false
+---
+
+<!--
+
+This is a revised summary plan, consistent with the content and objectives of the peer-reviewed Pandemics and Outbreaks Programme, which scored 10/10 in the HDR UK Quinquennial Review. Here we clarify the new leadership after Sharon Peacock's departure, and provide details of who will take responsibility for specific deliverables. 
+
+-->
+
+*Co-leads: Kenneth Baillie, Steve Harris, and Emma Thompson.*
+
+# Funding
+
+This driver programme was reviewed as part of the HDR UK Quinquennial review. It scored 10/10. Activity has been paused because of an overall funding shortfall in the HDR UK bid, due to the withdrawal of the Wellcome from the pool of funders. 
+
+The total cost of the proposed work is £5M.
+
+# Background
+<!--
+In any new outbreak, there are common steps in the progession of knowledge:
+
+**Phase 1.** an unusual pattern of disease is noticed by a single clinician seeing multiple cases.  
+**Phase 2.** detailed knowledge is shared by clinicians and public health teams discussing cases in detail (e.g. public health conference calls).  
+**Phase 3.** analysis of structured data at population scale, identification of risk factors (e.g. [ISARIC CCP](isaric4c.net)).  
+**Phase 4.** integrated deep biological characterisation, therapeutics (e.g. [GenOMICC](genomicc.org), ISARIC CCP, RECOVERY).  
+
+UK biomedical research infrastructure is designed for perennial clinical problems, in which the frontier of knowledge is in phase 4. In outbreaks, there are unmet needs across all four phases. 
+-->
+
+Our approach is to optimise peacetime academic infrastructure to deliver fast, efficient delivery of answers to key clinical questions by improving, testing and, most importantly, actually *using* data and sampling capability across the four nations of the UK during the inter-pandemic period.
+
+The design of the Pandemics and Outbreaks Driver Programme was based on the following core principles:
+
+1. **Distributed data analysis** using secure multi-party compute can answer immediate questions in outbreaks  
+2. **Central data collation** will continue to be required for computationally intensive applications: host/pathogen genomics, deep phenotyping, data integration, machine learning/AI.  
+3. **Perennial problems** must be the focus in order to "keep the engine running": AMR, sepsis, research recruitment, sample acquisition and small-scale outbreaks.  
+4. **Critical care** exemplifies challenges and opportunities across secondary care.  
+5. **The academic sector** provides essential scalable resource and cutting edge technology to public health in emergencies.  
+
+# Advancing sovereign data infrastructure during peacetime.
+
+We will build the following key infrastructure capabilities:
+
+-  Establish internal software "pharmacies" within NHS systems (in collaboration with Microsoft). **Sustainability plan: commercialise**
+-  Demonstrate and deliver secure multi-party compute between exemplar NHS systems and the [Outbreak Data Analysis Platform (ODAP)](odap.ac.uk) **Sustainability plan: open source/commercialise**
+-  Efficient transfer, where necessary, of clinical, microbiological and host genomic information to the ODAP **Sustainability plan: cost-recovery data access model**
+
+<!--
+\newpage
+
+# Work packages
+
+## Distributed data analysis [Harris]  {#sec-distributed}
+
+### Automate clinical data collection [Harris]
+
+#### Data obtained wihout individual consent
+
+- Create *minimal informative shareable dataset* to facilitate unusual case surveillance ("red button") [Haniffa, Beane]
+- Create a robust system to detect important phenotypes of critical illness and evaluate automated eligibility/inclusion criteria ("virtual research nurse") [Harris]
+
+#### Data obtained with informed consent
+
+- develop and evaluate high quality local data capture using natural language processing in clinical notes [Harris]
+- test extended automated case report form (CRF), shared with central server, to support trials and consented observational studies. e.g. blood results, clinical characterisation [Harris, Baillie]
+
+### Automate clinical metadata collection [Beane]
+
+- Build and evaluate AI-based metadata parsing for bed occupancy, nursing rotas; test use case to forecast impact of outbreaks/other threats [Beane]
+
+### Secure multi-party compute [Kerr]
+
+- Create and deploy data non-sharing agreements to support secure multiparty compute.[Haniffa, Beane]
+- Secure multiparty compute pilot UCLH-ODAP [Kerr]
+
+## Centralised deep clinical data analysis and sample tracking [Baillie] {#sec-centralised}
+
+### Data obtained with informed consent {#sec-unconsented-central}
+
+- Establish legal basis for clinical characterisation of outbreaks during public health event Data obtained wihout individual consent [Semple]
+- Obtain limited data without consent from participants to facilitate academic research in support of public health response [Semple, Morris]
+
+### Data obtained with informed consent
+
+- Obtain deep data from consented participants through electronic case report form data linkage with omics data in ODAP [Baillie, Oosthuyzen]
+- Create automated data dashboards within ODAP [Harrison]
+- Curate and document deep individual-level data for large-scale compute within ODAP [Baillie]
+- Link microbiology and pathogen sequence data with clinical, prescribing, national audit and host genomic data [Baillie]
+
+## Laboratory sample transfer network for research [Thompson] {#sec-lab}
+
+- Optimise and test sampling infrastructure for microbiology samples in outbreaks [Thompson]
+- Create tracking system for research samples from recruiting sites and microbiology labs to ISARIC4C receiving centres [Baillie]
+- Evaluate respiratory pathogen landscape and anti-microbial resistance during winter peaks using metagenomic sequencing [Thompson]
+
+```{mermaid}
+%%| fig-width: 6
+%%| label: fig-flow
+%%| fig-cap: "Gantt chart."
+
+gantt
+title       Pandemics and Outbreaks Driver Programme
+dateFormat  YYYY-MM-DD
+axisFormat  %b %y
+
+section Distributed
+Test laboratory integration in UCLH[Harris]: lab1, 2024-03-01, 100d
+Test natural language processing in clinical notes [Harris]: nlp, 2025-01-03, 300d
+Evaluate virtual research nurse case identification [Harris]: vrn, after nlp, 300d
+Deploy virtual research nurse in one institution [Harris]: vrn2, after vrn, 300d
+Establish CCP eCRF in UCLH software pharmacy[Harris]: eCRF1, 2024-04-01, 100d
+Initiate automated eCRF for GenOMICC study [Harris, Baillie]: ecrf2, after eCRF1, 40d
+Establish CCP electronic case report form in other digitally-mature trusts[Harris]: after ecrf1, 300d
+Create data non-sharing agreement template[Lawyer1]: legal1, 2023-09-01, 100d
+Sign data non-sharing agreement (DNSA) template with UCLH[Lawyer1]: legal2, after legal1, 100d
+Establish SMPC test process UCLH-ODAP[Kerr]: smpc1, after legal2, 100d
+Establish SMPC test process multiple sites to ODAP[Kerr]: smpc2, after smpc1, 100d
+Share open software/standards/DNSA for SMPC[Kerr]: after smpc2, 40d
+Share open software/standards for eCRF[Harris]: after ecrf2, 40d
+
+section Centralised
+Obtain test data for bed occupancy & nursing rotas [Beane]: meta, 2024-08-01, 200d
+Develop and test AI metadata parser use case [Beane]: meta2, after meta, 200d
+Forecast impact of outbreaks/other threats [Beane]: meta3, after meta2, 400d
+Obtain Schedule 3 CAG approval [Semple]: sch3, 2023-05-01, 200d
+Create automated data dashboards within ODAP [Ewen Harrison]: sch3, 2024-01-01, 200d
+Respond to outbreaks in partnership with public health [Semple, Baillie]: 2023-05-01, 2028-12-01
+Obtain hospital laboratory data for consented participants in GenOMICC [Baillie]: labdata, 2023-10-01, 300d
+
+section Laboratory network
+Build CCP sample tracking system [Baillie]: tracker, 2023-10-01, 200d
+Test outsourcing of sample pack distribution for ISARIC CCP[Baillie]: ccp1, after tracker, 40d
+2-week "activation" - resp samples from UCLH[Semple, Thomson]: 2024-09-01, 14d
+2-week "activation" - resp samples from multiple sites[Thomson]: 2025-06-01, 14d
+Winter season samples[Thomson]: 2025-12-01, 100d
+Winter season samples[Thomson]: 2026-12-01, 100d
+Winter season samples[Thomson]: 2027-12-01, 100d
+
+section Data access
+Recruit PPIE coordinator : ppie-staff, 2023-08-21, 10d
+Establish and run continuous PPIE   : after ppie-staff,  2028-12-01
+Recruit Information Governance expert : ig-staff, 2023-08-21, 10d
+Obtain sublicense from NHS England  : after ig-staff,  60d
+Lift embargo on additional datasets in ODAP : 2023-04-01, 2026-12-01
+Further ODAP data ingress on cost-recovery basis  : 2023-04-01, 2028-12-01
+```
+
+# Key data feeds from across HDR UK infrastructure
+
+- electronic case report form from within NHS hospitals (@sec-distributed)
+- lab results (national pathology) (@sec-centralised)
+- medications data (@sec-lab)
+
+# Geographical distribution
+
+## Digitally-mature sites
+
+The work in @sec-distributed will be focused on carefully-selected digitally-mature hospital sites. We aim to demonstrate what is possible with the best tools, in the expectation that they will be available widely within 10 years. 
+
+- University College Hospital London
+- NHS Lothian
+- ODAP ([See the ODAP manual for full summary of the project](https://odap.ac.uk/manual/auto-generated/ODAP_manual.pdf))
+- MRC Centre for Virology Research, Glasgow
+
+## UK-wide
+
+We will build systems to gather minimal information from electronic systems in all sites in the UK using pragmatic methodology (e.g. manual data entry using ISARIC Clinical Characterisation Protocol (CCP),  National Pathology Exchange blood results linkage to unconsented and consented studies - @sec-unconsented-central).
+
+## Worldwide
+
+We will design and test clinical surveillance in critical care, providing proof-of-concept for sharing of a minimal informative dataset without a multiparty legal agreement, and share software, know-how and legal templates with international partners.
+
+
+-->
+
+
+
+
+<!--
+```markmap
+
+# Data Infrastructure
+
+## ODAP
+
+### Digitally mature 
+- eCRF
+
+### Everywhere
+- lab results
+- unusual case button
+- lab sample transfer
+
+# Tools
+
+## Federated analytics
+## Secure multi-party compute
+## Dashboards
+## Common data standards (OMOP)
+## AI data bucket parser
+
+```
+-->
+
+
+
+<!--
+## Automated feedback to NHS
+
+1. Outputs from analyses:
+    - Embedded link between host and microbiological samples
+	- AMR risk
+2. Sample acquisition from local laboratory
+-->
+
+<!--
+## Automate clinical data collection
+
+1. **Data obtained wihout individual consent** - for enhanced clinical surveillance. *Minimal informative dataset* to facilitate research into surveillance methods.
+1. **Data obtained wihout individual consent** - for enhanced clinical characterisation at aggregate level using secure multi-party computation
+3. **Data obtained wihout individual consent** - for clinical characterisation of outbreaks during public health event - requires activation from government like COPI notice
+3. **Data obtained with informed consent** - enables data to be available for all trials and consented observational studies. e.g. blood results, clinical characterisation.
+-->
+<!--
+# Data transfer vs federated analysis
+
+## Data transfer (ODAP)
+
+Limited data transfer to ODAP is necessary to:
+
+1. Enable linkage with research data
+2. Enable computationally-intesive analyses. e.g.: host/pathogen genomics, prognostic modelling, AI.
+
+## Federated analytics/ secure multiparty compute
+# Work packages
+
+## Eligibility/inclusion criteria, phenotypes [Baillie]
+
+## Laboratory sample transfer network for research [Thompson]
+
+## Secure Multiparty Compute [Kerr]
+
+## NHS data analytics for AMR [Harris]
+
+## Template legal agreements [Haniffa]
+
+## Forecast impact of outbreak [Beane]
+
+## Unusual case button [Beane]
+
+## AI data bucket parser
+
+Take data in multiple formats and parse it into standard format. e.g. Nursing staff rotas; laboratory data
+-->
+
+
+<!--
+- Deep clinical phenotyping for SHARE, UK Biobank, GenOMICC
+	+ microbiology daily results
+	+ biochemistry daily results
+	+ haematology daily results
+	+ clinical monitoring data
+	+ CIS clinical notes
+
+
+
+# Funds
+
+- postdoc for secure multiparty compute [Kerr]
+- laywer [Rashan Haniffa]
+
+Applicants
+
+Kenneth Baillie
+Steve Harris
+Emma Thompson
+
+Abi Beane
+Rashan Haniffa
+Naz Lone
+Konrad Rawlik
+Calum Semple
+Ewan Harrison
+Andy Law
+Wilna Oosthuyzen
+
+Peter Horby
+Matt Holden
+Susan Hopkins
+Katie Jeffrey
+David Harrison
+Ewen Harrison
+Kathy Rowan
+Fliss Benee
+Andrew Dowsey
+David Bonsall
+Judy Breuer
+Annemarie Docherty
+-->

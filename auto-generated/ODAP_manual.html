@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.330">
+<meta name="generator" content="quarto-1.3.296">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -54,31 +54,27 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><span class="header-section-number">1.1</span> Introduction</a></li>
   <li><a href="#what-is-the-outbreak-data-analysis-platform-odap" id="toc-what-is-the-outbreak-data-analysis-platform-odap" class="nav-link" data-scroll-target="#what-is-the-outbreak-data-analysis-platform-odap"><span class="header-section-number">1.2</span> What is the Outbreak Data Analysis Platform (ODAP)?</a></li>
   </ul></li>
-  <li><a href="#odap-core" id="toc-odap-core" class="nav-link" data-scroll-target="#odap-core"><span class="header-section-number">2</span> ODAP Core</a>
+  <li><a href="#scope-of-the-odap" id="toc-scope-of-the-odap" class="nav-link" data-scroll-target="#scope-of-the-odap"><span class="header-section-number">2</span> Scope of the ODAP</a></li>
+  <li><a href="#structure" id="toc-structure" class="nav-link" data-scroll-target="#structure"><span class="header-section-number">3</span> Structure</a></li>
+  <li><a href="#odap-core" id="toc-odap-core" class="nav-link" data-scroll-target="#odap-core"><span class="header-section-number">4</span> ODAP Core</a>
   <ul class="collapse">
-  <li><a href="#scope-of-the-odap" id="toc-scope-of-the-odap" class="nav-link" data-scroll-target="#scope-of-the-odap"><span class="header-section-number">2.1</span> Scope of the ODAP</a></li>
-  <li><a href="#isaric-clinical-characterisation-protocol-ccp" id="toc-isaric-clinical-characterisation-protocol-ccp" class="nav-link" data-scroll-target="#isaric-clinical-characterisation-protocol-ccp"><span class="header-section-number">2.2</span> ISARIC Clinical Characterisation Protocol (CCP)</a>
+  <li><a href="#isaric-clinical-characterisation-protocol-ccp" id="toc-isaric-clinical-characterisation-protocol-ccp" class="nav-link" data-scroll-target="#isaric-clinical-characterisation-protocol-ccp"><span class="header-section-number">4.1</span> ISARIC Clinical Characterisation Protocol (CCP)</a>
   <ul class="collapse">
-  <li><a href="#isaric-spine" id="toc-isaric-spine" class="nav-link" data-scroll-target="#isaric-spine"><span class="header-section-number">2.2.1</span> ISARIC Spine</a></li>
+  <li><a href="#isaric-spine" id="toc-isaric-spine" class="nav-link" data-scroll-target="#isaric-spine"><span class="header-section-number">4.1.1</span> ISARIC Spine</a></li>
   </ul></li>
-  <li><a href="#data-access" id="toc-data-access" class="nav-link" data-scroll-target="#data-access"><span class="header-section-number">2.3</span> Data access</a></li>
-  <li><a href="#data-under-embargo" id="toc-data-under-embargo" class="nav-link" data-scroll-target="#data-under-embargo"><span class="header-section-number">2.4</span> Data under embargo</a>
+  <li><a href="#data-access" id="toc-data-access" class="nav-link" data-scroll-target="#data-access"><span class="header-section-number">4.2</span> Data access</a></li>
+  <li><a href="#data-under-embargo" id="toc-data-under-embargo" class="nav-link" data-scroll-target="#data-under-embargo"><span class="header-section-number">4.3</span> Data under embargo</a>
   <ul class="collapse">
-  <li><a href="#isaric4c-consortium-data-access-rules" id="toc-isaric4c-consortium-data-access-rules" class="nav-link" data-scroll-target="#isaric4c-consortium-data-access-rules"><span class="header-section-number">2.4.1</span> ISARIC4C Consortium data access rules</a></li>
+  <li><a href="#isaric4c-consortium-data-access-rules" id="toc-isaric4c-consortium-data-access-rules" class="nav-link" data-scroll-target="#isaric4c-consortium-data-access-rules"><span class="header-section-number">4.3.1</span> ISARIC4C Consortium data access rules</a></li>
   </ul></li>
-  <li><a href="#non-embargo-data" id="toc-non-embargo-data" class="nav-link" data-scroll-target="#non-embargo-data"><span class="header-section-number">2.5</span> Non-embargo data</a></li>
-  <li><a href="#computer-architecture" id="toc-computer-architecture" class="nav-link" data-scroll-target="#computer-architecture"><span class="header-section-number">2.6</span> Computer architecture</a>
-  <ul class="collapse">
-  <li><a href="#flexible-compute-space" id="toc-flexible-compute-space" class="nav-link" data-scroll-target="#flexible-compute-space"><span class="header-section-number">2.6.1</span> Flexible Compute Space</a></li>
-  <li><a href="#phs-national-safe-haven" id="toc-phs-national-safe-haven" class="nav-link" data-scroll-target="#phs-national-safe-haven"><span class="header-section-number">2.6.2</span> PHS National Safe Haven</a></li>
+  <li><a href="#non-embargo-data" id="toc-non-embargo-data" class="nav-link" data-scroll-target="#non-embargo-data"><span class="header-section-number">4.4</span> Non-embargo data</a></li>
+  <li><a href="#legal-architecture" id="toc-legal-architecture" class="nav-link" data-scroll-target="#legal-architecture"><span class="header-section-number">4.5</span> Legal architecture</a></li>
+  <li><a href="#data-ingress" id="toc-data-ingress" class="nav-link" data-scroll-target="#data-ingress"><span class="header-section-number">4.6</span> Data ingress</a></li>
+  <li><a href="#api" id="toc-api" class="nav-link" data-scroll-target="#api"><span class="header-section-number">4.7</span> API</a></li>
+  <li><a href="#data-contributors" id="toc-data-contributors" class="nav-link" data-scroll-target="#data-contributors"><span class="header-section-number">4.8</span> Data Contributors</a></li>
+  <li><a href="#dataset-catalogue" id="toc-dataset-catalogue" class="nav-link" data-scroll-target="#dataset-catalogue"><span class="header-section-number">4.9</span> Dataset catalogue</a></li>
   </ul></li>
-  <li><a href="#legal-architecture" id="toc-legal-architecture" class="nav-link" data-scroll-target="#legal-architecture"><span class="header-section-number">2.7</span> Legal architecture</a></li>
-  <li><a href="#data-ingress" id="toc-data-ingress" class="nav-link" data-scroll-target="#data-ingress"><span class="header-section-number">2.8</span> Data ingress</a></li>
-  <li><a href="#api" id="toc-api" class="nav-link" data-scroll-target="#api"><span class="header-section-number">2.9</span> API</a></li>
-  <li><a href="#data-contributors" id="toc-data-contributors" class="nav-link" data-scroll-target="#data-contributors"><span class="header-section-number">2.10</span> Data Contributors</a></li>
-  <li><a href="#dataset-catalogue" id="toc-dataset-catalogue" class="nav-link" data-scroll-target="#dataset-catalogue"><span class="header-section-number">2.11</span> Dataset catalogue</a></li>
-  </ul></li>
-  <li><a href="#opap-open" id="toc-opap-open" class="nav-link" data-scroll-target="#opap-open"><span class="header-section-number">3</span> OPAP Open</a></li>
+  <li><a href="#opap-open" id="toc-opap-open" class="nav-link" data-scroll-target="#opap-open"><span class="header-section-number">5</span> OPAP Open</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ODAP_manual.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </div>
@@ -112,10 +108,23 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="what-is-the-outbreak-data-analysis-platform-odap" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="what-is-the-outbreak-data-analysis-platform-odap"><span class="header-section-number">1.2</span> What is the Outbreak Data Analysis Platform (ODAP)?</h2>
-<p>The ODAP is the overarching term for a range of computers supporting research within a specific scope. These include the ODAP TRE (formerly called: flexible compute space; ultra; ultra2), and various project spaces in the National Safe Haven.</p>
-<p>It has two components:</p>
+<p>The ODAP is the overarching term for a range of computers supporting research within a specific scope. These include the ODAP TRE (formerly called: flexible compute space; ultra; ultra2), and various project spaces in the National Safe Haven (run by eDRIS).</p>
+<p>The foundation for the ODAP is the International Severe Acute Respiratory Infection Consortium (ISARIC) Clinical Characterisation Protocol (CCP).</p>
+</section>
+</section>
+<section id="scope-of-the-odap" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Scope of the ODAP</h1>
+<p><strong>The purpose of the ODAP is to facilitate biomedical research to advance understanding of severe infectious disease*, critical illness, and other exposures of public health interest.** Research within the ODAP is strictly limited to this purpose.</strong></p>
+<p>* Severe infectious disease - this term describes all infectious agents with the potential to cause critical illness, including new, re-emerging or therapy-resistant forms of existing infectious agents.</p>
+<p>** Other exposures of public health interest: this term describes new or unexplained poisoning, or exposure to harmful energy sources such as electromagnetic radiation.</p>
+<p>Examples of in-scope research: - Understanding the evolution and biology of SARS-CoV-2. - Understanding the epidemiology and transmission of SARS-CoV-2. - Characterising COVID-19 disease risk, severity and outcomes. - Understanding the host genetics of susceptibility to, and outcomes from, critical illness. - Monitoring and understanding the impact of non-pharmacological interventions against SARS-CoV-2 transmissions and COVID-19 disease. - Monitoring, understanding, and assessing the impact of treatments, vaccines and prior infections in COVID-19 disease. - Analysing or modelling SARS-CoV-2 and COVID-19 data for future pandemic preparedness.</p>
+<p>Examples of out of scope activities - Their research questions primarily focusses on a non-infectious disease area with incidental involvement of infectious disease (Focussed on a pathogen with no potential public health concern)</p>
+</section>
+<section id="structure" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Structure</h1>
+<p>ODAP has two components:</p>
 <ol type="1">
-<li>The ODAP Core. <em>Getting fast answers to important public health research questions.</em> ODAP Core is a complicated network of overlapping, linked data from research studies and national datasets, created through a range of independent research activities, sitting in multiple computer systems. These datasets are linked through the ISARIC Clinical Characterisation Protocol (CCP).
+<li>**The ODAP Core. <em>Getting fast answers to important public health research questions.</em> ODAP Core is a complicated network of overlapping, linked data from research studies and national datasets, created through a range of independent research activities, sitting in multiple computer systems. These datasets are linked through the ISARIC Clinical Characterisation Protocol (CCP).
 <ul>
 <li>Purpose: to prepare for and support urgent public health research.</li>
 <li>Access: data are openly accessible to appropriately-qualified researchers studying questions within the scope of the platform by individual agreement with the data providers. Much of the data is under embargo and publication of results requires consent from the data providers. Put simply, access is open but not easy.</li>
@@ -123,30 +132,27 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li>ODAP Open - <em>Making data access easy for approved researchers.</em> ODAP Open will be a robust, fully-staffed data access governance system to lower the barrier to entry by taking over data controllership from data contributors, so that a single approval is required for data access.
 <ul>
-<li>Funding: not in place. Funding from HDR UK infrastructure team is anticipated.</li>
+<li>Funding: not in place. Subject to applications.</li>
 <li>Leadership: open call for a senior appointment when funding is available.</li>
 <li>Access: data are openly accessible to appropriately-qualified researchers studying questions within the scope of the platform following a single, streamlined application</li>
 </ul></li>
 </ol>
-<p>The foundation for the ODAP is the International Severe Acute Respiratory Infection Consortium (ISARIC) Clinical Characterisation Protocol (CCP).</p>
+<p>Both of these components spread across two different computer systems, which are managed by different teams.</p>
+<ol type="1">
+<li>Flexible Compute Space ODAP.</li>
+</ol>
+<p>The Flexible Compute Space (FCS) is a Trusted Research Environment managed by EPCC with large scale compute capacity and access to a range of software tools for data analysis and machine learning. Data within the FCS can be either under embargo, or not under embargo. The FCS contains data obtained with individual consent, or non-clinical data such as pathogen sequence data. Access to the FCS is provided to researchers through <em>private project zones</em></p>
+<ol start="2" type="1">
+<li>National Safe Haven ODAP. This is managed by the eDRIS team at Public Health Scotland and provides a TRE with data governance processes and personnel. It contains clinical data obtained without individual consent. Some data remains within the PHS National Safe Haven but will transfer to the FCS on completion of the Systems Security Policy.</li>
+</ol>
 </section>
-</section>
-<section id="odap-core" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> ODAP Core</h1>
-<section id="scope-of-the-odap" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="scope-of-the-odap"><span class="header-section-number">2.1</span> Scope of the ODAP</h2>
-<p><strong>The purpose of the ODAP is to facilitate biomedical research to advance understanding of severe infectious disease* and other exposures of public health interest.** Research within the ODAP is strictly limited to this purpose.</strong></p>
-<p>* Severe infectious disease - this term describes all severe infectious agents, including new, re-emerging or therapy-resistant forms of existing infectious agents.</p>
-<p>** Other exposures of public health interest: this term describes new or unexplained poisoning, or exposure to harmful energy sources such as electromagnetic radiation.</p>
-<p>The scope of ODAP is designed to carefully match the scope of the ISARIC-CCP.</p>
-<p>Examples of in-scope research: - Understanding the evolution and biology of SARS-CoV-2. - Understanding the epidemiology and transmission of SARS-CoV-2. - Understanding COVID-19 disease risk, severity and outcomes. - Monitoring and understanding the impact of non-pharmacological interventions against SARS-CoV-2 transmissions and COVID-19 disease. - Monitoring, understanding, and assessing the impact of treatments, vaccines and prior infections in COVID-19 disease. - Analysing or modelling SARS-CoV-2 and COVID-19 data for future pandemic preparedness.</p>
-<p>Examples of out of scope activities - Their research questions primarily focusses on a non-infectious disease area with incidental involvement of infectious disease (Focussed on a pathogen with no potential public health concern)</p>
-</section>
-<section id="isaric-clinical-characterisation-protocol-ccp" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="isaric-clinical-characterisation-protocol-ccp"><span class="header-section-number">2.2</span> ISARIC Clinical Characterisation Protocol (CCP)</h2>
+<section id="odap-core" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> ODAP Core</h1>
+<section id="isaric-clinical-characterisation-protocol-ccp" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="isaric-clinical-characterisation-protocol-ccp"><span class="header-section-number">4.1</span> ISARIC Clinical Characterisation Protocol (CCP)</h2>
 <p>The scope of the ODAP mirrors the objective of the CCP, an ethically-approved research study in the UK (Joint Chief Investigators: Calum Semple(Liverpool, Oxford) and Kenneth Baillie (Edinburgh, Oxford)). A broad range of scientists with relevant expertise have come together to form a UK-wide group: the ISARIC Comprehensive Clinical Characterisation Collaboration. Membership of this collaboration is by invitation and is extended to researchers performing high-quality biomedical research to advance understanding of severe infectious disease and other exposures of public health interest.</p>
-<section id="isaric-spine" class="level3" data-number="2.2.1">
-<h3 data-number="2.2.1" class="anchored" data-anchor-id="isaric-spine"><span class="header-section-number">2.2.1</span> ISARIC Spine</h3>
+<section id="isaric-spine" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="isaric-spine"><span class="header-section-number">4.1.1</span> ISARIC Spine</h3>
 <p>Some studies, addressing aims that are within the scope of the CCP, have chosen to contribute data into the ODAP for linkage to CCP and other datasets. Because these studies are addressing questions that are directly within the scope of the CCP, where appropriate, participants in these studies are eligible to be enrolled under the CCP.</p>
 <p>Under our existing protocol and approvals for the ISARIC CCP, we have recruited over 300,000 Covid patients without explicit consent, into an observational study, with clear and specific aims. We are now linking this data to other studies, including consented studies such as GenOMICC and RECOVERY, and non-consented studies such as COG-UK viral sequencing.</p>
 <p>Applying the established governance and data handling procedures for the ISARIC CCP to the additional linked data from these studies will enable cross-cutting research, all within the specific aims of the CCP. To achieve this, we have agreed to recruit all patients in the following studies into the ISARIC CCP, if they are known to meet the inclusion criteria for the CCP:</p>
@@ -158,8 +164,8 @@ ul.task-list li input[type="checkbox"] {
 <li>HEAL-COVID</li>
 </ul>
 <p>In each case, we will only recruit patients who meet the inclusion criteria for CCP. In our view, there is no ethical or information governance difference between recruiting a patient remotely from a hospital, or recruiting them remotely from within our trusted research environment. This has been agreed with the ISARIC CCP study sponsor and is explicitly stated in CAG and PBPP applications.</p>
-<section id="examples" class="level4" data-number="2.2.1.1">
-<h4 data-number="2.2.1.1" class="anchored" data-anchor-id="examples"><span class="header-section-number">2.2.1.1</span> Examples</h4>
+<section id="examples" class="level4" data-number="4.1.1.1">
+<h4 data-number="4.1.1.1" class="anchored" data-anchor-id="examples"><span class="header-section-number">4.1.1.1</span> Examples</h4>
 <p>The ISARIC4C consortium will incorporate participants from other studies into ISARIC4C study, creating a superset of participants in a single “spine”. Doing so would allow them to match to NHS data under existing ISARIC4C data agreements.</p>
 <p>To do this, we need to have an ID and an NHS number, or CHI number, as a minimum standard. Some participants in the other studies may already be in ISARIC4C. These need to be identified and tagged as being the same individual. This will be done by comparison of NHS or CHI numbers. The spine will contain all the joins between projects and participants. Those participants that are not already in the ISARIC4C system will have an ISARIC4C ID allocated to them.</p>
 <p>The data from the spine will be used for several purposes:</p>
@@ -171,18 +177,18 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 </section>
-<section id="data-access" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="data-access"><span class="header-section-number">2.3</span> Data access</h2>
+<section id="data-access" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="data-access"><span class="header-section-number">4.2</span> Data access</h2>
 </section>
-<section id="data-under-embargo" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="data-under-embargo"><span class="header-section-number">2.4</span> Data under embargo</h2>
+<section id="data-under-embargo" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="data-under-embargo"><span class="header-section-number">4.3</span> Data under embargo</h2>
 <p>The default status for new data entering the ODAP is to be <code>under embargo</code>. This means that either:</p>
 <ol type="1">
 <li>the data contributor controls who has access to the data, and what analyses and reports or publications can arise from it.</li>
 <li>the data contributor chooses to link data within the ISARIC4C study (using the <a href="#isaric-spine">Spine</a>), wherupon all members of the ISARIC4C consortium have access to the data and can run exploratory analyses under the <a href="#ISARIC4C-Consortium-data-access-rules">consortium rules</a>. This enables the data contributor and others in the consortium to make use of existing contracts and approvals for linkage to other datasets.</li>
 </ol>
-<section id="isaric4c-consortium-data-access-rules" class="level3" data-number="2.4.1">
-<h3 data-number="2.4.1" class="anchored" data-anchor-id="isaric4c-consortium-data-access-rules"><span class="header-section-number">2.4.1</span> ISARIC4C Consortium data access rules</h3>
+<section id="isaric4c-consortium-data-access-rules" class="level3" data-number="4.3.1">
+<h3 data-number="4.3.1" class="anchored" data-anchor-id="isaric4c-consortium-data-access-rules"><span class="header-section-number">4.3.1</span> ISARIC4C Consortium data access rules</h3>
 <ol type="1">
 <li>Consortium members are recorded on the consortium membership list <!-- Wilna - please add link to master source! --></li>
 <li>Membership is extended to researchers with skills and techniques necessary to answer important research questions within the scope of the ISARIC Clinical Characterisation Protocol, interpreted by the Consortium Leadership in consultation with the broader consortium.</li>
@@ -196,12 +202,12 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 </section>
 </section>
-<section id="non-embargo-data" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="non-embargo-data"><span class="header-section-number">2.5</span> Non-embargo data</h2>
+<section id="non-embargo-data" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="non-embargo-data"><span class="header-section-number">4.4</span> Non-embargo data</h2>
 <p>Some data providers choose to delegate approval of data access to the ODAP team. The diagram in <a href="#fig-access">Figure&nbsp;1</a> describes the five safes application form and light-touch review process. These processes are overseen by the Data Access Governance Committee (DAGC).</p>
 <div id="fig-access" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><embed src="images/data_access/Data_access_flow.pdf" class="img-fluid"></p>
+<p><embed src="images/data_access/Data_access_flow.pdf" class="quarto-discovered-preview-image img-fluid"></p>
 <p></p><figcaption class="figure-caption">Figure&nbsp;1: Data access flows</figcaption><p></p>
 </figure>
 </div>
@@ -213,25 +219,12 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="ODAP_open/PSG_ToR.md">PSG Termos of Reference</a></li>
 </ul>
 </section>
-<section id="computer-architecture" class="level2" data-number="2.6">
-<h2 data-number="2.6" class="anchored" data-anchor-id="computer-architecture"><span class="header-section-number">2.6</span> Computer architecture</h2>
-<p>The ODAP consists of two main compute areas.</p>
-<section id="flexible-compute-space" class="level3" data-number="2.6.1">
-<h3 data-number="2.6.1" class="anchored" data-anchor-id="flexible-compute-space"><span class="header-section-number">2.6.1</span> Flexible Compute Space</h3>
-<p>The Flexible Compute Space (FCS) is a Trusted Research Environment with large scale compute capacity and access to a range of software tools for data analysis and machine learning. Data within the FCS can be either under embargo, or not under embargo.</p>
-<p>Access to the FCS is provided to researchers through <em>private project zones</em></p>
-</section>
-<section id="phs-national-safe-haven" class="level3" data-number="2.6.2">
-<h3 data-number="2.6.2" class="anchored" data-anchor-id="phs-national-safe-haven"><span class="header-section-number">2.6.2</span> PHS National Safe Haven</h3>
-<p>Some data remains within the PHS National Safe Haven but will transfer to the FCS on completion of the Systems Security Policy.</p>
-</section>
-</section>
-<section id="legal-architecture" class="level2" data-number="2.7">
-<h2 data-number="2.7" class="anchored" data-anchor-id="legal-architecture"><span class="header-section-number">2.7</span> Legal architecture</h2>
+<section id="legal-architecture" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="legal-architecture"><span class="header-section-number">4.5</span> Legal architecture</h2>
 <p>The legal entity hosting ODAP is the University of Edinburgh. A data processing agreement UoE(controller)-PHS(processor) directs PHS to (1) host and (2) index data from multiple data contributors within the ODAP. The ISARIC Clinical Characterisation Protocol (CCP) has ethical approval across the four nations of the UK and is sponsored by Oxford University. Both joint Chief Investigators (Calum Semple and Kenneth Baillie) have honorary contracts at Oxford Unversity to facilitate this. Data linkage for ISARIC CCP Covid-19 data is authorised under the COPI notice (regulation 3<!-- - confirmed 15.2.23-->).</p>
 </section>
-<section id="data-ingress" class="level2" data-number="2.8">
-<h2 data-number="2.8" class="anchored" data-anchor-id="data-ingress"><span class="header-section-number">2.8</span> Data ingress</h2>
+<section id="data-ingress" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="data-ingress"><span class="header-section-number">4.6</span> Data ingress</h2>
 <p>Data are linked into the ISARIC Spine using the patient’s NHS numbers by PHS before transfer to the FCS as shown in <a href="#fig-flow">Figure&nbsp;2</a>.</p>
 <div class="cell" data-fig-width="8">
 <div class="cell-output-display">
@@ -286,16 +279,16 @@ New(New Dataset) --&gt; ISARIC3:::planned
 </div>
 </div>
 </section>
-<section id="api" class="level2" data-number="2.9">
-<h2 data-number="2.9" class="anchored" data-anchor-id="api"><span class="header-section-number">2.9</span> API</h2>
+<section id="api" class="level2" data-number="4.7">
+<h2 data-number="4.7" class="anchored" data-anchor-id="api"><span class="header-section-number">4.7</span> API</h2>
 <p>There will be a secure API in place from the Flexible Compute Space to External TREs and UK Public Health Agencies. This is to accelerate research by enabling data linkage across multiple data sets using unique identifiers to facilitate secure transfer of specified data fields e.g., viral sequencing data. The future purpose of the API is more in line with providing a mechanism for quick pandemic updates to national health services.</p>
 </section>
-<section id="data-contributors" class="level2" data-number="2.10">
-<h2 data-number="2.10" class="anchored" data-anchor-id="data-contributors"><span class="header-section-number">2.10</span> Data Contributors</h2>
+<section id="data-contributors" class="level2" data-number="4.8">
+<h2 data-number="4.8" class="anchored" data-anchor-id="data-contributors"><span class="header-section-number">4.8</span> Data Contributors</h2>
 <p>Each data contributor will explicitly consent to the lifting of any embargo on their data. A permanent record of these instructions will be held in a shared file. <!--FILE PATH TO MASTER RECORD OF EMBARGO STATUS IN SECURE LOCAION XXX --></p>
 </section>
-<section id="dataset-catalogue" class="level2" data-number="2.11">
-<h2 data-number="2.11" class="anchored" data-anchor-id="dataset-catalogue"><span class="header-section-number">2.11</span> Dataset catalogue</h2>
+<section id="dataset-catalogue" class="level2" data-number="4.9">
+<h2 data-number="4.9" class="anchored" data-anchor-id="dataset-catalogue"><span class="header-section-number">4.9</span> Dataset catalogue</h2>
 <p>The ODAP dataset catalogue is a flexible central record of the datasets held within the platform, approval requirements for access, embargo status, and contents. Each row of the catalogue provides information about an <code>atomic dataset</code>.</p>
 <p>An <code>atomic dataset</code> should be the smallest unit of data that a user would apply for access to. All data elements in an <code>atomic dataset</code> will have, by definition, - the same version number - the same data controllers - the same data processors - the same embargo status - the same legal agreements - the same users with data access</p>
 <p>Any legal agreement that applies to part of an <code>atomic dataset</code> will apply to all of the data within it. Any user who has access to part of an <code>atomic dataset</code> has access to all of the data within it. Where possible an <code>atomic dataset</code> will be in <a href="https://tidyr.tidyverse.org/articles/tidy-data.html">tidy</a> format.</p>
@@ -327,8 +320,8 @@ https://uoe.sharepoint.com/:x:/r/sites/ISARIC4C/_layouts/15/Doc.aspx?sourcedoc=%
 -->
 </section>
 </section>
-<section id="opap-open" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> OPAP Open</h1>
+<section id="opap-open" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> OPAP Open</h1>
 <p>Once the embargo is lifted by a data contributor, or (in the case of public data) delegated access is approved by the data controller, data provision will be <em>FAIR</em> (Findable, Accessible, Interoperable, Reusable) and access will adhere to the <em>five safes</em> principles:</p>
 <ul>
 <li>Safe data: data is treated to protect any confidentiality concerns.</li>

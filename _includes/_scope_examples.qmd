@@ -1,7 +1,8 @@
 Examples of in-scope research:
 - Understanding the evolution and biology of SARS-CoV-2.
 - Understanding the epidemiology and transmission of SARS-CoV-2.
-- Understanding COVID-19 disease risk, severity and outcomes.
+- Characterising COVID-19 disease risk, severity and outcomes.
+- Understanding the host genetics of susceptibility to, and outcomes from, critical illness.
 - Monitoring and understanding the impact of non-pharmacological interventions against SARS-CoV-2 transmissions and COVID-19 disease.
 - Monitoring, understanding, and assessing the impact of treatments, vaccines and prior infections in COVID-19 disease.
 - Analysing or modelling SARS-CoV-2 and COVID-19 data for future pandemic preparedness.

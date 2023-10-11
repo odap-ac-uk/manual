@@ -1,0 +1,53 @@
+
+```{markmap}
+%%| fig-width: 8
+%%| label: fig-map
+%%| fig-cap: "Map of datasets held with ODAP."
+
+# Flexible compute space
+
+
+## Data obtained with informed consent
+
+### GenOMICC host genetics
+#### Critically-ill Covid-19
+#### Mild/asymptomatic Covid-19
+#### Influenza
+#### Pneumonia
+#### Pancreatitis
+#### Burns
+
+GenOMICC <--> ISARIC4C
+
+### ISARIC4C Tier 1 and 2 
+#### Hospitalised Covid-19
+
+GenOMICC <--> PHOSP
+PHOSP <--> ISARIC4C
+
+
+### PHOSP follow up
+#### Host genetics
+#### [Clinical phenotyping]
+
+
+## Non-disclosive data obtained without informed consent
+
+### COG-UK SARS-CoV2 pathogen genomes
+GenOMICC <-- COG-UK
+ISARIC4C <-- COG-UK
+
+### [Nanopore pathogen genomes from critically ill patients]
+
+
+# National Safe Haven
+
+(Individual-level linkage requires specific permissions and disclosure checks)
+
+## Data obtained without individual consent
+
+#### [Nanopore pathogen genomes from critically ill patients]
+#### 
+
+```
+```

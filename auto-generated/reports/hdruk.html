@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.296">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>HDR UK Pandemics and Outbreaks Driver Programme Delivery Plan</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="hdruk_files/libs/clipboard/clipboard.min.js"></script>
+<script src="hdruk_files/libs/quarto-html/quarto.js"></script>
+<script src="hdruk_files/libs/quarto-html/popper.min.js"></script>
+<script src="hdruk_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="hdruk_files/libs/quarto-html/anchor.min.js"></script>
+<link href="hdruk_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="hdruk_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="hdruk_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="hdruk_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="hdruk_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="hdruk_files/libs/quarto-diagram/mermaid.min.js"></script>
+<script src="hdruk_files/libs/quarto-diagram/mermaid-init.js"></script>
+<link href="hdruk_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://odap.ac.uk/style.css">
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="hdruk.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">HDR UK Pandemics and Outbreaks Driver Programme Delivery Plan</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<!--
+
+This is a revised summary plan, consistent with the content and objectives of the peer-reviewed Pandemics and Outbreaks Programme, which scored 10/10 in the HDR UK Quinquennial Review. Here we clarify the new leadership after Sharon Peacock's departure, and provide details of who will take responsibility for specific deliverables. 
+
+-->
+<p><em>Co-leads: Kenneth Baillie, Steve Harris, and Emma Thompson.</em></p>
+<section id="funding" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Funding</h1>
+<p>This driver programme was reviewed as part of the HDR UK Quinquennial review. It scored 10/10. Activity has been paused because of an overall funding shortfall in the HDR UK bid, due to the withdrawal of the Wellcome from the pool of funders.</p>
+<p>The total cost of the proposed work is £5M.</p>
+</section>
+<section id="background" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Background</h1>
+<!--
+In any new outbreak, there are common steps in the progession of knowledge:
+
+**Phase 1.** an unusual pattern of disease is noticed by a single clinician seeing multiple cases.  
+**Phase 2.** detailed knowledge is shared by clinicians and public health teams discussing cases in detail (e.g. public health conference calls).  
+**Phase 3.** analysis of structured data at population scale, identification of risk factors (e.g. [ISARIC CCP](isaric4c.net)).  
+**Phase 4.** integrated deep biological characterisation, therapeutics (e.g. [GenOMICC](genomicc.org), ISARIC CCP, RECOVERY).  
+
+UK biomedical research infrastructure is designed for perennial clinical problems, in which the frontier of knowledge is in phase 4. In outbreaks, there are unmet needs across all four phases. 
+-->
+<p>Our approach is to optimise peacetime academic infrastructure to deliver fast, efficient delivery of answers to key clinical questions by improving, testing and, most importantly, actually <em>using</em> data and sampling capability across the four nations of the UK during the inter-pandemic period.</p>
+<p>The design of the Pandemics and Outbreaks Driver Programme was based on the following core principles:</p>
+<ol type="1">
+<li><strong>Distributed data analysis</strong> using secure multi-party compute can answer immediate questions in outbreaks<br>
+</li>
+<li><strong>Central data collation</strong> will continue to be required for computationally intensive applications: host/pathogen genomics, deep phenotyping, data integration, machine learning/AI.<br>
+</li>
+<li><strong>Perennial problems</strong> must be the focus in order to “keep the engine running”: AMR, sepsis, research recruitment, sample acquisition and small-scale outbreaks.<br>
+</li>
+<li><strong>Critical care</strong> exemplifies challenges and opportunities across secondary care.<br>
+</li>
+<li><strong>The academic sector</strong> provides essential scalable resource and cutting edge technology to public health in emergencies.</li>
+</ol>
+</section>
+<section id="advancing-sovereign-data-infrastructure-during-peacetime." class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Advancing sovereign data infrastructure during peacetime.</h1>
+<p>We will build the following key infrastructure capabilities:</p>
+<ul>
+<li>Establish internal software “pharmacies” within NHS systems (in collaboration with Microsoft). <strong>Sustainability plan: commercialise</strong></li>
+<li>Demonstrate and deliver secure multi-party compute between exemplar NHS systems and the <a href="odap.ac.uk">Outbreak Data Analysis Platform (ODAP)</a> <strong>Sustainability plan: open source/commercialise</strong></li>
+<li>Efficient transfer, where necessary, of clinical, microbiological and host genomic information to the ODAP <strong>Sustainability plan: cost-recovery data access model</strong></li>
+</ul>
+<!--
+\newpage
+
+# Work packages
+
+## Distributed data analysis [Harris]  {#sec-distributed}
+
+### Automate clinical data collection [Harris]
+
+#### Data obtained wihout individual consent
+
+- Create *minimal informative shareable dataset* to facilitate unusual case surveillance ("red button") [Haniffa, Beane]
+- Create a robust system to detect important phenotypes of critical illness and evaluate automated eligibility/inclusion criteria ("virtual research nurse") [Harris]
+
+#### Data obtained with informed consent
+
+- develop and evaluate high quality local data capture using natural language processing in clinical notes [Harris]
+- test extended automated case report form (CRF), shared with central server, to support trials and consented observational studies. e.g. blood results, clinical characterisation [Harris, Baillie]
+
+### Automate clinical metadata collection [Beane]
+
+- Build and evaluate AI-based metadata parsing for bed occupancy, nursing rotas; test use case to forecast impact of outbreaks/other threats [Beane]
+
+### Secure multi-party compute [Kerr]
+
+- Create and deploy data non-sharing agreements to support secure multiparty compute.[Haniffa, Beane]
+- Secure multiparty compute pilot UCLH-ODAP [Kerr]
+
+## Centralised deep clinical data analysis and sample tracking [Baillie] {#sec-centralised}
+
+### Data obtained with informed consent {#sec-unconsented-central}
+
+- Establish legal basis for clinical characterisation of outbreaks during public health event Data obtained wihout individual consent [Semple]
+- Obtain limited data without consent from participants to facilitate academic research in support of public health response [Semple, Morris]
+
+### Data obtained with informed consent
+
+- Obtain deep data from consented participants through electronic case report form data linkage with omics data in ODAP [Baillie, Oosthuyzen]
+- Create automated data dashboards within ODAP [Harrison]
+- Curate and document deep individual-level data for large-scale compute within ODAP [Baillie]
+- Link microbiology and pathogen sequence data with clinical, prescribing, national audit and host genomic data [Baillie]
+
+## Laboratory sample transfer network for research [Thompson] {#sec-lab}
+
+- Optimise and test sampling infrastructure for microbiology samples in outbreaks [Thompson]
+- Create tracking system for research samples from recruiting sites and microbiology labs to ISARIC4C receiving centres [Baillie]
+- Evaluate respiratory pathogen landscape and anti-microbial resistance during winter peaks using metagenomic sequencing [Thompson]
+
+
+
+
+:::{.cell fig-width="6"}
+
+:::{.cell-output-display}
+
+:::{#fig-flow}
+
+:::{}
+
+<pre class="mermaid mermaid-js" data-label="fig-flow">
+gantt
+title       Pandemics and Outbreaks Driver Programme
+dateFormat  YYYY-MM-DD
+axisFormat  %b %y
+
+section Distributed
+Test laboratory integration in UCLH[Harris]: lab1, 2024-03-01, 100d
+Test natural language processing in clinical notes [Harris]: nlp, 2025-01-03, 300d
+Evaluate virtual research nurse case identification [Harris]: vrn, after nlp, 300d
+Deploy virtual research nurse in one institution [Harris]: vrn2, after vrn, 300d
+Establish CCP eCRF in UCLH software pharmacy[Harris]: eCRF1, 2024-04-01, 100d
+Initiate automated eCRF for GenOMICC study [Harris, Baillie]: ecrf2, after eCRF1, 40d
+Establish CCP electronic case report form in other digitally-mature trusts[Harris]: after ecrf1, 300d
+Create data non-sharing agreement template[Lawyer1]: legal1, 2023-09-01, 100d
+Sign data non-sharing agreement (DNSA) template with UCLH[Lawyer1]: legal2, after legal1, 100d
+Establish SMPC test process UCLH-ODAP[Kerr]: smpc1, after legal2, 100d
+Establish SMPC test process multiple sites to ODAP[Kerr]: smpc2, after smpc1, 100d
+Share open software/standards/DNSA for SMPC[Kerr]: after smpc2, 40d
+Share open software/standards for eCRF[Harris]: after ecrf2, 40d
+
+section Centralised
+Obtain test data for bed occupancy &amp; nursing rotas [Beane]: meta, 2024-08-01, 200d
+Develop and test AI metadata parser use case [Beane]: meta2, after meta, 200d
+Forecast impact of outbreaks/other threats [Beane]: meta3, after meta2, 400d
+Obtain Schedule 3 CAG approval [Semple]: sch3, 2023-05-01, 200d
+Create automated data dashboards within ODAP [Ewen Harrison]: sch3, 2024-01-01, 200d
+Respond to outbreaks in partnership with public health [Semple, Baillie]: 2023-05-01, 2028-12-01
+Obtain hospital laboratory data for consented participants in GenOMICC [Baillie]: labdata, 2023-10-01, 300d
+
+section Laboratory network
+Build CCP sample tracking system [Baillie]: tracker, 2023-10-01, 200d
+Test outsourcing of sample pack distribution for ISARIC CCP[Baillie]: ccp1, after tracker, 40d
+2-week &quot;activation&quot; - resp samples from UCLH[Semple, Thomson]: 2024-09-01, 14d
+2-week &quot;activation&quot; - resp samples from multiple sites[Thomson]: 2025-06-01, 14d
+Winter season samples[Thomson]: 2025-12-01, 100d
+Winter season samples[Thomson]: 2026-12-01, 100d
+Winter season samples[Thomson]: 2027-12-01, 100d
+
+section Data access
+Recruit PPIE coordinator : ppie-staff, 2023-08-21, 10d
+Establish and run continuous PPIE   : after ppie-staff,  2028-12-01
+Recruit Information Governance expert : ig-staff, 2023-08-21, 10d
+Obtain sublicense from NHS England  : after ig-staff,  60d
+Lift embargo on additional datasets in ODAP : 2023-04-01, 2026-12-01
+Further ODAP data ingress on cost-recovery basis  : 2023-04-01, 2028-12-01
+</pre>
+:::
+
+
+Gantt chart.
+:::
+:::
+:::
+
+
+
+
+# Key data feeds from across HDR UK infrastructure
+
+- electronic case report form from within NHS hospitals (@sec-distributed)
+- lab results (national pathology) (@sec-centralised)
+- medications data (@sec-lab)
+
+# Geographical distribution
+
+## Digitally-mature sites
+
+The work in @sec-distributed will be focused on carefully-selected digitally-mature hospital sites. We aim to demonstrate what is possible with the best tools, in the expectation that they will be available widely within 10 years. 
+
+- University College Hospital London
+- NHS Lothian
+- ODAP ([See the ODAP manual for full summary of the project](https://odap.ac.uk/manual/auto-generated/ODAP_manual.pdf))
+- MRC Centre for Virology Research, Glasgow
+
+## UK-wide
+
+We will build systems to gather minimal information from electronic systems in all sites in the UK using pragmatic methodology (e.g. manual data entry using ISARIC Clinical Characterisation Protocol (CCP),  National Pathology Exchange blood results linkage to unconsented and consented studies - @sec-unconsented-central).
+
+## Worldwide
+
+We will design and test clinical surveillance in critical care, providing proof-of-concept for sharing of a minimal informative dataset without a multiparty legal agreement, and share software, know-how and legal templates with international partners.
+
+
+-->
+<!--
+```markmap
+
+# Data Infrastructure
+
+## ODAP
+
+### Digitally mature 
+- eCRF
+
+### Everywhere
+- lab results
+- unusual case button
+- lab sample transfer
+
+# Tools
+
+## Federated analytics
+## Secure multi-party compute
+## Dashboards
+## Common data standards (OMOP)
+## AI data bucket parser
+
+```
+-->
+<!--
+## Automated feedback to NHS
+
+1. Outputs from analyses:
+    - Embedded link between host and microbiological samples
+    - AMR risk
+2. Sample acquisition from local laboratory
+-->
+<!--
+## Automate clinical data collection
+
+1. **Data obtained wihout individual consent** - for enhanced clinical surveillance. *Minimal informative dataset* to facilitate research into surveillance methods.
+1. **Data obtained wihout individual consent** - for enhanced clinical characterisation at aggregate level using secure multi-party computation
+3. **Data obtained wihout individual consent** - for clinical characterisation of outbreaks during public health event - requires activation from government like COPI notice
+3. **Data obtained with informed consent** - enables data to be available for all trials and consented observational studies. e.g. blood results, clinical characterisation.
+-->
+<!--
+# Data transfer vs federated analysis
+
+## Data transfer (ODAP)
+
+Limited data transfer to ODAP is necessary to:
+
+1. Enable linkage with research data
+2. Enable computationally-intesive analyses. e.g.: host/pathogen genomics, prognostic modelling, AI.
+
+## Federated analytics/ secure multiparty compute
+# Work packages
+
+## Eligibility/inclusion criteria, phenotypes [Baillie]
+
+## Laboratory sample transfer network for research [Thompson]
+
+## Secure Multiparty Compute [Kerr]
+
+## NHS data analytics for AMR [Harris]
+
+## Template legal agreements [Haniffa]
+
+## Forecast impact of outbreak [Beane]
+
+## Unusual case button [Beane]
+
+## AI data bucket parser
+
+Take data in multiple formats and parse it into standard format. e.g. Nursing staff rotas; laboratory data
+-->
+<!--
+- Deep clinical phenotyping for SHARE, UK Biobank, GenOMICC
+    + microbiology daily results
+    + biochemistry daily results
+    + haematology daily results
+    + clinical monitoring data
+    + CIS clinical notes
+
+
+
+# Funds
+
+- postdoc for secure multiparty compute [Kerr]
+- laywer [Rashan Haniffa]
+
+Applicants
+
+Kenneth Baillie
+Steve Harris
+Emma Thompson
+
+Abi Beane
+Rashan Haniffa
+Naz Lone
+Konrad Rawlik
+Calum Semple
+Ewan Harrison
+Andy Law
+Wilna Oosthuyzen
+
+Peter Horby
+Matt Holden
+Susan Hopkins
+Katie Jeffrey
+David Harrison
+Ewen Harrison
+Kathy Rowan
+Fliss Benee
+Andrew Dowsey
+David Bonsall
+Judy Breuer
+Annemarie Docherty
+-->
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

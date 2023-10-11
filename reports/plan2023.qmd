@@ -17,7 +17,7 @@ The ODAP set up and design was funded by UKRI (MC_PC_19025, MC_PC_19059) and the
 
 ## Core activities
 
-ODPA will provide legacy access to linked four nations research data for two outbreaks: Covid-19 and unexplained hepatitis. Subject to future funding, ODAP will expand, adapt, add new features, and support response to new outbreaks. 
+ODAP will provide legacy access to linked four nations research data for outbreaks: Covid-19 and unexplained hepatitis. Subject to future funding, ODAP will expand, adapt, add new features, and support response to new outbreaks. 
 
 ODAP will provide data access to UK-based applicants using the five-safes framework (see odap.ac.uk for details). The ODAP operate a cost-recovery model with charges to cover administration, access review, linkage and provision of datasets, compute load, and output checks.
 
@@ -74,7 +74,7 @@ ODAP will move to new infrastructure with greater flexibility and capacity for d
 
 ### Data catalogue
 
-The ODAP data catalogue has been reformatted to make it easier for users to select and access data. This will be shared openly through the [ODAP web page](odap.ac.uk) in Spring 2023. <!-- JIM to do this -->
+The ODAP data catalogue has been reformatted to make it easier for users to select and access data. This will be shared openly through the [ODAP web page](odap.ac.uk) in Spring 2023.
 
 
 # Summary of immediate plans
@@ -95,8 +95,6 @@ Analysis of host and viral genomes: after hvlink, 100d
 Specifications for new FCS [Jim]: active, fcs-design, 2023-01-01, 80d
 Build new FCS [EPCC]: active, fcs-build, after fcs-design, 20d
 Complete SSP for new FCS [Andrew]: active, ssp, after fcs-design, 60d
-Get FCS approval from data providers[Jack]:active, after ssp, 2023-10-01
-Copy ISARIC4C, PHOSP, NHSD data to FCS[PHS]:active,    fcs-move, after fcs-build, 2023-10-01
 Complete cost-recovery charging structure[Wilna]: done, cost, 2023-02-01, 60d
 
 section ACCESS
