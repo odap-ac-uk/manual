@@ -8,13 +8,11 @@ version: 0.1
 > *This is a shared description for the internal team of the core purpose, scope, operational components, and governance structure of the ODAP. It provides an introduction, plan and a reference.*
 
 ## Introduction
-Human genetics influences susceptibility to disease. This has been shown during the COVID-19 pandemic and other outbreaks that followed. The Outbreak Data Analysis Platform (ODAP) is a long-term data infrastructure providing researchers the space and tools to better understand genetic differences underlying the mechanisms of severe disease. 
+Human genetics influences susceptibility to disease. This importance has been shown throughout the COVID-19 pandemic and other outbreaks that followed. 
 
-The aim of ODAP is to drive insights to improve outcomes for patients in outbreaks and beyond through accessibility and usability of genetic data. ODAP is a research environment with up-to-date genomic, clinical, and multiomic data from a number of UK-wide studies. This is combined with access to a range of software, tools, storage drives, and a high-performance compute cluster.
+The aim of ODAP is to enable deeper genetic insights to improve outcomes for patients - in outbreaks and beyond. ODAP is a long-term data infrastructure providing researchers the space and tools to better understand genetic differences underlying the mechanisms of severe disease. ODAP is a research environment with up-to-date genomic, clinical, and multi-omic data from a number of UK-wide studies. This is combined with access to a range of software, tools, storage drives, and a high-performance compute cluster.
 
-By continuing to develop and expand these capabilities and knowledge, we will be more prepared for future outbreaks. 
-
-
+By continuing to develop and expand these capabilities and knowledge, we will be more prepared for future outbreaks.
 ## What is the Outbreak Data Analysis Platform (ODAP)?
 
 The ODAP is the overarching term for a range of computers supporting research within a specific scope. These include the ODAP TRE (formerly called: flexible compute space; ultra; ultra2), and various project spaces in the National Safe Haven (run by eDRIS). 
