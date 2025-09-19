@@ -42,7 +42,7 @@ e. Related to a previous application (approved or not)
 7. **If related to a previous application, please provide the project names for any related projects:**  
 &nbsp;  
 
-{{< pagebreak >}}
+<hr />
 # Commercial interest
 8. **Is there a commercial interest in this project? _(yes/no)_:**  
 _Details:_  
