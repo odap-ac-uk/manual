@@ -134,11 +134,15 @@ Proposals need to be reviewed to ensure the use of the data is appropriate, with
 
 ### Scope
 
+{% comment %}
 {% include _scope.qmd %}
+{% endcomment %}
 
 ### Examples
 
+{% comment %}
 {% include _scope_examples.qmd %}
+{% endcomment %}
 
 ## Process
 
