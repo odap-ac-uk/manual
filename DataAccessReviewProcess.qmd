@@ -134,11 +134,11 @@ Proposals need to be reviewed to ensure the use of the data is appropriate, with
 
 ### Scope
 
-{{< include _includes/_scope.qmd >}}
+{% include _scope.qmd %}
 
 ### Examples
 
-{{< include _includes/_scope_examples.qmd >}}
+{% include _scope_examples.qmd %}
 
 ## Process
 
